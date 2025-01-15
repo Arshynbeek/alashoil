@@ -221,6 +221,15 @@ class Carousel {
 
 const carousel = new Carousel(document.querySelector(".carousel"));
 
+document.addEventListener("scroll", () => {
+  document.querySelector(".text-container h6:nth-child(1)").style.left =
+    window.scrollY - 600 + "px";
+  document.querySelector(".text-container h6:nth-child(2)").style.right =
+    window.scrollY - 600 + "px";
+  document.querySelector(".text-container h6:nth-child(3)").style.left =
+    window.scrollY - 600 + "px";
+});
+
 function animateNumber(element, target) {
   let current = 0;
   const duration = 2000;
@@ -248,7 +257,7 @@ const observer = new IntersectionObserver(
           animateNumber(number, target);
         });
 
-        const titles = entry.target.querySelectorAll(".about-content h6");
+        const titles = entry.target.querySelectorAll(".info h5");
         titles.forEach((title, index) => {
           setTimeout(() => {
             title.classList.add("animate");
@@ -265,167 +274,164 @@ const observer = new IntersectionObserver(
   }
 );
 
-const aboutSection = document.querySelector(".about-content");
+const aboutSection = document.querySelector(".info");
 if (aboutSection) {
   observer.observe(aboutSection);
 }
 
-const titleObserver = new IntersectionObserver(
+const quoteObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        const words = entry.target.querySelectorAll(".word");
-        words.forEach((word) => word.classList.add("animate"));
-        titleObserver.unobserve(entry.target);
+        const quote = entry.target;
+
+        const words = quote.textContent.split(" ");
+        quote.textContent = "";
+        words.forEach((word) => {
+          const span = document.createElement("span");
+          span.textContent = word + " ";
+          quote.appendChild(span);
+        });
+
+        const wordSpans = quote.querySelectorAll("span");
+        const delay = 8000 / wordSpans.length;
+
+        wordSpans.forEach((span, index) => {
+          setTimeout(() => {
+            span.classList.add("read");
+          }, delay * index);
+        });
+
+        quoteObserver.unobserve(quote);
       }
     });
   },
   {
     threshold: 0.5,
-    rootMargin: "0px",
   }
 );
 
-const aboutTitle = document.querySelector(".about-title");
-if (aboutTitle) {
-  titleObserver.observe(aboutTitle);
-}
-
-const observerOptions = {
-  root: null,
-  rootMargin: "0px",
-  threshold: 0.1,
-};
-
-const observerr = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("visible");
-    }
-  });
-}, observerOptions);
-
-document.querySelectorAll(".image-container img").forEach((img) => {
-  observerr.observe(img);
-});
-
-window.addEventListener("scroll", () => {
-  const aboutSection = document.querySelector('#about');
-  const aboutTitle = document.querySelector('.about-title');
-  const imageContainer = document.querySelector('.image-container');
-  
-  if (aboutSection && aboutTitle && imageContainer) {
-    const aboutRect = aboutSection.getBoundingClientRect();
-    const scrollProgress = -aboutRect.top / (aboutRect.height - window.innerHeight);
-    
-    if (scrollProgress >= 0 && scrollProgress <= 1) {
-      imageContainer.style.transform = `translateY(${-scrollProgress * 20}vh)`;
-      aboutTitle.style.opacity = Math.min(scrollProgress * 2, 1);
-    }
-  }
-});
-
-const quoteObserver = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      const quote = entry.target;
-      
-      const words = quote.textContent.split(' ');
-      quote.textContent = '';
-      words.forEach((word) => {
-        const span = document.createElement('span');
-        span.textContent = word + ' ';
-        quote.appendChild(span);
-      });
-      
-      const wordSpans = quote.querySelectorAll('span');
-      const delay = 8000 / wordSpans.length;
-
-      wordSpans.forEach((span, index) => {
-        setTimeout(() => {
-          span.classList.add('read');
-        }, delay * index);
-      });
-
-      quoteObserver.unobserve(quote);
-    }
-  });
-}, {
-  threshold: 0.5
-});
-
-const quoteText = document.querySelector('#quote h3');
+const quoteText = document.querySelector(".quote h3");
 if (quoteText) {
   quoteObserver.observe(quoteText);
 }
 
-const solutionObserver = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      
-      const content = entry.target.querySelector('.solution-content');
-      if (content) {
-        const elements = content.querySelectorAll('h2, p, li');
-        elements.forEach((element, index) => {
-          setTimeout(() => {
-            element.style.opacity = '0';
-            element.style.transform = 'translateY(20px)';
-            element.style.transition = 'all 0.5s ease-out';
-            
-            setTimeout(() => {
-              element.style.opacity = '1';
-              element.style.transform = 'translateY(0)';
-            }, 100);
-          }, index * 200);
-        });
-      }
+class ServicesTab {
+  constructor() {
+    this.tabContainer = document.querySelector(".services-tab");
+    this.tabs = this.tabContainer.querySelectorAll("span");
+    this.servicesContainer = document.querySelector(".services-container");
 
-      solutionObserver.unobserve(entry.target);
-    }
-  });
-}, {
-  threshold: 0.3,
-  rootMargin: "0px"
-});
+    this.contents = [
+      {
+        title: "Решения по Прекращению Утечек",
+        description:
+          "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
+        image: "/public/about-1.jpg",
+      },
+      {
+        title: "Услуги по Реабилитации с Использованием Композитных материалов",
+        description:
+          "ALASH OIL GAZ SERVICES предлагает инновационные услуги по реабилитации и усилению различных конструкций с использованием композитных материалов. Наш подход позволяет значительно повысить долговечность и надежность объектов нефтегазовой инфраструктуры.",
+        image: "/public/about-2.jpg",
+      },
+      {
+        title: "Холодная сварка и Полимерные решения",
+        description:
+          "ALASH OIL GAZ SERVICES предлагает современные технологии холодной сварки и полимерных решений для ремонта и восстановления оборудования в нефтегазовой отрасли, на производстве и в промышленной инфраструктуре. Наши решения обеспечивают быструю ликвидацию неисправностей без необходимости остановки объектов.",
+        image: "/public/about-3.jpg",
+      },
+      {
+        title: "Услуги по Проектированию и Инжинирингу",
+        description:
+          "ALASH OIL GAZ SERVICES предоставляет комплексные услуги по проектированию и инжинирингу, охватывающие все аспекты нефтегазовой отрасли. Наша команда высококвалифицированных специалистов готова разработать инновационные решения для самых сложных технических задач.",
+        image: "/public/about-4.jpg",
+      },
+      {
+        title:
+          "Высокоточное изготовление и механическая обработка для промышленности",
+        description:
+          "Наша компания предлагает передовые услуги по изготовлению и механической обработке оборудования для термической обработки и работы под давлением, полностью соответствующие стандартам ASME и SANS. Мы специализируемся на создании высококачественных компонентов, способных выдерживать экстремальные условия эксплуатации.",
+        image: "/public/about-5.jpg",
+      },
+      {
+        title: "Зажимы Quickseal: Инновационное решение для устранения утечек",
+        description:
+          "Инновационные зажимы для оперативного устранения утечек в трубопроводах без остановки производства.",
+        image: "/public/about-6.jpg",
+      },
+      {
+        title: "Зажим Spitze HP: Система аварийного онлайн-ремонта утечек ",
+        description:
+          "Диапазон рабочих температур: от -46°C до 315°C. Максимальное рабочее давление: до 200 бар; максимальное прикладное давление: 150 бар. Подходит для отверстий диаметром до 25 мм и трубопроводов диаметром до 56 дюймов. Возможность применения под водой.",
+        image: "/public/about-7.jpg",
+      },
+      {
+        title: "Решения для обертывания",
+        description:
+          "Устойчивость к коррозии: Защищает от внешней и химической коррозии. Укрепление конструкции: Увеличивает толщину стенок труб и заменяет дефектные металлические участки. Химическая устойчивость: Защита от воздействия химических веществ, что увеличивает долговечность.",
+        image: "/public/about-8.jpg",
+      },
+    ];
 
-const solutionSection = document.querySelector('#solution');
-if (solutionSection) {
-  solutionObserver.observe(solutionSection);
+    this.init();
+  }
+
+  init() {
+    this.tabs[0].classList.add("active");
+    this.updateContent(0);
+
+    this.tabs.forEach((tab, index) => {
+      tab.addEventListener("click", () => {
+        this.setActiveTab(index);
+        this.updateContent(index);
+        this.scrollTabToCenter(tab);
+      });
+    });
+  }
+
+  setActiveTab(index) {
+    this.tabs.forEach((tab) => tab.classList.remove("active"));
+    this.tabs[index].classList.add("active");
+  }
+
+  scrollTabToCenter(tab) {
+    const tabRect = tab.getBoundingClientRect();
+    const containerRect = this.tabContainer.getBoundingClientRect();
+
+    const scrollLeft =
+      tab.offsetLeft - containerRect.width / 2 + tabRect.width / 2;
+
+    this.tabContainer.scrollTo({
+      left: scrollLeft,
+      behavior: "smooth",
+    });
+  }
+
+  updateContent(index) {
+    const content = this.contents[index];
+    this.servicesContainer.classList.remove("active");
+
+    setTimeout(() => {
+      this.servicesContainer.innerHTML = `
+        <div class="services-content">
+          <div>
+            <h3>${content.title}</h3>
+            <p>${content.description}</p>
+          </div>
+          <button>
+            <i class="material-icons arrow">east</i>
+            Узнать больше
+          </button>
+        </div>
+        <div class="services-img">
+          <img src="${content.image}" alt="">
+        </div>
+      `;
+
+      this.servicesContainer.classList.add("active");
+    }, 300);
+  }
 }
 
-
-const polymerObserver = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      
-      const content = entry.target.querySelector('.polymer-content');
-      if (content) {
-        const elements = content.querySelectorAll('h2, p, li');
-        elements.forEach((element, index) => {
-          setTimeout(() => {
-            element.style.opacity = '0';
-            element.style.transform = 'translateY(20px)';
-            element.style.transition = 'all 0.5s ease-out';
-            
-            setTimeout(() => {
-              element.style.opacity = '1';
-              element.style.transform = 'translateY(0)';
-            }, 100);
-          }, index * 200);
-        });
-      }
-
-      polymerObserver.unobserve(entry.target);
-    }
-  });
-}, {
-  threshold: 0.3,
-  rootMargin: "0px"
-});
-
-const polymerSection = document.querySelector('#polymer');
-if (polymerSection) {
-  polymerObserver.observe(polymerSection);
-}
+const servicesTab = new ServicesTab();
