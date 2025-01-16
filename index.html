@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlashOil</title>
 
+    <link rel="icon" type="image/x-icon" href="/public/logo.svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -57,6 +58,51 @@
         </i>
       </button>
     </header>
+
+    <div id="menu-background">
+      <div id="menu">
+        <nav>
+          <li>
+            <div class="menu-header">
+              <a href="/" id="logo-mobile">
+                <img src="/public/logo.svg" alt="">
+              </a>
+
+              <button id="close">
+                <i class="material-icons">
+                  close
+                </i>
+              </button>
+            </div>
+          </li>
+
+          <li>
+            <a href="/#about-us">О компании</a>
+            <i class="material-icons arrow">east</i>
+          </li>
+
+          <li>
+            <a href="/#partners">Партнеры</a>
+            <i class="material-icons arrow">east</i>
+          </li>
+
+          <li>
+            <a href="/#services">Услуги</a>
+            <i class="material-icons arrow">east</i>
+          </li>
+
+          <li>
+            <a href="/#products">Продукты</a>
+            <i class="material-icons arrow">east</i>
+          </li>
+
+          <li>
+            <a href="/#contacts">Контакты</a>
+            <i class="material-icons arrow">east</i>
+          </li>
+        </nav>
+      </div>
+    </div>
 
     <section id="hero">
       <div class="carousel">
@@ -188,25 +234,25 @@
         <div class="services-tab">
           <span>
             Ликвидация утечек
-          </span>
+          </span>|
           <span>
             Реабилитация с композитами
-          </span>
+          </span>|
           <span>
             Холодная сварка и полимеры
-          </span>
+          </span>|
           <span>
             Проектирование и инжиниринг
-          </span>
+          </span>|
           <span>
             Высокоточная обработка
-          </span>
+          </span>|
           <span>
             Зажимы Quickseal для утечек
-          </span>
+          </span>|
           <span>
             Spitze HP: онлайн-ремонт
-          </span>
+          </span>|
           <span>
             Обертывающие решения
           </span>
@@ -239,8 +285,10 @@
     <section id="products">
       <div class="products">
         <div class="initial">
-          <h4>Продукты</h4>
-          <h3>Последнее в AlashOil</h3>
+          <div>
+            <h4>Продукты</h4>
+            <h3>Последнее в AlashOil</h3>
+          </div>
           <button>
             Все Продукты
             <i class="material-icons arrow">east</i>
@@ -318,8 +366,8 @@
 
       <div>
         <form action="">
-          <input type="text" name="" id="">
-          <input type="text" name="" id="">
+          <input type="text" name="" id="" placeholder="email">
+          <textarea name="" id="" rows="3"></textarea>
           <button>Отправить</button>
         </form>
 

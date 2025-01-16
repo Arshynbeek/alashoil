@@ -228,6 +228,16 @@ document.addEventListener("scroll", () => {
     window.scrollY - 600 + "px";
   document.querySelector(".text-container h6:nth-child(3)").style.left =
     window.scrollY - 600 + "px";
+
+  const aboutSection = document.querySelector("#about-us");
+  const imageContainer = document.querySelector(".image-container");
+  
+  const aboutSectionRect = aboutSection.getBoundingClientRect();
+  const scrollProgress = (aboutSectionRect.bottom - window.innerHeight * 0.2) / aboutSectionRect.height;
+  
+  const opacity = Math.max(0, Math.min(1, scrollProgress));
+  
+  imageContainer.style.opacity = opacity;
 });
 
 function animateNumber(element, target) {
@@ -435,3 +445,43 @@ class ServicesTab {
 }
 
 const servicesTab = new ServicesTab();
+
+
+const menuButton = document.getElementById('menu-button');
+const menuBackground = document.getElementById('menu-background');
+const closeButton = document.getElementById('close');
+const menu = document.getElementById('menu');
+
+menuBackground.style.display = 'none';
+
+function openMenu() {
+  menuBackground.style.display = 'block';
+  menuBackground.offsetHeight;
+  menuBackground.classList.add('active');
+  menu.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeMenu() {
+  menuBackground.classList.remove('active');
+  menu.classList.remove('active');
+  
+  setTimeout(() => {
+    menuBackground.style.display = 'none';
+    document.body.style.overflow = '';
+  }, 300);
+}
+
+menuButton.addEventListener('click', openMenu);
+closeButton.addEventListener('click', closeMenu);
+
+menuBackground.addEventListener('click', (event) => {
+  if (event.target === menuBackground) {
+    closeMenu();
+  }
+});
+
+const menuLinks = menu.querySelectorAll('a');
+menuLinks.forEach(link => {
+  link.addEventListener('click', closeMenu);
+});
