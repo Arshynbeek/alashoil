@@ -52,15 +52,15 @@
         </button>
       </div>
 
-      <button id="menu-button">
+      <button class="menu-button">
         <i class="material-icons menu-icon">
           menu
         </i>
       </button>
     </header>
 
-    <div id="menu-background">
-      <div id="menu">
+    <div class="menu-background">
+      <div class="menu">
         <nav>
           <li>
             <div class="menu-header">
@@ -68,7 +68,7 @@
                 <img src="/public/logo.svg" alt="">
               </a>
 
-              <button id="close">
+              <button class="close">
                 <i class="material-icons">
                   close
                 </i>
@@ -193,7 +193,7 @@
             <img src="/public/avatar.png" alt="">
           </div>
       
-          <h1>Серик А, Генеральный директор</h1>
+          <h1>Серик А<span id="position">, Генеральный директор</span></h1>
         </div>
       </div>
     </section>
@@ -270,10 +270,12 @@
               </p>
             </div>
 
-            <button>
-              <i class="material-icons arrow">east</i>
-              Узнать больше
-            </button>
+            <a href="/service.html">
+              <button>
+                <i class="material-icons arrow">east</i>
+                Узнать больше
+              </button>
+            </a>
           </div>
           <div class="services-img">
             <img src="/public/about-3.jpg" alt="">
