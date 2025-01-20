@@ -1141,7 +1141,8 @@ footer div {
 }
 
 footer img {
-  height: 25vh;
+  width: 100%;
+  margin: 24px 0;
 }
 
 footer ul {
@@ -1185,7 +1186,7 @@ form button {
     gap: 16px;
   }
   footer img {
-    margin: 0 auto;
+    margin: 16px auto;
     height: 25vh;
   }
   form {
