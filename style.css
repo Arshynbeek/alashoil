@@ -132,8 +132,8 @@ a:hover {
   align-items: center;
 }
 #logo img, #logo-mobile img {
-  width: 102%;
-  height: 102%;
+  width: 120%;
+  height: 120%;
   object-fit: cover;
 }
 
@@ -657,41 +657,6 @@ header ul {
   color: #FFFFFF;
 }
 
-.badge {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.badge h1 {
-  color: var(--primary);
-  /* color: var(--primary-1);
-  color: var(--primary-2);
-  color: var(--primary-3);
-  color: var(--primary-4); */
-}
-
-.badge #position {
-  font-weight: 700;
-  color: var(--main);
-}
-
-.avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.avatar img {
-  width: 120%;
-  height: 120%;
-  object-fit: cover;
-}
-
 @media screen and (max-width: 1240px) {
   .quote h3 span {
     font-size: 42px;
@@ -722,11 +687,7 @@ header ul {
   .quote h3 span {
     font-size: 20px;
   }
-
-  .badge {
-    text-align: start;
-    gap: 16px;
-  }
+  
   #position {
     display: none;
   }
