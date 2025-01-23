@@ -334,54 +334,47 @@ class ServicesTab {
     this.tabs = this.tabContainer.querySelectorAll("span");
     this.servicesContainer = document.querySelector(".services-container");
 
+    this.currentIndex = 0;
+
     this.contents = [
       {
-        title: "Решения по Прекращению Утечек",
-        description:
-          "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
+        titleKey: "service-1",
+        descriptionKey: "service-description-1",
         image: "/public/about-1.jpg",
       },
       {
-        title: "Услуги по Реабилитации с Использованием Композитных материалов",
-        description:
-          "ALASH OIL GAZ SERVICES предлагает инновационные услуги по реабилитации и усилению различных конструкций с использованием композитных материалов. Наш подход позволяет значительно повысить долговечность и надежность объектов нефтегазовой инфраструктуры.",
+        titleKey: "service-2",
+        descriptionKey: "service-description-2",
         image: "/public/about-2.jpg",
       },
       {
-        title: "Холодная сварка и Полимерные решения",
-        description:
-          "ALASH OIL GAZ SERVICES предлагает современные технологии холодной сварки и полимерных решений для ремонта и восстановления оборудования в нефтегазовой отрасли, на производстве и в промышленной инфраструктуре. Наши решения обеспечивают быструю ликвидацию неисправностей без необходимости остановки объектов.",
+        titleKey: "service-3",
+        descriptionKey: "service-description-3",
         image: "/public/about-3.jpg",
       },
       {
-        title: "Услуги по Проектированию и Инжинирингу",
-        description:
-          "ALASH OIL GAZ SERVICES предоставляет комплексные услуги по проектированию и инжинирингу, охватывающие все аспекты нефтегазовой отрасли. Наша команда высококвалифицированных специалистов готова разработать инновационные решения для самых сложных технических задач.",
+        titleKey: "service-4",
+        descriptionKey: "service-description-4",
         image: "/public/about-4.jpg",
       },
       {
-        title:
-          "Высокоточное изготовление и механическая обработка для промышленности",
-        description:
-          "Наша компания предлагает передовые услуги по изготовлению и механической обработке оборудования для термической обработки и работы под давлением, полностью соответствующие стандартам ASME и SANS. Мы специализируемся на создании высококачественных компонентов, способных выдерживать экстремальные условия эксплуатации.",
+        titleKey: "service-5",
+        descriptionKey: "service-description-5",
         image: "/public/about-5.jpg",
       },
       {
-        title: "Зажимы Quickseal: Инновационное решение для устранения утечек",
-        description:
-          "Инновационные зажимы для оперативного устранения утечек в трубопроводах без остановки производства.",
+        titleKey: "service-6",
+        descriptionKey: "service-description-6",
         image: "/public/about-6.jpg",
       },
       {
-        title: "Зажим Spitze HP: Система аварийного онлайн-ремонта утечек ",
-        description:
-          "Диапазон рабочих температур: от -46°C до 315°C. Максимальное рабочее давление: до 200 бар; максимальное прикладное давление: 150 бар. Подходит для отверстий диаметром до 25 мм и трубопроводов диаметром до 56 дюймов. Возможность применения под водой.",
+        titleKey: "service-7",
+        descriptionKey: "service-description-7",
         image: "/public/about-7.jpg",
       },
       {
-        title: "Решения для обертывания",
-        description:
-          "Устойчивость к коррозии: Защищает от внешней и химической коррозии. Укрепление конструкции: Увеличивает толщину стенок труб и заменяет дефектные металлические участки. Химическая устойчивость: Защита от воздействия химических веществ, что увеличивает долговечность.",
+        titleKey: "service-8",
+        descriptionKey: "service-description-8",
         image: "/public/about-8.jpg",
       },
     ];
@@ -422,19 +415,20 @@ class ServicesTab {
 
   updateContent(index) {
     const content = this.contents[index];
+    this.currentIndex = index;
     this.servicesContainer.classList.remove("active");
 
     setTimeout(() => {
       this.servicesContainer.innerHTML = `
         <div class="services-content">
           <div>
-            <h3>${content.title}</h3>
-            <p>${content.description}</p>
+            <h3 data-i18n="${content.titleKey}"></h3>
+            <p data-i18n="${content.descriptionKey}"></p>
           </div>
           <a href="/service.html">
-            <button>
+            <button class='learn-more'>
               <i class="material-icons arrow">east</i>
-              Узнать больше
+              <span data-i18n="learn-more"></span>
             </button>
           </a>
         </div>
@@ -442,6 +436,13 @@ class ServicesTab {
           <img src="${content.image}" alt="">
         </div>
       `;
+
+      const currentLang = localStorage.getItem("language") || "ru";
+      const elements = this.servicesContainer.querySelectorAll("[data-i18n]");
+      elements.forEach((element) => {
+        const key = element.getAttribute("data-i18n");
+        element.textContent = translations[currentLang][key];
+      });
 
       this.servicesContainer.classList.add("active");
     }, 300);
@@ -488,3 +489,40 @@ const menuLinks = menu.querySelectorAll("a");
 menuLinks.forEach((link) => {
   link.addEventListener("click", closeMenu);
 });
+
+const languageButtons = document.querySelectorAll(".lang");
+let currentLang = localStorage.getItem("language") || "ru";
+
+document.addEventListener("DOMContentLoaded", () => {
+  setLanguage(currentLang);
+  highlightCurrentLanguage();
+});
+
+languageButtons.forEach((button) => {
+  button.addEventListener("click", (e) => {
+    const lang = e.target.id;
+    setLanguage(lang);
+    highlightCurrentLanguage();
+    window.location.reload();
+  });
+});
+
+function setLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem("language", lang);
+
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
+    element.textContent = translations[lang][key];
+  });
+}
+
+function highlightCurrentLanguage() {
+  languageButtons.forEach((button) => {
+    if (button.id === currentLang) {
+      button.classList.add("active");
+    } else {
+      button.classList.remove("active");
+    }
+  });
+}

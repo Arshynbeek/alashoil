@@ -599,10 +599,14 @@ header ul {
 
 /* ==========>> info <<========== */
 
-#info {
+/* #info {
   margin-top: -1px;
   background: rgb(0, 51, 102);
   background: linear-gradient(180deg, rgba(0, 51, 102, 1) 0%, rgba(0, 153, 204, 1) 100%);
+} */
+
+#info {
+  background-color: var(--primary);
 }
 
 .info {
@@ -656,6 +660,23 @@ header ul {
 .quote h3 span.read {
   color: #FFFFFF;
 }
+
+.doing {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.doing button {
+  border: 2px solid #FFFFFF;
+}
+.doing * {
+  color: #FFFFFF;
+}
+
+.doing:hover {
+  text-decoration: none;
+} 
 
 @media screen and (max-width: 1240px) {
   .quote h3 span {
@@ -885,6 +906,9 @@ header ul {
 .services-content button {
   margin-top: 16px;
   border: 2px solid #FFFFFF;
+}
+
+.service-content * {
   color: #FFFFFF;
 }
 
@@ -1064,6 +1088,7 @@ header ul {
 /* ==========>> footer <<========== */
 
 footer {
+  width: 100%;
   padding: 24px;
   background-color: var(--primary);
   /* background-color: var(--primary-1);
@@ -1093,51 +1118,17 @@ footer p {
   color: #FFFFFF;
 }
 
-footer div {
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  margin: 24px 0;
-  gap: 24px;
-}
-
 footer img {
-  width: 100%;
-  margin: 24px 0;
+  width: 60%;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
 }
 
 footer ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-}
-
-form {
-  max-width: 400px;
-  width: 100%;
-  background-color: #FFFFFF;
-  border-radius: 8px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-input, textarea {
-  font-family: "Poppins", sans-serif;
-  border: 1px solid var(--primary);
-  border-radius: 5px;
-  padding: 2px 6px;
-  font-size: 12px;
-  resize: none;
-}
-
-form button {
-  display: flex;
-  justify-content: center;
-  border: none;
-  color: #FFFFFF;
-  background-color: var(--primary);
 }
 
 @media screen and (max-width: 740px) {
@@ -1462,4 +1453,23 @@ form button {
   .product-image {
     border-radius: 10px;
   }
+}
+
+.lang {
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: opacity 0.3s ease;
+}
+
+.lang:hover {
+  opacity: 0.8;
+}
+
+.lang.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.learn-more * {
+  color: #FFFFFF;
 }

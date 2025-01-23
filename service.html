@@ -21,23 +21,23 @@
           </li>
     
           <li>
-            <a href="/#about-us">О компании</a>
+            <a href="/#about-us" data-i18n="about">О компании</a>
           </li>
     
           <li>
-            <a href="/#partners">Партнеры</a>
+            <a href="/#partners" data-i18n="partner">Партнеры</a>
           </li>
     
           <li>
-            <a href="/#services">Услуги</a>
+            <a href="/#services" data-i18n="services">Услуги</a>
           </li>
     
           <li>
-            <a href="/#products">Продукты</a>
+            <a href="/#products" data-i18n="products">Продукты</a>
           </li>
     
           <li>
-            <a href="/#contacts">Контакты</a>
+            <a href="/#contacts" data-i18n="contacts">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -48,7 +48,8 @@
           <span id="en" class="lang">EN</span>
         </div>
         <a href="/#contacts">
-          <button>Связатся с нами
+          <button>
+            <span data-i18n="contact-us">Связатся с нами</span>
             <i class="material-icons arrow">east</i>
           </button>
         </a>
@@ -79,27 +80,27 @@
           </li>
     
           <li>
-            <a href="/#about-us">О компании</a>
+            <a href="/#about-us" data-i18n="about">О компании</a>
             <i class="material-icons arrow">east</i>
           </li>
     
           <li>
-            <a href="/#partners">Партнеры</a>
+            <a href="/#partners" data-i18n="partner">Партнеры</a>
             <i class="material-icons arrow">east</i>
           </li>
     
           <li>
-            <a href="/#services">Услуги</a>
+            <a href="/#services" data-i18n="services">Услуги</a>
             <i class="material-icons arrow">east</i>
           </li>
     
           <li>
-            <a href="/#products">Продукты</a>
+            <a href="/#products" data-i18n="products">Продукты</a>
             <i class="material-icons arrow">east</i>
           </li>
     
           <li>
-            <a href="/#contacts">Контакты</a>
+            <a href="/#contacts" data-i18n="contacts">Контакты</a>
             <i class="material-icons arrow">east</i>
           </li>
         </nav>
@@ -108,7 +109,7 @@
 
     <section id="service-hero">
       <div class="service-hero">
-        <h1>OIL & GAS SERVICES</h1>
+        <h1 data-i18n="service-hero-title">OIL & GAS SERVICES</h1>
       </div>
     </section>
 
@@ -461,8 +462,8 @@
     </section>
 
     <footer>
-      <h2>Контакты</h2>
-      <p>
+      <h2 data-i18n="contacts-title">Контакты</h2>
+      <p data-i18n="contacts-description">
         Мы всегда готовы ответить на ваши вопросы и предоставить дополнительную информацию о наших услугах и продуктах.
         Свяжитесь с нами любым удобным способом!
       </p>
@@ -472,23 +473,24 @@
       <nav>
         <ul>
           <li>
-            <h4>Адрес офиса</h4>
-            <p>г Актау Промышленная зона 6 здание 91/2</p>
+            <h4 data-i18n="office-address">Адрес офиса</h4>
+            <p data-i18n="office-address-info">г Актау Промышленная зона 6 здание 91/2</p>
           </li>
     
           <li>
-            <h4>Электронная почта</h4>
+            <h4 data-i18n="email">Электронная почта</h4>
             <p>info@alashoil.kz</p>
           </li>
     
           <li>
-            <h4>Телефон</h4>
+            <h4 data-i18n="phone">Телефон</h4>
             <p>+ 7 7292 544 750</p>
           </li>
         </ul>
       </nav>
     </footer>
 
+    <script src="language.js"></script>
     <script>
       const menuButton = document.querySelector(".menu-button");
       const menuBackground = document.querySelector(".menu-background");

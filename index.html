@@ -21,34 +21,36 @@
           </li>
 
           <li>
-            <a href="/#about-us">О компании</a>
+            <a href="/#about-us" data-i18n="about">О компании</a>
           </li>
 
           <li>
-            <a href="/#partners">Партнеры</a>
+            <a href="/#partners" data-i18n="partner">Партнеры</a>
           </li>
 
           <li>
-            <a href="/#services">Услуги</a>
+            <a href="/#services" data-i18n="services">Услуги</a>
           </li>
 
           <li>
-            <a href="/#products">Продукты</a>
+            <a href="/#products" data-i18n="products">Продукты</a>
           </li>
 
           <li>
-            <a href="/#contacts">Контакты</a>
+            <a href="/#contacts" data-i18n="contacts">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <div class="header">
         <div class="header-lang">
-          <span id="ru" class="lang">RU</span>
+          <!-- <span id="kz" class="lang">KZ</span> -->
           <span id="en" class="lang">EN</span>
+          <span id="ru" class="lang">RU</span>
         </div>
         <a href="/#contacts">
-          <button>Связатся с нами
+          <button>
+            <span data-i18n="contact-us">Связатся с нами</span>
             <i class="material-icons arrow">east</i>
           </button>
         </a>
@@ -79,22 +81,22 @@
           </li>
 
           <li>
-            <a href="/#about-us">О компании</a>
+            <a href="/#about-us" data-i18n="about">О компании</a>
             <i class="material-icons arrow">east</i>
           </li>
 
           <li>
-            <a href="/#partners">Партнеры</a>
+            <a href="/#partners" data-i18n="partner">Партнеры</a>
             <i class="material-icons arrow">east</i>
           </li>
 
           <li>
-            <a href="/#services">Услуги</a>
+            <a href="/#services" data-i18n="services">Услуги</a>
             <i class="material-icons arrow">east</i>
           </li>
 
           <li>
-            <a href="/#products">Продукты</a>
+            <a href="/#products" data-i18n="products">Продукты</a>
             <i class="material-icons arrow">east</i>
           </li>
 
@@ -113,26 +115,26 @@
         <div class="item" style="background-image: url('/public/carousel-3.png');"></div>
 
         <div class="hero">
-          <h3>1 Комплексные решения для нефтегазовой отрасли</h3>
-          <p>ALASH OIL GAZ SERVICES предлагает инновационные услуги и продукцию для достижения ваших целей.</p>
+          <h3 data-i18n="hero-title-1"></h3>
+          <p data-i18n="hero-description-1"></p>
           <span>
-            <a href="">Узнать побольше</a>
+            <a href="" data-i18n="learn-more">Узнать побольше</a>
             <i class="material-icons arrow">east</i>
           </span>
         </div>
 
         <div class="hero">
-          <h3>2 Комплексные решения для нефтегазовой отрасли</h3>
-          <p>ALASH OIL GAZ SERVICES предлагает инновационные услуги и продукцию для достижения ваших целей.</p>
+          <h3 data-i18n="hero-title-2"></h3>
+          <p data-i18n="hero-description-2"></p>
           <span>
-            <a href="">Узнать побольше</a>
+            <a href="" data-i18n="learn-more">Узнать побольше</a>
             <i class="material-icons arrow">east</i>
           </span>
         </div>
 
         <div class="hero">
-          <h3>3 Комплексные решения для нефтегазовой отрасли</h3>
-          <p>ALASH OIL GAZ SERVICES предлагает инновационные услуги и продукцию для достижения ваших целей.</p>
+          <h3 data-i18n="hero-title-3"></h3>
+          <p data-i18n="hero-description-3"></p>
           <span>
             <a href="">Узнать побольше</a>
             <i class="material-icons arrow">east</i>
@@ -154,12 +156,12 @@
 
     <section id="about-us">
       <div class="about-us-content">
-        <h2>О Нас</h2>
+        <h2 data-i18n="about-us-title">О Нас</h2>
         
         <div class="text-container">
-          <h6>Часть ULY DALA</h6>
-          <h6>Lorem Ipsum</h6>
-          <h6>Dolor sit amet.</h6>
+          <h6 data-i18n="about-us-subtitile-1"></h6>
+          <h6 data-i18n="about-us-subtitile-2"></h6>
+          <h6 data-i18n="about-us-subtitile-3"></h6>
         </div>
       </div>
 
@@ -174,27 +176,34 @@
     <section id="info">
       <div class="info">
         <h5>
-          <p><span class="number" data-target="20">0</span>+</p> Лет опыта
+          <p><span class="number" data-target="20">0</span>+</p> <span data-i18n="info-1"></span>
         </h5>
         <h5>
-          <p><span class="number" data-target="500">0</span>+</p> Специалистов
+          <p><span class="number" data-target="500">0</span>+</p> <span data-i18n="info-2"></span>
         </h5>
-        <h5><span class="number" data-target="8">0</span> Компаний</h5>
+        <h5><span class="number" data-target="8">0</span> <span data-i18n="info-3"></span></h5>
       </div>
       
       <div class="quote">
-        <h3>
+        <h3 data-i18n="quote">
           Мы объединяем знания и опыт для предоставления инновационных решений в нефтегазовой сфере Казахстана и стран СНГ.
           Несмотря на молодость, наша компания обладает богатой базой знаний, передовыми технологиями и стремится к
           эффективному
           сотрудничеству.
         </h3>
       </div>
+
+      <a class="doing" href="/service.html">
+        <button>
+          <span data-i18n="doing">Что мы делаем</span>
+          <i class="material-icons arrow">east</i>
+        </button>
+      </a>
     </section>
 
     <section id="partners">
-      <h2>Партнеры</h2>
-      <p>
+      <h2 data-i18n="partners-title">Партнеры</h2>
+      <p data-i18n="partners">
         ALASH OIL GAZ SERVICES гордится сотрудничеством с лидерами нефтегазовой промышленности. Наши клиенты — это компании,
         которые ценят качество, надежность и инновации.
       </p>
@@ -223,31 +232,31 @@
     </section>
 
     <section id="services">
-      <h2>Сервисы</h2>
+      <h2 data-i18n="services-title">Сервисы</h2>
       <div class="services">
         <div class="services-tab">
-          <span>
+          <span data-i18n="service-1">
             Ликвидация утечек
           </span>|
-          <span>
+          <span data-i18n="service-2">
             Реабилитация с композитами
           </span>|
-          <span>
+          <span data-i18n="service-3">
             Холодная сварка и полимеры
           </span>|
-          <span>
+          <span data-i18n="service-4">
             Проектирование и инжиниринг
           </span>|
-          <span>
+          <span data-i18n="service-5">
             Высокоточная обработка
           </span>|
-          <span>
+          <span data-i18n="service-6">
             Зажимы Quickseal для утечек
           </span>|
-          <span>
+          <span data-i18n="service-7">
             Spitze HP: онлайн-ремонт
           </span>|
-          <span>
+          <span data-i18n="service-8">
             Обертывающие решения
           </span>
         </div>
@@ -255,7 +264,7 @@
         <div class="services-container">
           <div class="services-content">
             <div>
-              <h3>Решения по Прекращению Утечек</h3>
+              <h3 data-i18n="service-description-1">Решения по Прекращению Утечек</h3>
               <p>
                 ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению
                 утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать
@@ -265,9 +274,9 @@
             </div>
 
             <a href="/service.html">
-              <button>
+              <button class="learn-more">
                 <i class="material-icons arrow">east</i>
-                Узнать больше
+                <span data-i18n="learn-more">Узнать больше</span>
               </button>
             </a>
           </div>
@@ -282,12 +291,12 @@
       <div class="products">
         <div class="initial">
           <div>
-            <h4>Продукты</h4>
-            <h3>Последнее в AlashOil</h3>
+            <h4 data-i18n="products-title">Продукты</h4>
+            <h3 data-i18n="latest-products">Последнее в AlashOil</h3>
           </div>
           <a href="/product.html">
             <button>
-              Все Продукты
+              <span data-i18n="all-products">Все Продукты</span>
               <i class="material-icons arrow">east</i>
             </button>
           </a>
@@ -298,8 +307,8 @@
             <img src="/public/logo.svg" alt="">
           </div>
           <div class="product-content">
-            <h4>Насосы</h4>
-            <p>
+            <h4 data-i18n="product-1">Насосы</h4>
+            <p data-i18n="product-description-1">
               Насосы, предназначенные для использования
               в нефтяной и газовой промышленности,
               обеспечивают надежную перекачку различных
@@ -317,8 +326,8 @@
             <img src="/public/logo.svg" alt="">
           </div>
           <div class="product-content">
-            <h4>Газовый сепаратор</h4>
-            <p>
+            <h4 data-i18n="product-5">Газовый сепаратор</h4>
+            <p data-i18n="product-description-5">
               Сеточные газоотделители типа GS
               предназначены для окончательной очистки газа
               от жидких примесей, включая нефть. Они
@@ -339,8 +348,8 @@
             <img src="/public/logo.svg" alt="">
           </div>
           <div class="product-content">
-            <h4>Резервуар подземный</h4>
-            <p>
+            <h4 data-i18n="product-6">Резервуар подземный</h4>
+            <p data-i18n="product-description-6">
               Подземные резервуары для хранения топлива
               и жидкостей оснащены двумя горловинами:
               для насоса и люка. Они имеют конические или
@@ -356,8 +365,8 @@
     </section>
     
     <footer id="contacts">
-      <h2>Контакты</h2>
-      <p>
+      <h2 data-i18n="contacts-title">Контакты</h2>
+      <p data-i18n="contacts-description">
         Мы всегда готовы ответить на ваши вопросы и предоставить дополнительную информацию о наших услугах и продуктах.
         Свяжитесь с нами любым удобным способом!
       </p>
@@ -367,23 +376,24 @@
       <nav>
         <ul>
           <li>
-            <h4>Адрес офиса</h4>
-            <p>г Актау Промышленная зона 6 здание 91/2</p>
+            <h4 data-i18n="office-address">Адрес офиса</h4>
+            <p data-i18n="office-address-info">г Актау Промышленная зона 6 здание 91/2</p>
           </li>
           
           <li>
-            <h4>Электронная почта</h4>
+            <h4 data-i18n="email">Электронная почта</h4>
             <p>info@alashoil.kz</p>
           </li>
           
           <li>
-            <h4>Телефон</h4>
+            <h4 data-i18n="phone">Телефон</h4>
             <p>+ 7 7292 544 750</p>
           </li>
         </ul>
       </nav>
     </footer>
 
+    <script src="language.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
