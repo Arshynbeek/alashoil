@@ -239,7 +239,7 @@ document.addEventListener("scroll", () => {
 
   const opacity = Math.max(0, Math.min(1, scrollProgress));
 
-  imageContainer.style.opacity = opacity;
+  imageContainer.style.opacity = opacity - 0.3;
 });
 
 function animateNumber(element, target) {

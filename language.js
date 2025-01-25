@@ -23,6 +23,8 @@ const translations = {
     // About Us Section
     "about-us-title": "Біз туралы",
     "about-us": "Alash Oil Gas Services: Uly Dala холдингінің бөлігі",
+    "about-text":
+      "ULY DALA Holding – мұнай-газ саласы үшін кешенді шешімдерді ұсынатын серпінді дамып келе жатқан компаниялар тобы. 2001 жылдан бастап холдинг ұңғымаларды бұрғылау мен цементтеуден бастап жабдықты жобалау мен жеткізуге дейінгі қызметтердің кең спектрін ұсынатын сегіз мамандандырылған кәсіпорынды біріктіретін сенімді серіктес ретінде өзін танытты. Бүгінгі таңда холдингте 500-ден астам жоғары білікті мамандар жұмыс істейді, бұл кез келген күрделіліктегі жобалардың жоғары деңгейде орындалуын қамтамасыз етеді.",
     "about-us-subtitile-1": "Мәселе шешушілер",
     "about-us-subtitile-2": "Жетілдірушілер",
     "about-us-subtitile-3": "Жасаушылар",
@@ -71,6 +73,7 @@ const translations = {
     "products-title": "Өнімдер",
     "latest-products": "AlashOil-дегі соңғы жаңалықтар",
     "all-products": "Барлық өнімдер",
+    "product-title": "Өнеркәсіп өнімдері",
     "products-description":
       "ALASH OIL GAZ SERVICES серіктестігіміз OSS KAZAKHSTAN (NEOILFIELD SERVICES & SUPPLIES) серіктестігімен жоғары сапалы мұнай кәсіпшілік жабдықтарының кең спектрін ұсынады. Біздің өнімдер мұнай-газ саласының қатал жағдайында сенімді жұмысты қамтамасыз ететін ең жоғары сапа және қауіпсіздік стандарттарына сәйкес келеді.",
 
@@ -145,6 +148,8 @@ const translations = {
     // About Us Section
     "about-us-title": "About Us",
     "about-us": "Alash Oil Gas Services: part of Uly Dala holding",
+    "about-text":
+      "ULY DALA Holding is a dynamically developing group of companies providing comprehensive solutions for the oil and gas industry. Since 2001, the holding has established itself as a reliable partner, uniting eight specialized enterprises offering a wide range of services: from drilling and cementing wells to designing and supplying equipment. Today, the holding employs more than 500 highly qualified specialists, which ensures a high level of execution of projects of any complexity.",
     "about-us-subtitile-1": "Problem Solvers",
     "about-us-subtitile-2": "Perfectionists",
     "about-us-subtitile-3": "Creators",
@@ -195,6 +200,7 @@ const translations = {
     "products-title": "Products",
     "latest-products": "Latest in AlashOil",
     "all-products": "All Products",
+    "product-title": "Industrial Products",
     "products-description":
       "ALASH OIL GAZ SERVICES, in cooperation with our partner OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), offers a wide range of high-quality oilfield equipment. Our products meet the highest quality and safety standards, ensuring reliable operation in the difficult conditions of the oil and gas industry.",
 
@@ -269,10 +275,20 @@ const translations = {
     // About Us Section
     "about-us-title": "О Нас",
     "about-us": "Alash Oil Gas Services: часть холдинга Uly Dala",
-
+    "about-text":
+      "Холдинг ULY DALA — динамично развивающаяся группа компаний, предоставляющая комплексные решения для нефтегазовой отрасли. С 2001 года холдинг зарекомендовал себя как надежный партнер, объединяющий восемь специализированных предприятий, предлагающих широкий спектр услуг: от бурения и цементирования скважин до проектирования и поставок оборудования. Сегодня в холдинге работают более 500 высококвалифицированных специалистов, что обеспечивает высокий уровень исполнения проектов любой сложности.",
     "about-us-subtitile-1": "Решатели проблем",
     "about-us-subtitile-2": "Перфекционисты",
     "about-us-subtitile-3": "Создатели",
+
+    // "about-us-subtitile-1": "Бурение нефтяных и газовых месторождений",
+    // "about-us-subtitile-2": "Цементирование скважин",
+    // "about-us-subtitile-3": "Гидроразрыв пласта (ГРП)",
+    // "about-us-subtitile-4": "Подземный ремонт скважин",
+    // "about-us-subtitile-5": "Обустройство месторождений",
+    // "about-us-subtitile-6": "Перевозка и логистика",
+    // "about-us-subtitile-7": "Проектирование и инженерные решения",
+    // "about-us-subtitile-8": "Поставка промышленного оборудования",
 
     // Info & Quote
 
@@ -320,7 +336,8 @@ const translations = {
     "products-title": "Продукты",
     "latest-products": "Последнее в AlashOil",
     "all-products": "Все Продукты",
-    "products-descriptioin":
+    "product-title": "Промышленные товары",
+    "products-description":
       "ALASH OIL GAZ SERVICES, в сотрудничестве с нашим партнером OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), предлагает широкий спектр высококачественного нефтепромыслового оборудования. Наша продукция отвечает самым высоким стандартам качества и безопасности, обеспечивая надежную работу в сложных условиях нефтегазовой отрасли.",
 
     "product-1": "Насосы",
