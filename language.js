@@ -116,7 +116,8 @@ const translations = {
     "contacts-description":
       "Біз әрқашан сіздің сұрақтарыңызға жауап беруге және біздің қызметтер мен өнімдер туралы қосымша ақпарат беруге дайынбыз. Бізбен кез келген ыңғайлы тәсілмен байланысыңыз!",
     "office-address": "Кеңсе мекенжайы",
-    "office-address-info": "Ақтау қаласы Өнеркәсіптік аймақ 6 ғимарат 91/2",
+    "office-address-info":
+      "Алматы, Наурызбай ауданы, Ер Төстік 3, 7 корпус, 4 кеңсе",
     email: "Электрондық пошта",
     phone: "Телефон",
   },
@@ -239,7 +240,8 @@ const translations = {
     "contacts-description":
       "We are always ready to answer your questions and provide additional information about our services and products. Contact us in any convenient way!",
     "office-address": "Office Address",
-    "office-address-info": "Aktau Industrial Zone 6 Building 91/2",
+    "office-address-info":
+      "Almaty, Nauryzbay district, st. Er Tostyk 3, building 7, office 4",
     email: "Email",
     phone: "Phone",
   },
@@ -363,7 +365,8 @@ const translations = {
     "contacts-description":
       "Мы всегда готовы ответить на ваши вопросы и предоставить дополнительную информацию о наших услугах и продуктах. Свяжитесь с нами любым удобным способом!",
     "office-address": "Адрес офиса",
-    "office-address-info": "г Актау Промышленная зона 6 здание 91/2",
+    "office-address-info":
+      "Алматы, Наурызбайский район, ул. Ер Тостык 3, корпус 7, офис 4",
     email: "Электронная почта",
     phone: "Телефон",
   },
@@ -371,16 +374,19 @@ const translations = {
 
 function setLanguage(lang) {
   currentLang = lang;
-  localStorage.setItem('language', lang);
-  
-  document.querySelectorAll('[data-i18n]').forEach(element => {
-    const key = element.getAttribute('data-i18n');
-    
-    if (element.classList.contains('quote') || element.parentElement.classList.contains('quote')) {
+  localStorage.setItem("language", lang);
+
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
+
+    if (
+      element.classList.contains("quote") ||
+      element.parentElement.classList.contains("quote")
+    ) {
       const quoteText = translations[lang][key];
       const words = quoteText.split(" ");
       element.textContent = "";
-      
+
       words.forEach((word) => {
         const span = document.createElement("span");
         span.textContent = word + " ";
@@ -399,7 +405,7 @@ function setLanguage(lang) {
       element.textContent = translations[lang][key];
     }
   });
-  
+
   if (window.servicesTab) {
     window.servicesTab.updateContent(window.servicesTab.currentIndex);
   }

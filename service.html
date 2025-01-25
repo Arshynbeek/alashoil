@@ -44,6 +44,7 @@
     
       <div class="header">
         <div class="header-lang">
+          <span id="kz" class="lang">KZ</span>
           <span id="ru" class="lang">RU</span>
           <span id="en" class="lang">EN</span>
         </div>
@@ -109,7 +110,7 @@
 
     <section id="service-hero">
       <div class="service-hero">
-        <h1 data-i18n="service-hero-title">OIL & GAS SERVICES</h1>
+        <h1>OIL GAS SERVICES</h1>
       </div>
     </section>
 
@@ -474,7 +475,7 @@
         <ul>
           <li>
             <h4 data-i18n="office-address">Адрес офиса</h4>
-            <p data-i18n="office-address-info">г Актау Промышленная зона 6 здание 91/2</p>
+            <p data-i18n="office-address-info">Алматы, Наурызбайский район, ул. Ер Тостык 3, корпус 7, офис 4</p>
           </li>
     
           <li>
@@ -484,7 +485,7 @@
     
           <li>
             <h4 data-i18n="phone">Телефон</h4>
-            <p>+ 7 7292 544 750</p>
+            <p>+ 7 702 077 79 77</p>
           </li>
         </ul>
       </nav>
@@ -530,6 +531,43 @@
       menuLinks.forEach((link) => {
         link.addEventListener("click", closeMenu);
       });
+
+      const languageButtons = document.querySelectorAll(".lang");
+      let currentLang = localStorage.getItem("language") || "ru";
+
+      document.addEventListener("DOMContentLoaded", () => {
+        setLanguage(currentLang);
+        highlightCurrentLanguage();
+      });
+
+      languageButtons.forEach((button) => {
+        button.addEventListener("click", (e) => {
+          const lang = e.target.id;
+          setLanguage(lang);
+          highlightCurrentLanguage();
+          window.location.reload();
+        });
+      });
+
+      function setLanguage(lang) {
+        currentLang = lang;
+        localStorage.setItem("language", lang);
+
+        document.querySelectorAll("[data-i18n]").forEach((element) => {
+          const key = element.getAttribute("data-i18n");
+          element.textContent = translations[lang][key];
+        });
+      }
+
+      function highlightCurrentLanguage() {
+        languageButtons.forEach((button) => {
+          if (button.id === currentLang) {
+            button.classList.add("active");
+          } else {
+            button.classList.remove("active");
+          }
+        });
+      }
     </script>
   </body>
 </html>
