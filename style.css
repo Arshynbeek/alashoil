@@ -649,7 +649,7 @@ header ul {
 }
 
 .quote {
-  margin-top: 10vh;
+  margin: 10vh 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -684,13 +684,29 @@ header ul {
 .doing button {
   border: 2px solid #FFFFFF;
 }
-.doing * {
+.doing *, .activity * {
   color: #FFFFFF;
 }
 
 .doing:hover {
   text-decoration: none;
-} 
+}
+
+.activity {
+  text-align: center;
+}
+
+.activities {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin: 24px 0;
+}
+
+.activity li {
+  list-style: disc;
+  text-align: left;
+}
 
 @media screen and (max-width: 1240px) {
   .quote h3 span {
@@ -718,6 +734,11 @@ header ul {
     grid-column: initial;
   }
 }
+@media screen and (max-width: 600px) {
+  .about-text {
+    display: none;
+  }
+}
 @media screen and (max-width: 540px) {
   .quote {
     margin-top: 16px;
@@ -727,6 +748,11 @@ header ul {
   }
   .quote h3 span {
     font-size: 20px;
+  }
+  .activities {
+    flex-direction: column;
+    gap: 0;
+    margin-left: 10vw;
   }
   
   #position {
@@ -1285,6 +1311,12 @@ footer ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.service-content li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* .service-hero span:nth-child(1) {

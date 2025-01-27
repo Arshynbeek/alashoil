@@ -36,6 +36,16 @@ const translations = {
     quote:
       "Біз Қазақстан мен ТМД елдерінің мұнай-газ саласында инновациялық шешімдер ұсыну үшін білім мен тәжірибені біріктіреміз. Жас болғанымызға қарамастан, компаниямыз бай білім қорына, озық технологияларға ие және тиімді ынтымақтастыққа ұмтылады.",
     doing: "Біз не істейміз",
+    more: "Толығырақ",
+
+    "activity-1": "Мұнай және газ кен орындарын бұрғылау",
+    "activity-2": "Цементтеу ұңғымалары",
+    "activity-3": "Гидравликалық жару (жару)",
+    "activity-4": "Жер асты ұңғымасын жөндеу",
+    "activity-5": "Өрістерді дамыту",
+    "activity-6": "Көлік және логистика",
+    "activity-7": "Дизайн және инженерлік шешімдер",
+    "activity-8": "Өндірістік құрал-жабдықтарды жеткізу",
 
     // Partners Section
     "partners-title": "Серіктестер",
@@ -69,6 +79,70 @@ const translations = {
     "service-description-8":
       "Коррозияға төзімділік: Сыртқы және химиялық коррозиядан қорғайды. Құрылымды нығайту: Құбыр қабырғаларының қалыңдығын арттырады және ақаулы металл бөліктерін ауыстырады. Химиялық төзімділік: Химиялық әсерден қорғау, бұл ұзақ мерзімділікті арттырады.",
 
+    "service-1-title": "Мұнай мен газ жүйелеріндегі ағып кетулерді тоқтату",
+    "service-1-text":
+      "ALASH OIL GAZ SERVICES мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады, соның ішінде:",
+    "service-1-list-1": "Ағып кетуді анықтау және диагностика жасау",
+    "service-1-list-2": "Құбырларды жөндеу және нығайту",
+    "service-1-list-3": "Алдын ала техникалық қызмет көрсету",
+
+    "service-2-title":
+      "Композиттік материалдарды пайдалана отырып қалпына келтіру қызметтері",
+    "service-2-text":
+      "Біз мұнай-газ инфрақұрылымындағы конструкцияларды нығайту мен қалпына келтіру бойынша композиттік материалдарды қолданатын инновациялық қызметтер ұсынамыз, олардың беріктігі мен сенімділігін арттырамыз.",
+    "service-2-list-1": "Инфрақұрылымды нығайту және жөндеу",
+    "service-2-list-2": "Композиттік нығайту технологиясы",
+    "service-2-list-3": "Ұзақ мерзімділік және үнемділік",
+
+    "service-3-title": "Суық дәнекерлеу және полимерлік шешімдер",
+    "service-3-text":
+      "Біз мұнай-газ саласындағы жабдықтарды жөндеу мен қалпына келтіру үшін заманауи суық дәнекерлеу және полимерлік шешімдерді ұсынамыз. Біздің шешімдер объектілерді тоқтатпай-ақ ақауларды тез жоюға мүмкіндік береді.",
+    "service-3-list-1": "Суық дәнекерлеу",
+    "service-3-list-2": "Полимерлік шешімдер",
+    "service-3-list-3": "Қауіпсіздік және үнемділік",
+
+    "service-4-title": "Жобалау және инженерлік қызметтер",
+    "service-4-text":
+      "Біз мұнай-газ саласы үшін кешенді жобалау және инженерлік қызметтерді ұсынамыз. Біздің мамандар тобы күрделі техникалық міндеттерге инновациялық шешімдер әзірлейді.",
+    "service-4-list-1": "Өнімдерді әзірлеу және жобалау",
+    "service-4-list-2": "Инженерлік жобалау және модельдеу",
+    "service-4-list-3": "Жүйелерді оңтайландыру және жетілдіру",
+
+    "service-5-title":
+      "Өнеркәсіпке арналған дәлме-дәл өндіріс және механикалық өңдеу",
+    "service-5-text":
+      "Біздің компания термиялық өңдеу және қысым жабдықтарына арналған дәлме-дәл өндіріс және механикалық өңдеу қызметтерін ұсынады, ASME және SANS стандарттарына толық сәйкес келеді. Біз экстремалды жұмыс жағдайларына төтеп бере алатын жоғары сапалы компоненттерді жасауға маманданамыз.",
+    "service-5-list-1": "Ағып кетуді жоюға арналған қысқыштар мен қабықтар",
+    "service-5-list-2": "Арнайы суасты шешімдері",
+    "service-5-list-3": "Жылдам прототип жасау",
+
+    "service-6-title":
+      "Quickseal қысқыштары: Ағып кетулерді жоюға арналған инновациялық шешім",
+    "service-6-text":
+      "Әртүрлі құбыр диаметрлеріне арналған модульдік дизайн. Әртүрлі жұмыс жағдайлары үшін айнымалы инъекция жүйесі. Жинаққа инъекциялық порттар, шпилькалар, қосылыс және орнату нұсқаулары кіреді.",
+    "service-6-list-1": "Ағып кетулерді жөндеу уақытын қысқарту.",
+    "service-6-list-2": "Өндірісті тоқтату қажеттілігін болдырмау.",
+    "service-6-list-3": "Сапа мен қауіпсіздіктің қатаң талаптарына сәйкестік.",
+
+    "service-7-title":
+      "Spitze HP қысқышы: Төтенше жағдайларда ағып кетулерді онлайн жөндеу жүйесі",
+    "service-7-text":
+      "Жұмыс температурасының диапазоны: -46°C-тан 315°C-қа дейін. Максималды жұмыс қысымы: 200 бар-ға дейін; максималды қолданылатын қысым: 150 бар. Диаметрі 25 мм дейінгі тесіктер мен 56 дюймге дейінгі құбырларға жарамды. Суға батыру мүмкіндігі бар.",
+    "service-7-list-1":
+      "Ыстық жұмыстарды қажет етпейтін жылдам, инвазивті емес жөндеу.",
+    "service-7-list-2": "Жоспарланбаған тоқтап қалуларсыз жөндеу мүмкіндігі.",
+    "service-7-list-3":
+      "Құбырлардың күрделі геометриялық пішіндерімен жұмыс істей алу.",
+
+    "service-8-title": "Орау шешімдері",
+    "service-8-text":
+      "Коррозияға ұшыраған, әлсіреген және перфорацияланған құбырлар мен резервуарлардың қабырғаларының беріктігін қалпына келтіру. Мұнай-газ және энергетика сияқты салаларға жарамды.",
+    "service-8-list-1": "Сыртқы және химиялық коррозиядан қорғайды.",
+    "service-8-list-2":
+      "Құбыр қабырғасының қалыңдығын арттырады және ақаулы металл учаскелерін ауыстырады.",
+    "service-8-list-3":
+      "Химиялық әсерлерден қорғайды, бұл ұзақ мерзімділікті арттырады.",
+
     // Products Section
     "products-title": "Өнімдер",
     "latest-products": "AlashOil-дегі соңғы жаңалықтар",
@@ -79,40 +153,40 @@ const translations = {
 
     "product-1": "Сорғылар",
     "product-description-1":
-      "Мұнай және газ өнеркәсібінде қолдануға арналған сорғылар бұрғылау, ұңғымаларды күрделі жөндеу және мұнай өндіруді қарқындату кезінде әртүрлі сұйықтықтарды сенімді айдауды қамтамасыз етеді. Мысалы, НБ-125 бұрғылау сорғысы және ЦНС типті жоғары қысымды сорғылар.",
+      "Мұнай және газ өнеркәсібінде қолдануға арналған сорғылар бұрғылау, ұңғымаларды күрделі жөндеу және мұнай өндіруді арттыру кезінде әртүрлі сұйықтықтарды сенімді тасымалдауды қамтамасыз етеді. Мұндай сорғылардың мысалдары ретінде НБ-125 бұрғылау сорғысы және жоғары қысымды ЦНС типті сорғыларды айтуға болады.",
     "product-2": "Жоғары қысымды сорғылар",
     "product-description-2":
-      "Жоғары қысымды сорғылар мұнай кен орындарының суын қоса алғанда, таза, агрессивті және агрессивті емес суды айдауға арналған. Мұнай, металлургия және тау-кен өнеркәсібінде қолданылады.",
-    "product-3": "Фонтандық арматура",
+      "Жоғары қысымды сорғылар таза, агрессивті және бейагрессивті суды, соның ішінде мұнай өндіру суларын тасымалдауға арналған. Олар мұнай, металлургия және тау-кен өнеркәсібінде қолданылады.",
+    "product-3": "Фонтанды арматура",
     "product-description-3":
-      "Фонтандық шырша - мұнай және газ ұңғымаларының сағасын герметикалау, сорғы-компрессорлық бағананы ілу, ұңғымалардың жұмысын бақылау және реттеу, сондай-ақ өндірілетін өнімдерді құбырға бағыттау үшін қолданылатын ұңғыма басы жабдығының элементі. Сонымен қатар, ол ұңғымада технологиялық операцияларды орындауды қамтамасыз етеді.",
-    "product-4": "Ұңғыма басы жабдығы",
+      "Фонтанды арматура мұнай және газ ұңғымаларының сағасын герметизациялау, насос-компрессор құбырларын ілу, ұңғымаларды басқару және реттеу, сондай-ақ өндірілген өнімдерді құбыр желісіне бағыттау үшін қолданылады. Сонымен қатар, ол ұңғымадағы технологиялық операцияларды орындауды қамтамасыз етеді.",
+    "product-4": "Ұңғыма сағалық жабдықтар",
     "product-description-4":
-      "ALASH OIL GAS SERVICES мұнай кен орны жабдықтары саласында кешенді шешімдер ұсынады. Біздің ассортиментімізге сепараторлар, жылу алмастырғыштар, резервуарлар және мұнай мен газды өндіруге, дайындауға және тасымалдауға арналған басқа да мамандандырылған жабдықтар кіреді.",
+      "ALASH OIL GAZ SERVICES мұнай-газ өндірісіне арналған жабдықтардың кешенді шешімдерін ұсынады. Біздің ассортиментте сепараторлар, жылу алмастырғыштар, резервуарлар және мұнай мен газды өндіру, дайындау және тасымалдауға арналған басқа да арнайы жабдықтар бар.",
     "product-5": "Газ сепараторы",
     "product-description-5":
-      "GS типті торлы газ бөлгіштер газды мұнайды қоса алғанда, сұйық қоспалардан түпкілікті тазартуға арналған. Олар мұнай-газ және химия кәсіпорындарында, сондай-ақ жер асты қоймаларында кеңінен қолданылады. GS 1 және GS 2 газ сепараторлары - тік цилиндрлік контейнерлер, мұнда GS 1-де тексеру люгі жоқ, бірақ фланецпен жабдықталған. Екі түрі де термиялық өңделуі мүмкін және жылу оқшаулағыш бекіткіштермен жабдықталуы мүмкін.",
-    "product-6": "Жер асты резервуары",
+      "GS типті торлы газ сепараторлары газды сұйық қоспалардан, соның ішінде мұнайдан тазарту үшін қолданылады. Олар мұнай-газ және химия өнеркәсіптерінде, сондай-ақ жерасты қоймаларында кеңінен қолданылады. GS 1 және GS 2 газ сепараторлары тік цилиндрлі контейнерлер болып табылады, GS 1 тексеру люгімен жабдықталмаған, бірақ фланеці бар. Екі түрі де термиялық өңделіп, жылу оқшаулауға арналған бекіткіштермен жабдықталуы мүмкін.",
+    "product-6": "Жерасты резервуары",
     "product-description-6":
-      "Отын мен сұйықтықтарды сақтауға арналған жер асты резервуарлары екі мойынмен жабдықталған: сорғы мен люкке арналған. Олардың конустық немесе эллипстік түптері бар, ал серпантин қажетті температураны сақтайды. Тапсырыс берушінің сұрауы бойынша қорғаныс жабындары және клапандар мен сорғы жабдықтарымен жабдықтау мүмкін.",
+      "Жанармай және сұйықтықтарды сақтау үшін жерасты резервуарлары екі ауыздықпен жабдықталған: біреуі сорғы үшін, екіншісі люк үшін. Олар конусты немесе эллипстік түптерге ие, ал жылу алмастырғыш қажетті температураны сақтайды. Тұтынушының талабы бойынша қорғаныс жабындары және клапандар мен сорғылар сияқты қосалқы жабдықтармен толықтыру мүмкіндігі бар.",
     "product-7": "Болттық қосылыстар",
     "product-description-7":
-      "Мұнай-газ саласындағы болттық қосылыстар жоғары қысымға, температураға және агрессивті орталарға беріктікті, герметикалықты және төзімділікті қамтамасыз етеді. Олардың сенімділігі ағып кетудің алдын алуда және жабдықтың қауіпсіз жұмыс істеуін қамтамасыз етуде маңызды рөл атқарады.",
+      "Мұнай және газ өнеркәсібіндегі болттық қосылыстар жоғары қысымға, температураға және агрессивті ортаға төзімділікті, беріктік пен тығыздықты қамтамасыз етеді. Олардың сенімділігі ағып кетулердің алдын алуда және жабдықтың қауіпсіз жұмысын қамтамасыз етуде маңызды рөл атқарады.",
     "product-8": "Гидравликалық кілттер",
     "product-description-8":
-      "Өнеркәсіптік қолданыста болттарды дәл тарту және босату үшін арналған құралдар. Құбырларда, ауыр жабдықтарда немесе құрылымдарды құрастыру кезінде бақыланатын айналу моментін қажет ететін тапсырмалар үшін өте қолайлы.",
-    "product-9": "Аспалы қосылыстар",
+      "Өнеркәсіптік қосымшаларда болттарды дәл қатайту және босату үшін арналған құралдар. Құбыр желілерінде, ауыр жабдықтарда немесе құрылымдарды жинау кезінде қажет болатын бақыланатын моментті талап ететін тапсырмалар үшін өте қолайлы.",
+    "product-9": "Ілмекті қосылыстар",
     "product-description-9":
-      "Аспалы қосылыстар - жылдам құрастырмалы құбырларды қосу және бағдарлау үшін қолданылатын құбыр қосылыстарының элементтері",
-    "product-10": "Коллекторлық құбырлар",
+      "Ілмекті қосылыстар - бұл құбыр желілерін тез жинау үшін қолданылатын құбыр желілерін қосуға және бағыттауға арналған элементтер.",
+    "product-10": "Коллекторлы құбырлар",
     "product-description-10":
-      "Коллекторлық құбырлар - БРҚ немесе фланецтер арқылы тораптар мен жабдықтарға жылдам қосылуға арналған құбыр бөліктері.",
-    "product-11": "Шарлы кран",
+      "Коллекторлы құбырлар - бұл түйіндер мен жабдықтарға тез қосылу үшін жылдам қосылыстар (БРС) немесе фланецтер арқылы арналған құбыр жүйелерінің бөлігі.",
+    "product-11": "Шар клапаны",
     "product-description-11":
-      "Шарлы кранның ағынды өткізуге арналған тесігі бар шар түріндегі жылжымалы бөгет бөлшегі бар, ол жабу үшін өз осінің айналасында айналады. Ол қарапайым құрылымымен, бөлшектеудің жеңілдігімен, ықшамдылығымен және жұмыстағы сенімділігімен ерекшеленеді. Көлемді беріктендірумен және тозуға төзімді жабынмен қапталған легирленген тот баспайтын болаттан жасалған.",
+      "Шар клапаны қозғалмалы шар тәріздес затвормен жабдықталған, оның ортасында ағын өтуге арналған тесік бар және оны ашу немесе жабу үшін ось бойымен айналады. Қарапайым құрылымымен, оңай бөлшектеумен, ықшамдығымен және сенімді жұмысымен ерекшеленеді. Легирленген тот баспайтын болаттан жасалған, көлемді қатайту және тозуға төзімді жабынмен өңделген.",
     "product-12": "Клапан",
     "product-description-12":
-      "Құбырға 90° бұрышпен корпус ішінде жұмыс істейтін бөгеті бар құрастырмалы клапан жұмыс денесінің ағынын герметикалау үшін қолданылады. Клапан жоғары қысыммен жұмыс істеуге арналған сенімді бөгет механизмі болып табылады. Клапандардың бұл түрі ең сенімді және пайдалануға ең қарапайым түрлердің бірі ретінде танылған.",
+      "Құбыр желісіне 90° бұрышпен жұмыс істейтін затворы бар жиналған клапан жұмыс ортасының ағынын герметизациялау үшін қолданылады. Бұл клапан жоғары қысымда жұмыс істеуге арналған сенімді жабу механизмі болып табылады. Бұл клапандар түрі ең сенімді және пайдалануға оңай деп танылған.",
 
     // Contact Section
     "contacts-title": "Байланыс",
@@ -163,6 +237,16 @@ const translations = {
       "We combine knowledge and experience to provide innovative solutions in the oil and gas sector of Kazakhstan and CIS countries. Despite our youth, our company has a rich knowledge base, advanced technologies and strives for effective cooperation.",
 
     doing: "What We Do",
+    more: "More",
+
+    "activity-1": "Drilling of oil and gas fields",
+    "activity-2": "Cementing of wells",
+    "activity-3": "Hydraulic fracturing (HF)",
+    "activity-4": "Underground repair of wells",
+    "activity-5": "Field development",
+    "activity-6": "Transportation and logistics",
+    "activity-7": "Design and engineering solutions",
+    "activity-8": "Supply of industrial equipment",
 
     // Partners Section
     "partners-title": "Partners",
@@ -196,6 +280,68 @@ const translations = {
     "service-description-8":
       "Corrosion resistance: Protects against external and chemical corrosion. Structural reinforcement: Increases pipe wall thickness and replaces defective metal sections. Chemical resistance: Protection against chemical exposure, increasing durability.",
 
+    "service-1-title": "Stopping Leaks in Oil and Gas Systems",
+    "service-1-text":
+      "ALASH OIL GAZ SERVICES offers comprehensive solutions for detecting and stopping leaks in oil and gas systems, including:",
+    "service-1-list-1": "Leak detection and diagnostics",
+    "service-1-list-2": "Pipeline repair and reinforcement",
+    "service-1-list-3": "Preventive maintenance",
+
+    "service-2-title": "Rehabilitation Services Using Composite Materials",
+    "service-2-text":
+      "We offer innovative services for rehabilitation and strengthening of structures using composite materials, enhancing their durability and reliability in oil and gas infrastructure.",
+    "service-2-list-1": "Infrastructure Strengthening and Repair",
+    "service-2-list-2": "Composite Reinforcement Technology",
+    "service-2-list-3": "Durability and Cost Efficiency",
+
+    "service-3-title": "Cold Welding and Polymer Solutions",
+    "service-3-text":
+      "We provide advanced cold welding and polymer solutions for equipment repair and restoration in the oil and gas industry. Our solutions enable quick fixes without halting operations.",
+    "service-3-list-1": "Cold Welding",
+    "service-3-list-2": "Polymer Solutions",
+    "service-3-list-3": "Safety and Cost Efficiency",
+
+    "service-4-title": "Design and Engineering Services",
+    "service-4-text":
+      "We provide comprehensive design and engineering services for the oil and gas industry. Our team of experts develops innovative solutions for complex technical challenges.",
+    "service-4-list-1": "Product Development and Design",
+    "service-4-list-2": "Engineering Design and Modeling",
+    "service-4-list-3": "System Optimization and Improvement",
+
+    "service-5-title":
+      "Precision Manufacturing and Mechanical Processing for Industry",
+    "service-5-text":
+      "Our company offers advanced manufacturing and mechanical processing services for thermal treatment and pressure equipment, fully compliant with ASME and SANS standards. We specialize in creating high-quality components capable of withstanding extreme operating conditions.",
+    "service-5-list-1": "Clamps and Shells for Leak Elimination",
+    "service-5-list-2": "Specialized Subsea Solutions",
+    "service-5-list-3": "Rapid Prototyping",
+
+    "service-6-title":
+      "Quickseal Clamps: An Innovative Leak Elimination Solution",
+    "service-6-text":
+      "Modular design suitable for various pipe diameters. Unique variable injection system for different operating conditions. The kit includes injection ports, studs, compound, and installation instructions.",
+    "service-6-list-1": "Reducing leak repair time.",
+    "service-6-list-2": "Eliminating the need for production downtime.",
+    "service-6-list-3": "Meeting strict quality and safety standards.",
+
+    "service-7-title": "Spitze HP Clamp: Emergency Online Leak Repair System",
+    "service-7-text":
+      "Operating temperature range: -46°C to 315°C. Maximum working pressure: up to 200 bar; maximum applied pressure: 150 bar. Suitable for holes up to 25 mm and pipelines up to 56 inches in diameter. Usable underwater.",
+    "service-7-list-1":
+      "Fast, non-invasive repair without the need for hot work.",
+    "service-7-list-2":
+      "Ability to perform repairs without unscheduled downtime.",
+    "service-7-list-3": "Capable of handling complex pipeline geometries.",
+
+    "service-8-title": "Wrapping Solutions",
+    "service-8-text":
+      "Restoring the strength of corroded, weakened, and perforated pipe and tank walls. Suitable for industries such as oil and gas and energy.",
+    "service-8-list-1": "Protects against external and chemical corrosion.",
+    "service-8-list-2":
+      "Increases pipe wall thickness and replaces defective metal sections.",
+    "service-8-list-3":
+      "Protection from chemical exposure, increasing durability.",
+
     // Products Section
     "products-title": "Products",
     "latest-products": "Latest in AlashOil",
@@ -206,40 +352,40 @@ const translations = {
 
     "product-1": "Pumps",
     "product-description-1":
-      "Pumps designed for use in the oil and gas industry provide reliable pumping of various fluids during drilling, well workover and oil production intensification. Examples include the NB-125 drilling pump and high-pressure pumps of the CNS type.",
-    "product-2": "High Pressure Pumps",
+      "Pumps designed for use in the oil and gas industry provide reliable transfer of various liquids during drilling, well workover, and oil recovery enhancement. Examples of such pumps include the NB-125 drilling pump and high-pressure pumps of the CNS type.",
+    "product-2": "High-Pressure Pumps",
     "product-description-2":
-      "High pressure pumps are designed for pumping clean, aggressive and non-aggressive water, including oilfield water. Used in oil, metallurgical and mining industries.",
-    "product-3": "Christmas Tree",
+      "High-pressure pumps are designed for transferring clean, aggressive, and non-aggressive water, including oilfield water. They are used in the oil, metallurgical, and mining industries.",
+    "product-3": "Fountain fittings",
     "product-description-3":
-      "A Christmas tree is a wellhead equipment element used for sealing oil and gas well heads, suspending the pump-compressor column, controlling and regulating well operation, and directing produced products to the pipeline. Additionally, it enables technological operations at the well.",
+      "The Christmas tree is a component of wellhead equipment used for sealing the wellhead of oil and gas wells, suspending the tubing string, controlling and regulating well operations, and directing produced fluids into pipelines. Additionally, it ensures the performance of technological operations on the well.",
     "product-4": "Wellhead Equipment",
     "product-description-4":
-      "ALASH OIL GAS SERVICES offers comprehensive solutions in oilfield equipment. Our range includes separators, heat exchangers, tanks and other specialized equipment for oil and gas production, treatment and transportation.",
+      "ALASH OIL GAZ SERVICES offers comprehensive solutions in the field of oilfield equipment. Our range includes separators, heat exchangers, tanks, and other specialized equipment for oil and gas production, preparation, and transportation.",
     "product-5": "Gas Separator",
     "product-description-5":
-      "GS type mesh gas separators are designed for final gas cleaning from liquid impurities, including oil. They are widely used in oil and gas and chemical enterprises, as well as in underground storage facilities. GS 1 and GS 2 gas separators are vertical cylindrical containers, where GS 1 has no inspection hatch but is equipped with a flange. Both types can be heat-treated and equipped with thermal insulation fasteners.",
+      "GS-type mesh gas separators are designed for the final purification of gas from liquid impurities, including oil. They are widely used in oil and gas, chemical enterprises, and underground storage facilities. GS 1 and GS 2 gas separators are vertical cylindrical containers where GS 1 lacks an inspection hatch but is equipped with a flange. Both types can be thermally treated and equipped with mounts for thermal insulation.",
     "product-6": "Underground Tank",
     "product-description-6":
-      "Underground tanks for fuel and liquid storage are equipped with two necks: for pump and hatch. They have conical or elliptical bottoms, and a coil maintains the required temperature. Customer-requested protective coatings and valve and pump equipment are possible.",
-    "product-7": "Bolt Connections",
+      "Underground tanks for storing fuel and liquids are equipped with two necks: one for the pump and one for the hatch. They have conical or elliptical bottoms, and a coil maintains the required temperature. Upon customer request, protective coatings and fittings such as valves and pumps can be provided.",
+    "product-7": "Bolted Connections",
     "product-description-7":
-      "Bolt connections in the oil and gas industry provide strength, tightness and resistance to high pressures, temperatures and aggressive environments. Their reliability plays a key role in preventing leaks and ensuring safe equipment operation.",
+      "Bolted connections in the oil and gas industry ensure strength, tightness, and resistance to high pressures, temperatures, and aggressive environments. Their reliability plays a key role in preventing leaks and ensuring safe equipment operation.",
     "product-8": "Hydraulic Wrenches",
     "product-description-8":
-      "Tools designed for precise tightening and loosening of bolts in industrial applications. Ideal for tasks requiring controlled torque, such as on pipelines, heavy equipment or during structure assembly.",
-    "product-9": "Mounted Connections",
+      "Tools designed for precise tightening and loosening of bolts in industrial applications. Ideal for tasks requiring controlled torque, such as on pipelines, heavy equipment, or during the assembly of structures.",
+    "product-9": "Clamp Connections",
     "product-description-9":
-      "Mounted connections are pipeline connecting elements used for connecting and orienting quick-assembly pipelines",
-    "product-10": "Manifold Pipes",
+      "Clamp connections are pipeline components used for connecting and orienting quick-assembly pipelines.",
+    "product-10": "Collector Pipes",
     "product-description-10":
-      "Manifold pipes are pipeline parts designed for quick connection to units and equipment using quick-release couplings or flanges.",
+      "Collector pipes are parts of pipelines designed for quick connection to nodes and equipment using quick couplings (QCs) or flanges.",
     "product-11": "Ball Valve",
     "product-description-11":
-      "A ball valve has a movable shut-off part in the form of a ball with a hole for flow passage, which rotates around its axis for shut-off. It features simple design, easy disassembly, compactness and operational reliability. Made from alloyed stainless steel with volumetric hardening and wear-resistant coating.",
+      "A ball valve features a movable closure element in the form of a ball with a hole for flow passage that rotates around its axis to open or close. It is characterized by a simple design, easy disassembly, compactness, and reliable operation. Made of alloyed stainless steel with volumetric hardening and wear-resistant coating.",
     "product-12": "Valve",
     "product-description-12":
-      "An assembly valve with a gate operating inside the body at 90° to the pipeline is used to seal the working fluid flow. The valve is a reliable shut-off mechanism designed for high-pressure operation. This type of valve is recognized as one of the most reliable and easy to operate.",
+      "An assembled valve with a closure element operating at a 90° angle to the pipeline is used for sealing the flow of the working medium. This valve is a reliable shut-off mechanism designed to operate under high pressure. This type of valve is recognized as one of the most reliable and easy to operate.",
 
     // Contact Section
     "contacts-title": "Contacts",
@@ -300,6 +446,16 @@ const translations = {
       "Мы объединяем знания и опыт для предоставления инновационных решений в нефтегазовой сфере Казахстана и стран СНГ. Несмотря на молодость, наша компания обладает богатой базой знаний, передовыми технологиями и стремится к эффективному сотрудничеству.",
 
     doing: "Что мы делаем",
+    more: "Подробнее",
+
+    "activity-1": "Бурение нефтяных и газовых месторождений",
+    "activity-2": "Цементирование скважин",
+    "activity-3": "Гидроразрыв пласта (ГРП)",
+    "activity-4": "Подземный ремонт скважин",
+    "activity-5": "Обустройство месторождений",
+    "activity-6": "Перевозка и логистика",
+    "activity-7": "Проектирование и инженерные решения",
+    "activity-8": "Поставка промышленного оборудования",
 
     "partners-title": "Партнеры",
     partners:
@@ -332,6 +488,72 @@ const translations = {
     "service-description-8":
       "Устойчивость к коррозии: Защищает от внешней и химической коррозии. Укрепление конструкции: Увеличивает толщину стенок труб и заменяет дефектные металлические участки. Химическая устойчивость: Защита от воздействия химических веществ, что увеличивает долговечность.",
 
+    "service-1-title": "Прекращение Утечек в Нефтегазовых Системах",
+    "service-1-text":
+      "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах, включая:",
+    "service-1-list-1": "Обнаружение и диагностика утечек",
+    "service-1-list-2": "Ремонт и укрепление трудопроводов",
+    "service-1-list-3": "Профилактическое обслуживание",
+
+    "service-2-title":
+      "Услуги по Реабилитации с Использованием Композитных материалов",
+    "service-2-text":
+      "Мы предлагаем инновационные услуги по реабилитации и усилению конструкций с композитными материалами, повышая их долговечность и надежность в нефтегазовой инфраструктуре.",
+    "service-2-list-1": "Усиление и Ремонт Инфраструктуры",
+    "service-2-list-2": "Технология Композитного Усиления",
+    "service-2-list-3": "Долговечность и Экономия",
+
+    "service-3-title": "Холодная сварка и Полимерные решения",
+    "service-3-text":
+      "Мы предоставляем современные технологии холодной сварки и полимерные решения для ремонта и восстановления оборудования в нефтегазовой отрасли и промышленности. Наши решения позволяют быстро устранить неисправности без остановки объектов.",
+    "service-3-list-1": "Холодная сварка",
+    "service-3-list-2": "Полимерные решения",
+    "service-3-list-3": "Безопасность и Экономичность",
+
+    "service-4-title": "Услуги по Проектированию и Инжинирингу",
+    "service-4-text":
+      "Мы предоставляем комплексные услуги по проектированию и инжинирингу для нефтегазовой отрасли. Наша команда специалистов разрабатывает инновационные решения для сложных технических задач.",
+    "service-4-list-1": "Разработка и Проектирование Продукции",
+    "service-4-list-2": "Инженерное Проектирование и Моделирование",
+    "service-4-list-3": "Оптимизация Усовершенствование Систем",
+
+    "service-5-title":
+      "Высокоточное изготовление и механическая обработка для промышленности",
+    "service-5-text":
+      "Наша компания предлагает передовые услуги по изготовлению и механической обработке оборудования для термической обработки и работы под давлением, полностью соответствующие стандартам ASME и SANS. Мы специализируемся на создании высококачественных компонентов, способных выдерживать экстремальные условия эксплуатации.",
+    "service-5-list-1": "Зажимы и кожухи для устранения утечек",
+    "service-5-list-2": "Специализированные подводные решения",
+    "service-5-list-3": "Быстрое прототипирование",
+
+    "service-6-title":
+      "Зажимы Quickseal: Инновационное решение для устранения утечек",
+    "service-6-text":
+      "Модульная конструкция, подходящая для различных диаметров труб. Уникальная система переменной инъекции для различных условий эксплуатации. Комплект включает инъекционные порты, шпильки, компаунд и инструкции по установке.",
+    "service-6-list-1": "Сокращение времени ремонта утечек.",
+    "service-6-list-2": "Исключение необходимости остановки производства.",
+    "service-6-list-3":
+      "Соответствие строгим требованиям к качеству и безопасности.",
+
+    "service-7-title":
+      "Зажим Spitze HP: Система аварийного онлайн-ремонта утечек",
+    "service-7-text":
+      "Диапазон рабочих температур: от -46°C до 315°C. Максимальное рабочее давление: до 200 бар; максимальное прикладное давление: 150 бар. Подходит для отверстий диаметром до 25 мм и трубопроводов диаметром до 56 дюймов. Возможность применения под водой.",
+    "service-7-list-1":
+      "Быстрый, неинвазивный ремонт без необходимости горячих работ.",
+    "service-7-list-2":
+      "Возможность проведения ремонта без незапланированных простоев.",
+    "service-7-list-3":
+      "Способность справляться со сложными геометрическими формами трубопроводов.",
+
+    "service-8-title": "Решения для обертывания",
+    "service-8-text":
+      "Восстановление прочности корродированных, ослабленных и перфорированных стенок труб и резервуаров. Подходит для отраслей, таких как нефтегазовая промышленность и энергетика.",
+    "service-8-list-1": "Защищает от внешней и химической коррозии.",
+    "service-8-list-2":
+      "Увеличивает толщину стенок труб и заменяет дефектные металлические участки.",
+    "service-8-list-3":
+      "Защита от воздействия химических веществ, что увеличивает долговечность.",
+
     // Products Section
     "products-title": "Продукты",
     "latest-products": "Последнее в AlashOil",
@@ -346,7 +568,7 @@ const translations = {
     "product-2": "Насосы высокого давления",
     "product-description-2":
       "Насосы высокого давление предназначены для перекачки чистой, агрессивной и неагрессивной воды, включая нефтепромысловую. Применяются в нефтяной, металлургической и горнодобывающей промышленности.",
-    "prodcut-3": "Фонтанная арматура",
+    "product-3": "Фонтанная арматура",
     "product-description-3":
       "Фонтанная елка — элемент устьевого оборудования, используемый для герметизации устья нефтяных и газовых скважин, подвешивания насосно- компрессорной колонны, контроля и регулирования работы скважин, а также направления добываемых продуктов в трубопровод. Кроме того, она обеспечивает выполнение технологических операций на скважине.",
     "product-4": "Оборудование устьевое",
