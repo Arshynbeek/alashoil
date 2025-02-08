@@ -38,14 +38,15 @@ const translations = {
     doing: "Біз не істейміз",
     more: "Толығырақ",
 
-    "activity-1": "Мұнай және газ кен орындарын бұрғылау",
-    "activity-2": "Цементтеу ұңғымалары",
-    "activity-3": "Гидравликалық жару (жару)",
-    "activity-4": "Жер асты ұңғымасын жөндеу",
-    "activity-5": "Өрістерді дамыту",
-    "activity-6": "Көлік және логистика",
-    "activity-7": "Дизайн және инженерлік шешімдер",
-    "activity-8": "Өндірістік құрал-жабдықтарды жеткізу",
+    "activity-1": "Мұнай және газ ұңғымаларын бұрғылау",
+    "activity-2":
+      "Ұңғымаларды цементтеу, күрделі және жерасты жөндеу, және игеру",
+    "activity-3": "Коилтюбинг, азот және компрессорлық қызметтер",
+    "activity-4": "Гидравликалық жару қызметтері (ГРП)",
+    "activity-5": "API стандарттарына сай мұнай өндірісі жабдықтарын шығару",
+    "activity-6": "Құрылыс-монтаж жұмыстары",
+    "activity-7": "Жүйелік интеграция және өнеркәсіптік автоматтандыру - IT",
+    "activity-8": "Көлік-логистикалық қызметтер",
 
     // Partners Section
     "partners-title": "Серіктестер",
@@ -56,28 +57,28 @@ const translations = {
     "services-title": "Қызметтер",
     "service-1": "Ағып кетуді жою",
     "service-description-1":
-      "ALASH OIL GAS SERVICES мұнай-газ жүйелеріндегі ағып кетуді анықтау және тоқтату бойынша кешенді шешімдер ұсынады. Біздің технологиялар зақымдануды тиімді түрде болдырмайды, қоршаған ортаға қауіп-қатерді азайтады және қызметкерлердің қауіпсіздігін қамтамасыз етеді.",
-    "service-2": "Композиттік оңалту",
+      "ALASH OIL GAS SERVICES мұнай-газ жүйелеріндегі ағып кетуді анықтау және жою үшін кешенді шешімдер ұсынады. Біздің озық технологияларымыз зақымданудың алдын алып, экологиялық қауіптерді азайтып, персоналдың қауіпсіздігін қамтамасыз етеді.",
+    "service-2": "Ағып кетуді жоюға арналған Quickseal қысқыштары",
     "service-description-2":
-      "ALASH OIL GAS SERVICES композиттік материалдарды қолдана отырып, әртүрлі құрылымдарды оңалту және нығайту бойынша инновациялық қызметтер ұсынады. Біздің тәсіліміз мұнай-газ инфрақұрылымы нысандарының ұзақ мерзімділігі мен сенімділігін айтарлықтай арттырады.",
-    "service-3": "Суық дәнекерлеу және полимерлер",
+      "Өндірісті тоқтатпай, құбырлардағы ағып кетулерді жедел және тиімді түрде жоюға арналған инновациялық қысқыштар.",
+    "service-3": "Spitze HP: онлайн жөндеу",
     "service-description-3":
-      "ALASH OIL GAS SERVICES мұнай-газ саласында, өндірісте және өнеркәсіптік инфрақұрылымда жабдықтарды жөндеу және қалпына келтіру үшін заманауи суық дәнекерлеу технологиялары мен полимерлік шешімдерді ұсынады. Біздің шешімдер нысандарды тоқтатпай-ақ ақауларды жылдам жоюды қамтамасыз етеді.",
-    "service-4": "Жобалау және инжиниринг",
+      "Жұмыс температурасының диапазоны: -46°C-тан 315°C-қа дейін. Максималды жұмыс қысымы: 200 барға дейін; максималды қолданбалы қысым: 150 бар. Диаметрі 25 мм-ге дейінгі тесіктер мен диаметрі 56 дюймге дейінгі құбырларға жарамды. Су астында қолдануға болады.",
+    "service-4": "Композиттік оңалту",
     "service-description-4":
-      "ALASH OIL GAS SERVICES мұнай-газ саласының барлық аспектілерін қамтитын жобалау және инжиниринг бойынша кешенді қызметтер ұсынады. Біздің жоғары білікті мамандар командасы ең күрделі техникалық міндеттер үшін инновациялық шешімдер әзірлеуге дайын.",
-    "service-5": "Жоғары дәлдікті өңдеу",
+      "ALASH OIL GAS SERVICES композиттік материалдарды қолдана отырып, құрылымдарды қалпына келтіру және нығайту бойынша инновациялық қызметтерді ұсынады. Біздің әдістеріміз мұнай-газ инфрақұрылымының ұзақ мерзімділігін және сенімділігін едәуір арттырады.",
+    "service-5": "Орау шешімдері",
     "service-description-5":
-      "Біздің компания ASME және SANS стандарттарына толық сәйкес келетін термиялық өңдеу және қысыммен жұмыс істейтін жабдықтарды өндіру және механикалық өңдеу бойынша озық қызметтер ұсынады. Біз төтенше пайдалану жағдайларына төтеп бере алатын жоғары сапалы компоненттер жасауға маманданамыз.",
-    "service-6": "Ағып кетуге арналған Quickseal қысқыштары",
+      "Коррозиядан қорғау: Сыртқы және химиялық коррозиядан қорғайды. Құрылымдық нығайту: Құбырлардың қабырғаларын қалыңдатып, зақымдалған металл бөліктерін алмастырады. Химиялық төзімділік: Химиялық әсерлерден қорғап, беріктігін арттырады.",
+    "service-6": "Суық дәнекерлеу және полимерлік шешімдер",
     "service-description-6":
-      "Өндірісті тоқтатпай құбырлардағы ағып кетуді жедел жою үшін инновациялық қысқыштар.",
-    "service-7": "Spitze HP: онлайн-жөндеу",
+      "Біз мұнай-газ өнеркәсібінде, өндірісте және өнеркәсіптік инфрақұрылымда жабдықтарды жөндеу және қалпына келтіру үшін озық суық дәнекерлеу технологиялары мен полимерлік шешімдерді ұсынамыз. Біздің шешімдеріміз нысандарды тоқтатпай-ақ ақауларды жылдам жоюға мүмкіндік береді.",
+    "service-7": "Жобалау және инжиниринг",
     "service-description-7":
-      "Жұмыс температурасының диапазоны: -46°C-тан 315°C-қа дейін. Максималды жұмыс қысымы: 200 барға дейін; максималды қолданбалы қысым: 150 бар. Диаметрі 25 мм-ге дейінгі тесіктер мен диаметрі 56 дюймге дейінгі құбырларға жарамды. Су астында қолдану мүмкіндігі бар.",
-    "service-8": "Орау шешімдері",
+      "ALASH OIL GAS SERVICES мұнай-газ саласына арналған кешенді жобалау және инжиниринг қызметтерін ұсынады. Біздің жоғары білікті мамандарымыз күрделі техникалық міндеттерге инновациялық шешімдер әзірлейді.",
+    "service-8": "Жоғары дәлдікті механикалық өңдеу",
     "service-description-8":
-      "Коррозияға төзімділік: Сыртқы және химиялық коррозиядан қорғайды. Құрылымды нығайту: Құбыр қабырғаларының қалыңдығын арттырады және ақаулы металл бөліктерін ауыстырады. Химиялық төзімділік: Химиялық әсерден қорғау, бұл ұзақ мерзімділікті арттырады.",
+      "Біз ASME және SANS стандарттарына толық сәйкес келетін, термиялық өңдеу мен қысымға төзімді жабдықтарды өндіру және өңдеу бойынша озық қызметтер ұсынамыз. Біздің жоғары сапалы компоненттеріміз төтенше пайдалану жағдайларына төтеп береді.",
 
     "service-1-title": "Мұнай мен газ жүйелеріндегі ағып кетулерді тоқтату",
     "service-1-text":
@@ -145,7 +146,7 @@ const translations = {
 
     // Products Section
     "products-title": "Өнімдер",
-    "latest-products": "AlashOil-дегі соңғы жаңалықтар",
+    "latest-products": "Өнеркәсіптік жабдықтар",
     "all-products": "Барлық өнімдер",
     "product-title": "Өнеркәсіп өнімдері",
     "products-description":
@@ -239,14 +240,16 @@ const translations = {
     doing: "What We Do",
     more: "More",
 
-    "activity-1": "Drilling of oil and gas fields",
-    "activity-2": "Cementing of wells",
-    "activity-3": "Hydraulic fracturing (HF)",
-    "activity-4": "Underground repair of wells",
-    "activity-5": "Field development",
-    "activity-6": "Transportation and logistics",
-    "activity-7": "Design and engineering solutions",
-    "activity-8": "Supply of industrial equipment",
+    "activity-1": "Drilling of oil and gas wells",
+    "activity-2":
+      "Cementing of wells, major and underground repair, and well completion",
+    "activity-3": "Coiled tubing, nitrogen, and compressor services",
+    "activity-4": "Hydraulic fracturing services (HF)",
+    "activity-5":
+      "Manufacturing of oilfield equipment according to API standards",
+    "activity-6": "Construction and installation works",
+    "activity-7": "System integration and industrial automation - IT",
+    "activity-8": "Transport and logistics services",
 
     // Partners Section
     "partners-title": "Partners",
@@ -257,28 +260,28 @@ const translations = {
     "services-title": "Services",
     "service-1": "Leak Elimination",
     "service-description-1":
-      "ALASH OIL GAS SERVICES offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks and ensure personnel safety.",
-    "service-2": "Composite Rehabilitation",
+      "ALASH OIL GAS SERVICES provides comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our advanced technologies help prevent damage, reduce environmental risks, and ensure personnel safety.",
+    "service-2": "Quickseal Clamps for Leak Repair",
     "service-description-2":
-      "ALASH OIL GAS SERVICES offers innovative services for rehabilitation and reinforcement of various structures using composite materials. Our approach significantly increases the durability and reliability of oil and gas infrastructure facilities.",
-    "service-3": "Cold Welding and Polymers",
+      "Innovative clamps designed for quick and efficient leak elimination in pipelines without stopping production.",
+    "service-3": "Spitze HP: Online Repair",
     "service-description-3":
-      "ALASH OIL GAS SERVICES offers modern cold welding technologies and polymer solutions for equipment repair and restoration in the oil and gas industry, manufacturing and industrial infrastructure. Our solutions provide quick fault elimination without the need to stop facilities.",
-    "service-4": "Design and Engineering",
+      "Operating temperature range: -46°C to 315°C. Maximum working pressure: up to 200 bar; maximum applied pressure: 150 bar. Suitable for holes up to 25mm in diameter and pipelines up to 56 inches. Can be applied underwater.",
+    "service-4": "Composite Rehabilitation",
     "service-description-4":
-      "ALASH OIL GAS SERVICES provides comprehensive design and engineering services covering all aspects of the oil and gas industry. Our team of highly qualified specialists is ready to develop innovative solutions for the most complex technical challenges.",
-    "service-5": "High-Precision Processing",
+      "ALASH OIL GAS SERVICES offers innovative rehabilitation and reinforcement services using composite materials. Our approach significantly extends the durability and reliability of oil and gas infrastructure.",
+    "service-5": "Wrapping Solutions",
     "service-description-5":
-      "Our company offers advanced manufacturing and machining services for heat treatment and pressure equipment, fully compliant with ASME and SANS standards. We specialize in creating high-quality components capable of withstanding extreme operating conditions.",
-    "service-6": "Quickseal Clamps for Leaks",
+      "Corrosion protection: Shields against external and chemical corrosion. Structural reinforcement: Increases pipe wall thickness and replaces damaged metal sections. Chemical resistance: Enhances durability by protecting against chemical exposure.",
+    "service-6": "Cold Welding and Polymer Solutions",
     "service-description-6":
-      "Innovative clamps for quick leak elimination in pipelines without stopping production.",
-    "service-7": "Spitze HP: Online Repair",
+      "We provide advanced cold welding technologies and polymer-based solutions for equipment repair and restoration in the oil and gas industry, manufacturing, and industrial infrastructure. Our solutions ensure rapid fault elimination without shutting down operations.",
+    "service-7": "Design and Engineering",
     "service-description-7":
-      "Operating temperature range: -46°C to 315°C. Maximum working pressure: up to 200 bar; maximum applied pressure: 150 bar. Suitable for holes up to 25mm diameter and pipelines up to 56 inches. Underwater application possible.",
-    "service-8": "Wrapping Solutions",
+      "ALASH OIL GAS SERVICES delivers comprehensive design and engineering solutions for the oil and gas sector. Our highly skilled specialists develop innovative strategies to address complex technical challenges.",
+    "service-8": "High-Precision Machining",
     "service-description-8":
-      "Corrosion resistance: Protects against external and chemical corrosion. Structural reinforcement: Increases pipe wall thickness and replaces defective metal sections. Chemical resistance: Protection against chemical exposure, increasing durability.",
+      "We offer state-of-the-art manufacturing and machining services for heat treatment and pressure equipment, fully compliant with ASME and SANS standards. Our high-quality components withstand extreme operating conditions.",
 
     "service-1-title": "Stopping Leaks in Oil and Gas Systems",
     "service-1-text":
@@ -344,7 +347,7 @@ const translations = {
 
     // Products Section
     "products-title": "Products",
-    "latest-products": "Latest in AlashOil",
+    "latest-products": "Industrial equipment",
     "all-products": "All Products",
     "product-title": "Industrial Products",
     "products-description":
@@ -448,14 +451,16 @@ const translations = {
     doing: "Что мы делаем",
     more: "Подробнее",
 
-    "activity-1": "Бурение нефтяных и газовых месторождений",
-    "activity-2": "Цементирование скважин",
-    "activity-3": "Гидроразрыв пласта (ГРП)",
-    "activity-4": "Подземный ремонт скважин",
-    "activity-5": "Обустройство месторождений",
-    "activity-6": "Перевозка и логистика",
-    "activity-7": "Проектирование и инженерные решения",
-    "activity-8": "Поставка промышленного оборудования",
+    "activity-1": "Бурение нефтяных и газовых скважин",
+    "activity-2":
+      "Цементирование скважиКапитальный, подземный ремонт и освоение скважин",
+    "activity-3": "Колтюбинговые, азотно - компресорные услуги",
+    "activity-4": "Услуги по гидравлическому разрыву пласта (ГРП)",
+    "activity-5":
+      "Производство нефтепромыслового оборудования по АРІ стандартам",
+    "activity-6": "Строительно - монтажные работы",
+    "activity-7": "Системная интеграция и промышленная автоматизация - 1Т",
+    "activity-8": "Транспортно-логистические услуги",
 
     "partners-title": "Партнеры",
     partners:
@@ -466,26 +471,26 @@ const translations = {
     "service-1": "Ликвидация утечек",
     "service-description-1":
       "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
-    "service-2": "Реабилитация с композитами",
-    "service-description-2":
-      "ALASH OIL GAZ SERVICES предлагает инновационные услуги по реабилитации и усилению различных конструкций с использованием композитных материалов. Наш подход позволяет значительно повысить долговечность и надежность объектов нефтегазовой инфраструктуры.",
-    "service-3": "Холодная сварка и полимеры",
-    "service-description-3":
-      "ALASH OIL GAZ SERVICES предлагает современные технологии холодной сварки и полимерных решений для ремонта и восстановления оборудования в нефтегазовой отрасли, на производстве и в промышленной инфраструктуре. Наши решения обеспечивают быструю ликвидацию неисправностей без необходимости остановки объектов.",
-    "service-4": "Проектирование и инжиниринг",
+    "service-4": "Реабилитация с композитами",
     "service-description-4":
-      "ALASH OIL GAZ SERVICES предоставляет комплексные услуги по проектированию и инжинирингу, охватывающие все аспекты нефтегазовой отрасли. Наша команда высококвалифицированных специалистов готова разработать инновационные решения для самых сложных технических задач.",
-    "service-5": "Высокоточная обработка",
-    "service-description-5":
-      "Наша компания предлагает передовые услуги по изготовлению и механической обработке оборудования для термической обработки и работы под давлением, полностью соответствующие стандартам ASME и SANS. Мы специализируемся на создании высококачественных компонентов, способных выдерживать экстремальные условия эксплуатации.",
-    "service-6": "Зажимы Quickseal для утечек",
+      "ALASH OIL GAZ SERVICES предлагает инновационные услуги по реабилитации и усилению различных конструкций с использованием композитных материалов. Наш подход позволяет значительно повысить долговечность и надежность объектов нефтегазовой инфраструктуры.",
+    "service-6": "Холодная сварка и полимеры",
     "service-description-6":
-      "Инновационные зажимы для оперативного устранения утечек в трубопроводах без остановки производства.",
-    "service-7": "Spitze HP: онлайн-ремонт",
+      "ALASH OIL GAZ SERVICES предлагает современные технологии холодной сварки и полимерных решений для ремонта и восстановления оборудования в нефтегазовой отрасли, на производстве и в промышленной инфраструктуре. Наши решения обеспечивают быструю ликвидацию неисправностей без необходимости остановки объектов.",
+    "service-7": "Проектирование и инжиниринг",
     "service-description-7":
-      "Диапазон рабочих температур: от -46°C до 315°C. Максимальное рабочее давление: до 200 бар; максимальное прикладное давление: 150 бар. Подходит для отверстий диаметром до 25 мм и трубопроводов диаметром до 56 дюймов. Возможность применения под водой.",
-    "service-8": "Обертывающие решения",
+      "ALASH OIL GAZ SERVICES предоставляет комплексные услуги по проектированию и инжинирингу, охватывающие все аспекты нефтегазовой отрасли. Наша команда высококвалифицированных специалистов готова разработать инновационные решения для самых сложных технических задач.",
+    "service-8": "Высокоточная обработка",
     "service-description-8":
+      "Наша компания предлагает передовые услуги по изготовлению и механической обработке оборудования для термической обработки и работы под давлением, полностью соответствующие стандартам ASME и SANS. Мы специализируемся на создании высококачественных компонентов, способных выдерживать экстремальные условия эксплуатации.",
+    "service-2": "Зажимы Quickseal для утечек",
+    "service-description-2":
+      "Инновационные зажимы для оперативного устранения утечек в трубопроводах без остановки производства.",
+    "service-3": "Spitze HP: онлайн-ремонт",
+    "service-description-3":
+      "Диапазон рабочих температур: от -46°C до 315°C. Максимальное рабочее давление: до 200 бар; максимальное прикладное давление: 150 бар. Подходит для отверстий диаметром до 25 мм и трубопроводов диаметром до 56 дюймов. Возможность применения под водой.",
+    "service-5": "Обертывающие решения",
+    "service-description-5":
       "Устойчивость к коррозии: Защищает от внешней и химической коррозии. Укрепление конструкции: Увеличивает толщину стенок труб и заменяет дефектные металлические участки. Химическая устойчивость: Защита от воздействия химических веществ, что увеличивает долговечность.",
 
     "service-1-title": "Прекращение Утечек в Нефтегазовых Системах",
@@ -556,7 +561,7 @@ const translations = {
 
     // Products Section
     "products-title": "Продукты",
-    "latest-products": "Последнее в AlashOil",
+    "latest-products": "Промышленное оборудование",
     "all-products": "Все Продукты",
     "product-title": "Промышленные товары",
     "products-description":
