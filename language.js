@@ -9,16 +9,22 @@ const translations = {
     "contact-us": "Бізбен байланысу",
 
     // Hero Section
-    "hero-title-1": "Өндірістік жабдықтар",
+    "hero-title-1": "Утечканы жою шешімдері",
     "hero-description-1":
-      "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма басы жабдықтары, резервуарлар, сепараторлар, болт бекіткіштері және басқа да мұнай кен орны жабдықтары.",
-    "hero-title-2": "Техникалық қызметтер",
+      "Объекттердің ешқандай қосықсыз жұмысын көрсету үшін жабдықтар: күміс материалдарды пайдалану арқылы жарақсызлау, сыртқы істеу мен полимерлік шешімдер.",
+    "hero-title-2": "Композиттік материалдарды пайдаланумен ауру теру",
     "hero-description-2":
-      "Нысандардың үздіксіз жұмысын қамтамасыз етуге арналған кешенді қызметтер: ағып кетуді жою, композиттік материалдарды қолдана отырып оңалту, суық дәнекерлеу және полимерлік технологияларды енгізу.",
-    "hero-title-3": "Жобалау және инжиниринг",
+      "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма басы жабдықтары, резервуарлар, сепараторлар, болт бекіткіштері және басқа да мұнай кен орны жабдықтары.",
+    "hero-title-3": "Жомыс өнімдері",
     "hero-description-3":
+      "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма басы жабдықтары, резервуарлар, сепараторлар, болт бекіткіштері және басқа да мұнай кен орны жабдықтары.",
+    "hero-title-4": "Жобалау және инжиниринг",
+    "hero-description-4":
       "Жеке шешімдерді әзірлеу: күрделі жобаларды іске асыру үшін жабдықтарды жобалау, инжиниринг, өндіру және өңдеу.",
-    "learn-more": "Толығырақ",
+    "hero-title-5": "Өндірістік жабдықтар",
+    "hero-description-5":
+      "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма басы жабдықтары, резервуарлар, сепараторлар, болт бекіткіштері және басқа да мұнай кен орны жабдықтары.",
+    "learn-more": "Көбірек",
 
     // About Us Section
     "about-us-title": "Біз туралы",
@@ -209,15 +215,21 @@ const translations = {
     "contact-us": "Contact Us",
 
     // Hero Section
-    "hero-title-1": "Industrial Equipment",
+    "hero-title-1": "Leak Solutions",
     "hero-description-1":
-      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners and other oilfield equipment.",
-    "hero-title-2": "Technical Services",
+      "Solutions to ensure uninterrupted operation of facilities: leak elimination, rehabilitation using composite materials, cold welding and implementation of polymer technologies.",
+    "hero-title-2": "Rehabilitation with Composite Materials",
     "hero-description-2":
-      "Comprehensive services to ensure uninterrupted operation of facilities: leak elimination, rehabilitation using composite materials, cold welding and implementation of polymer technologies.",
-    "hero-title-3": "Design and Engineering",
+      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners and other oilfield equipment.",
+    "hero-title-3": "Industrial Solutions",
     "hero-description-3":
+      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners and other oilfield equipment.",
+    "hero-title-4": "Design and Engineering",
+    "hero-description-4":
       "Development of individual solutions: design, engineering, manufacturing and processing of equipment for complex projects.",
+    "hero-title-5": "Industrial Equipment",
+    "hero-description-5":
+      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners and other oilfield equipment.",
     "learn-more": "Learn More",
 
     // About Us Section
@@ -410,16 +422,22 @@ const translations = {
     "contact-us": "Связатся с нами",
 
     // Hero Section
-    "hero-title-1": "Промышленное оборудование",
+    "hero-title-1": "Решения по устранению утечек",
     "hero-description-1":
-      "Современное и надёжное оборудование для нефтегазовой отрасли: насосы, фонтанная арматура, резервуары, сепараторы, болтовые крепления и другое нефтепромысловое оборудование.",
-    "hero-title-2": "Технические услуги",
+      "Объекты непрерывной работы для обеспечения обслуживания: устранение утечек, восстановление с использованием композитных материалов, холодная сварка и внедрение полимерных технологий.",
+    "hero-title-2": "Восстановление с использованием композитных материалов",
     "hero-description-2":
-      "Комплексные услуги для обеспечения бесперебойной работы объектов: устранение утечек, реабилитация с использованием композитных материалов, холодная сварка и внедрение полимерных технологий.",
-    "hero-title-3": "Проектирование и инжиниринг",
+      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
+    "hero-title-3": "Холодная сварка и Полимерные решения",
     "hero-description-3":
+      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
+    "hero-title-4": "Проектирование и инжиниринг",
+    "hero-description-4":
       "Разработка индивидуальных решений: проектирование, инжиниринг, изготовление и обработка оборудования для реализации сложных проектов.",
-    "learn-more": "Узнать побольше",
+    "hero-title-5": "Промышленное оборудование",
+    "hero-description-5":
+      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
+    "learn-more": "Узнать больше",
 
     // About Us Section
     "about-us-title": "О Нас",
