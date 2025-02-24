@@ -962,7 +962,7 @@ header ul {
 .services-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 980px) {
@@ -1082,7 +1082,7 @@ header ul {
 .product-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .product-info {
@@ -1235,8 +1235,8 @@ footer ul {
 #service-hero {
   width: 100%;
   height: 100vh;
-  background-image: url(/public/carousel-3.png);
-  background-position: center;
+  background-image: url("/public/example.jpg");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
@@ -1409,7 +1409,7 @@ footer ul {
 /* ==========>> products page <<========== */
 
 #product-page {
-  background-image: url("/public/example.jpg");
+  background-image: url("/public/carousel.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1489,7 +1489,7 @@ footer ul {
 .product-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #modal-background {
@@ -1518,6 +1518,7 @@ footer ul {
   border-radius: 16px;
   width: 90%;
   max-height: 80%;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   transform: translateY(100%);
@@ -1538,7 +1539,8 @@ footer ul {
 
 .modal-image {
   border-radius: 16px;
-  width: 40%;
+  width: 20vw;
+  margin-right: 24px;
 }
 
 @media screen and (max-width: 1040px) {
@@ -1562,6 +1564,15 @@ footer ul {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     padding: 16px 16px 48px 16px;
+  }
+
+  #modal h2 {
+    line-height: 42px;
+  }
+
+  .modal-image {
+    width: 80%;
+    margin: 0;
   }
 
   #close-modal {

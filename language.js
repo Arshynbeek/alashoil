@@ -9,22 +9,22 @@ const translations = {
     "contact-us": "Бізбен байланысу",
 
     // Hero Section
-    "hero-title-1": "Утечканы жою шешімдері",
+    "hero-title-1": "Тығызу шешімдері",
     "hero-description-1":
-      "Объекттердің ешқандай қосықсыз жұмысын көрсету үшін жабдықтар: күміс материалдарды пайдалану арқылы жарақсызлау, сыртқы істеу мен полимерлік шешімдер.",
-    "hero-title-2": "Композиттік материалдарды пайдаланумен ауру теру",
+      "AOGS нефте-газ жүйелерінде тығызу және тоқтату шешімдері ұсынады. Біздің технологиялары қауіпсіздікті кеміту, ауру ақысын азайту мен жұмысшылардың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
+    "hero-title-2": "Композит материалдарды қолдану арқылы қалпына келтіру",
     "hero-description-2":
-      "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма басы жабдықтары, резервуарлар, сепараторлар, болт бекіткіштері және басқа да мұнай кен орны жабдықтары.",
-    "hero-title-3": "Жомыс өнімдері",
+      "Нефте-газ саласы үшін зертханалық және сенімді жабдық: насостар, күйік бөлшек құрылғылары, резервуарлар, сепараторлар, болтты қамтамасыз ету элементтері және басқа нефтегаз өндірісі үшін зертханалық.",
+    "hero-title-3": "Соққылы шуар және полимер шешімдері",
     "hero-description-3":
-      "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма басы жабдықтары, резервуарлар, сепараторлар, болт бекіткіштері және басқа да мұнай кен орны жабдықтары.",
-    "hero-title-4": "Жобалау және инжиниринг",
+      "Біз өндіруді тоқтатпай отырмай, өндірісті тоқтатпай өңдеу үшін жаңа технологиялар ұсынамыз. Біздің шешімдері жылдам арқылы дефектілерді түзету арқылы қауіпсіздік пен экономикалықтықты ыңғайландырады.",
+    "hero-title-4": "Дизайн және инженерлік",
     "hero-description-4":
-      "Жеке шешімдерді әзірлеу: күрделі жобаларды іске асыру үшін жабдықтарды жобалау, инжиниринг, өндіру және өңдеу.",
-    "hero-title-5": "Өндірістік жабдықтар",
+      "Жеке шешімдерді дайындау: дизайн, инженерлік, жасау және қиын проекттерді орындау үшін өнімді өңдеу.",
+    "hero-title-5": "Санайлық жабдық",
     "hero-description-5":
-      "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма басы жабдықтары, резервуарлар, сепараторлар, болт бекіткіштері және басқа да мұнай кен орны жабдықтары.",
-    "learn-more": "Көбірек",
+      "Тығызу және диагностика Жоғары точнамалықтықтық өндіру элементтері және жаңа диагностикалық әдістер, соңғы деңгейде де жарақаттандырылады.",
+    "learn-more": "Көбірек ақпарат алу",
 
     // About Us Section
     "about-us-title": "Біз туралы",
@@ -172,7 +172,7 @@ const translations = {
       "ALASH OIL GAZ SERVICES мұнай-газ өндірісіне арналған жабдықтардың кешенді шешімдерін ұсынады. Біздің ассортиментте сепараторлар, жылу алмастырғыштар, резервуарлар және мұнай мен газды өндіру, дайындау және тасымалдауға арналған басқа да арнайы жабдықтар бар.",
     "product-5": "Газ сепараторы",
     "product-description-5":
-      "GS типті торлы газ сепараторлары газды сұйық қоспалардан, соның ішінде мұнайдан тазарту үшін қолданылады. Олар мұнай-газ және химия өнеркәсіптерінде, сондай-ақ жерасты қоймаларында кеңінен қолданылады. GS 1 және GS 2 газ сепараторлары тік цилиндрлі контейнерлер болып табылады, GS 1 тексеру люгімен жабдықталмаған, бірақ фланеці бар. Екі түрі де термиялық өңделіп, жылу оқшаулауға арналған бекіткіштермен жабдықталуы мүмкін.",
+      "GS торлы газ бөлгіштері газды сұйық қоспалардан, соның ішінде мұнайдан тазартады. Олар мұнай-газ және химия зауыттарында, сондай-ақ сақтау қоймаларында қолданылады. GS 1 және GS 2 – тік цилиндрлер; GS 1-де қарау люгі жоқ, бірақ фланеці бар. Екеуіне де термиялық өңдеу жасалып, жылу оқшаулауға арналған бекіткіштер орнатылуы мүмкін.",
     "product-6": "Жерасты резервуары",
     "product-description-6":
       "Жанармай және сұйықтықтарды сақтау үшін жерасты резервуарлары екі ауыздықпен жабдықталған: біреуі сорғы үшін, екіншісі люк үшін. Олар конусты немесе эллипстік түптерге ие, ал жылу алмастырғыш қажетті температураны сақтайды. Тұтынушының талабы бойынша қорғаныс жабындары және клапандар мен сорғылар сияқты қосалқы жабдықтармен толықтыру мүмкіндігі бар.",
@@ -217,19 +217,19 @@ const translations = {
     // Hero Section
     "hero-title-1": "Leak Solutions",
     "hero-description-1":
-      "Solutions to ensure uninterrupted operation of facilities: leak elimination, rehabilitation using composite materials, cold welding and implementation of polymer technologies.",
-    "hero-title-2": "Rehabilitation with Composite Materials",
+      "AOGS offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
+    "hero-title-2": "Restoration Using Composite Materials",
     "hero-description-2":
-      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners and other oilfield equipment.",
-    "hero-title-3": "Industrial Solutions",
+      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners, and other equipment for the oil industry.",
+    "hero-title-3": "Cold Welding and Polymer Solutions",
     "hero-description-3":
-      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners and other oilfield equipment.",
+      "We offer advanced technologies for equipment repair and restoration without the need to halt production. Our solutions provide quick fault rectification, enhancing safety and cost-effectiveness.",
     "hero-title-4": "Design and Engineering",
     "hero-description-4":
-      "Development of individual solutions: design, engineering, manufacturing and processing of equipment for complex projects.",
+      "Development of bespoke solutions: design, engineering, manufacturing, and equipment processing for implementing complex projects.",
     "hero-title-5": "Industrial Equipment",
     "hero-description-5":
-      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners and other oilfield equipment.",
+      "Leak detection and diagnostics Precision equipment and advanced diagnostic methods identify even the smallest damages.",
     "learn-more": "Learn More",
 
     // About Us Section
@@ -379,7 +379,7 @@ const translations = {
       "ALASH OIL GAZ SERVICES offers comprehensive solutions in the field of oilfield equipment. Our range includes separators, heat exchangers, tanks, and other specialized equipment for oil and gas production, preparation, and transportation.",
     "product-5": "Gas Separator",
     "product-description-5":
-      "GS-type mesh gas separators are designed for the final purification of gas from liquid impurities, including oil. They are widely used in oil and gas, chemical enterprises, and underground storage facilities. GS 1 and GS 2 gas separators are vertical cylindrical containers where GS 1 lacks an inspection hatch but is equipped with a flange. Both types can be thermally treated and equipped with mounts for thermal insulation.",
+      "Mesh gas separators GS remove liquid impurities, including oil, from gas. They are used in oil, gas, and chemical plants, as well as in storage facilities. GS 1 and GS 2 are vertical cylinders; GS 1 has no inspection hatch but includes a flange. Both can undergo thermal treatment and be fitted with insulation mounts.",
     "product-6": "Underground Tank",
     "product-description-6":
       "Underground tanks for storing fuel and liquids are equipped with two necks: one for the pump and one for the hatch. They have conical or elliptical bottoms, and a coil maintains the required temperature. Upon customer request, protective coatings and fittings such as valves and pumps can be provided.",
@@ -424,19 +424,19 @@ const translations = {
     // Hero Section
     "hero-title-1": "Решения по устранению утечек",
     "hero-description-1":
-      "Объекты непрерывной работы для обеспечения обслуживания: устранение утечек, восстановление с использованием композитных материалов, холодная сварка и внедрение полимерных технологий.",
+      "AOGS предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
     "hero-title-2": "Восстановление с использованием композитных материалов",
     "hero-description-2":
       "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
     "hero-title-3": "Холодная сварка и Полимерные решения",
     "hero-description-3":
-      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
+      "Мы предлагаем современные технологии для ремонта и восстановления оборудования без необходимости остановки производства. Наши решения обеспечивают быструю ликвидацию неисправностей, повышая безопасность и экономичность.",
     "hero-title-4": "Проектирование и инжиниринг",
     "hero-description-4":
       "Разработка индивидуальных решений: проектирование, инжиниринг, изготовление и обработка оборудования для реализации сложных проектов.",
     "hero-title-5": "Промышленное оборудование",
     "hero-description-5":
-      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
+      "Обнаружение и диагностика утечек Высокоточное оборудование и современные методы диагностики выявляют даже минимальные повреждения.",
     "learn-more": "Узнать больше",
 
     // About Us Section
@@ -599,7 +599,7 @@ const translations = {
       "ALASH OIL GAZ SERVICES предлагает комплексные решения в области нефтепромыслового оборудования. Наш ассортимент включает сепараторы, теплообменники, резервуары и другое специализированное оборудование для добычи, подготовки и транспортировки нефти и газа.",
     "product-5": "Газовый сепаратор",
     "product-description-5":
-      "Сеточные газоотделители типа GS предназначены для окончательной очистки газа от жидких примесей, включая нефть. Они широко применяются на нефтегазовых и химических предприятиях, а также в подземных хранилищах. Газосепараторы GS 1 и GS 2 — вертикальные цилиндрические контейнеры, где GS 1 не имеет смотрового люка, но оснащен фланцем. Оба типа могут быть термически обработаны и оснащены крепежами для теплоизоляции.",
+      "Сеточные газоотделители GS очищают газ от жидких примесей, включая нефть. Их используют на нефтегазовых и химзаводах, а также в хранилищах. GS 1 и GS 2 — вертикальные цилиндры; GS 1 без люка, но с фланцем. Оба можно термически обработать и оснастить крепежами для изоляции.",
     "product-6": "Резервуар подземный",
     "product-description-6":
       "Подземные резервуары для хранения топлива и жидкостей оснащены двумя горловинами: для насоса и люка. Они имеют конические или эллиптические днища, а змеевик поддерживает нужную температуру. По запросу клиента возможны защитные покрытия и комплектование клапанами и насосами.",
