@@ -11,7 +11,7 @@ const translations = {
     // Hero Section
     "hero-title-1": "Тығызу шешімдері",
     "hero-description-1":
-      "AOGS нефте-газ жүйелерінде тығызу және тоқтату шешімдері ұсынады. Біздің технологиялары қауіпсіздікті кеміту, ауру ақысын азайту мен жұмысшылардың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
+      "Alash Oil Gas Services нефте-газ жүйелерінде тығызу және тоқтату шешімдері ұсынады. Біздің технологиялары қауіпсіздікті кеміту, ауру ақысын азайту мен жұмысшылардың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
     "hero-title-2": "Композит материалдарды қолдану арқылы қалпына келтіру",
     "hero-description-2":
       "Нефте-газ саласы үшін зертханалық және сенімді жабдық: насостар, күйік бөлшек құрылғылары, резервуарлар, сепараторлар, болтты қамтамасыз ету элементтері және басқа нефтегаз өндірісі үшін зертханалық.",
@@ -60,7 +60,7 @@ const translations = {
       "ALASH OIL GAS SERVICES мұнай-газ саласының көшбасшыларымен ынтымақтастық жасауды мақтан тұтады. Біздің клиенттеріміз - сапаны, сенімділік пен инновацияны бағалайтын компаниялар.",
 
     // Services Section
-    "services-title": "Біздің қызметтеріміз",
+    "services-title": "Біздің Қызметтеріміз",
     "service-1": "Ағып кетуді жою",
     "service-description-1":
       "ALASH OIL GAS SERVICES мұнай-газ жүйелеріндегі ағып кетуді анықтау және жою үшін кешенді шешімдер ұсынады. Біздің озық технологияларымыз зақымданудың алдын алып, экологиялық қауіптерді азайтып, персоналдың қауіпсіздігін қамтамасыз етеді.",
@@ -217,7 +217,7 @@ const translations = {
     // Hero Section
     "hero-title-1": "Leak Solutions",
     "hero-description-1":
-      "AOGS offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
+      "Alash Oil Gas Services offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
     "hero-title-2": "Restoration Using Composite Materials",
     "hero-description-2":
       "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners, and other equipment for the oil industry.",
@@ -269,7 +269,7 @@ const translations = {
       "ALASH OIL GAS SERVICES is proud to collaborate with leaders in the oil and gas industry. Our clients are companies that value quality, reliability and innovation.",
 
     // Services Section
-    "services-title": "Our services",
+    "services-title": "Our Services",
     "service-1": "Leak Elimination",
     "service-description-1":
       "ALASH OIL GAS SERVICES provides comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our advanced technologies help prevent damage, reduce environmental risks, and ensure personnel safety.",
@@ -424,7 +424,7 @@ const translations = {
     // Hero Section
     "hero-title-1": "Решения по устранению утечек",
     "hero-description-1":
-      "AOGS предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
+      "Alash Ool Gas Services предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
     "hero-title-2": "Восстановление с использованием композитных материалов",
     "hero-description-2":
       "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
@@ -485,7 +485,7 @@ const translations = {
       "ALASH OIL GAZ SERVICES гордится сотрудничеством с лидерами нефтегазовой промышленности. Наши клиенты — это компании, которые ценят качество, надежность и инновации.",
 
     // Services Section
-    "services-title": "Наши услуги",
+    "services-title": "Наши Услуги",
     "service-1": "Ликвидация утечек",
     "service-description-1":
       "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
