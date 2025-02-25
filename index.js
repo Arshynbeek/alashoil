@@ -355,7 +355,7 @@ class ServicesTab {
       {
         titleKey: "service-4",
         descriptionKey: "service-description-4",
-        image: "/public/service-15.jpg=ws1280x960",
+        image: "/public/service-15.jpg",
       },
       {
         titleKey: "service-5",

@@ -51,7 +51,7 @@ const translations = {
     "activity-4": "Гидравликалық жару қызметтері (ГРП)",
     "activity-5": "API стандарттарына сай мұнай өндірісі жабдықтарын шығару",
     "activity-6": "Құрылыс-монтаж жұмыстары",
-    "activity-7": "Жүйелік интеграция және өнеркәсіптік автоматтандыру - IT",
+    "activity-7": "композициялық материалдармен тығызуды жөндеу және қалпына келтіру",
     "activity-8": "Көлік-логистикалық қызметтер",
 
     // Partners Section
@@ -60,7 +60,7 @@ const translations = {
       "ALASH OIL GAS SERVICES мұнай-газ саласының көшбасшыларымен ынтымақтастық жасауды мақтан тұтады. Біздің клиенттеріміз - сапаны, сенімділік пен инновацияны бағалайтын компаниялар.",
 
     // Services Section
-    "services-title": "Қызметтер",
+    "services-title": "Біздің қызметтеріміз",
     "service-1": "Ағып кетуді жою",
     "service-description-1":
       "ALASH OIL GAS SERVICES мұнай-газ жүйелеріндегі ағып кетуді анықтау және жою үшін кешенді шешімдер ұсынады. Біздің озық технологияларымыз зақымданудың алдын алып, экологиялық қауіптерді азайтып, персоналдың қауіпсіздігін қамтамасыз етеді.",
@@ -75,7 +75,7 @@ const translations = {
       "ALASH OIL GAS SERVICES композиттік материалдарды қолдана отырып, құрылымдарды қалпына келтіру және нығайту бойынша инновациялық қызметтерді ұсынады. Біздің әдістеріміз мұнай-газ инфрақұрылымының ұзақ мерзімділігін және сенімділігін едәуір арттырады.",
     "service-5": "Орау шешімдері",
     "service-description-5":
-      "Коррозиядан қорғау: Сыртқы және химиялық коррозиядан қорғайды. Құрылымдық нығайту: Құбырлардың қабырғаларын қалыңдатып, зақымдалған металл бөліктерін алмастырады. Химиялық төзімділік: Химиялық әсерлерден қорғап, беріктігін арттырады.",
+      "Композиттік қаптама коррозияны, жарықтар мен жұқаруды жою арқылы құбырлар мен резервуар қабырғаларының беріктігін қалпына келтіреді. Бұл әдіс тоқтап қалу уақытын азайтады, жабдықтың қызмет ету мерзімін ұзартады және мұнай-газ және энергетика салаларында кеңінен қолданылады.",
     "service-6": "Суық дәнекерлеу және полимерлік шешімдер",
     "service-description-6":
       "Біз мұнай-газ өнеркәсібінде, өндірісте және өнеркәсіптік инфрақұрылымда жабдықтарды жөндеу және қалпына келтіру үшін озық суық дәнекерлеу технологиялары мен полимерлік шешімдерді ұсынамыз. Біздің шешімдеріміз нысандарды тоқтатпай-ақ ақауларды жылдам жоюға мүмкіндік береді.",
@@ -154,7 +154,7 @@ const translations = {
     "products-title": "Өнімдер",
     "latest-products": "Өнеркәсіптік жабдықтар",
     "all-products": "Барлық өнімдер",
-    "product-title": "Өнеркәсіп өнімдері",
+    "product-title": "Өнеркәсіптік жабдықтар",
     "products-description":
       "ALASH OIL GAZ SERVICES серіктестігіміз OSS KAZAKHSTAN (NEOILFIELD SERVICES & SUPPLIES) серіктестігімен жоғары сапалы мұнай кәсіпшілік жабдықтарының кең спектрін ұсынады. Біздің өнімдер мұнай-газ саласының қатал жағдайында сенімді жұмысты қамтамасыз ететін ең жоғары сапа және қауіпсіздік стандарттарына сәйкес келеді.",
 
@@ -260,7 +260,7 @@ const translations = {
     "activity-5":
       "Manufacturing of oilfield equipment according to API standards",
     "activity-6": "Construction and installation works",
-    "activity-7": "System integration and industrial automation - IT",
+    "activity-7": "Leak repair and restoration with composite materials",
     "activity-8": "Transport and logistics services",
 
     // Partners Section
@@ -269,7 +269,7 @@ const translations = {
       "ALASH OIL GAS SERVICES is proud to collaborate with leaders in the oil and gas industry. Our clients are companies that value quality, reliability and innovation.",
 
     // Services Section
-    "services-title": "Services",
+    "services-title": "Our services",
     "service-1": "Leak Elimination",
     "service-description-1":
       "ALASH OIL GAS SERVICES provides comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our advanced technologies help prevent damage, reduce environmental risks, and ensure personnel safety.",
@@ -284,7 +284,7 @@ const translations = {
       "ALASH OIL GAS SERVICES offers innovative rehabilitation and reinforcement services using composite materials. Our approach significantly extends the durability and reliability of oil and gas infrastructure.",
     "service-5": "Wrapping Solutions",
     "service-description-5":
-      "Corrosion protection: Shields against external and chemical corrosion. Structural reinforcement: Increases pipe wall thickness and replaces damaged metal sections. Chemical resistance: Enhances durability by protecting against chemical exposure.",
+      "Composite wrapping restores the strength of pipe and tank walls, eliminating corrosion, cracks and thinning. The method minimizes downtime, extends the service life of equipment and is widely used in the oil and gas and energy industries.",
     "service-6": "Cold Welding and Polymer Solutions",
     "service-description-6":
       "We provide advanced cold welding technologies and polymer-based solutions for equipment repair and restoration in the oil and gas industry, manufacturing, and industrial infrastructure. Our solutions ensure rapid fault elimination without shutting down operations.",
@@ -361,7 +361,7 @@ const translations = {
     "products-title": "Products",
     "latest-products": "Industrial equipment",
     "all-products": "All Products",
-    "product-title": "Industrial Products",
+    "product-title": "Industrial equipment",
     "products-description":
       "ALASH OIL GAZ SERVICES, in cooperation with our partner OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), offers a wide range of high-quality oilfield equipment. Our products meet the highest quality and safety standards, ensuring reliable operation in the difficult conditions of the oil and gas industry.",
 
@@ -477,7 +477,7 @@ const translations = {
     "activity-5":
       "Производство нефтепромыслового оборудования по АРІ стандартам",
     "activity-6": "Строительно - монтажные работы",
-    "activity-7": "Системная интеграция и промышленная автоматизация - 1Т",
+    "activity-7": "устранение утечек и восстановление с композитными материалами",
     "activity-8": "Транспортно-логистические услуги",
 
     "partners-title": "Партнеры",
@@ -485,7 +485,7 @@ const translations = {
       "ALASH OIL GAZ SERVICES гордится сотрудничеством с лидерами нефтегазовой промышленности. Наши клиенты — это компании, которые ценят качество, надежность и инновации.",
 
     // Services Section
-    "services-title": "Сервисы",
+    "services-title": "Наши услуги",
     "service-1": "Ликвидация утечек",
     "service-description-1":
       "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
@@ -509,7 +509,7 @@ const translations = {
       "Диапазон рабочих температур: от -46°C до 315°C. Максимальное рабочее давление: до 200 бар; максимальное прикладное давление: 150 бар. Подходит для отверстий диаметром до 25 мм и трубопроводов диаметром до 56 дюймов. Возможность применения под водой.",
     "service-5": "Обертывающие решения",
     "service-description-5":
-      "Устойчивость к коррозии: Защищает от внешней и химической коррозии. Укрепление конструкции: Увеличивает толщину стенок труб и заменяет дефектные металлические участки. Химическая устойчивость: Защита от воздействия химических веществ, что увеличивает долговечность.",
+      "Композитное обёртывание восстанавливает прочность стенок труб и резервуаров, устраняя коррозию, трещины и истончения. Метод минимизирует простои, продлевает срок службы оборудования и широко применяется в нефтегазовой и энергетической отраслях.",
 
     "service-1-title": "Прекращение Утечек в Нефтегазовых Системах",
     "service-1-text":
@@ -581,7 +581,7 @@ const translations = {
     "products-title": "Продукты",
     "latest-products": "Промышленное оборудование",
     "all-products": "Все Продукты",
-    "product-title": "Промышленные товары",
+    "product-title": "Промышленные оборудование",
     "products-description":
       "ALASH OIL GAZ SERVICES, в сотрудничестве с нашим партнером OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), предлагает широкий спектр высококачественного нефтепромыслового оборудования. Наша продукция отвечает самым высоким стандартам качества и безопасности, обеспечивая надежную работу в сложных условиях нефтегазовой отрасли.",
 
