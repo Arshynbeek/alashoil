@@ -51,7 +51,7 @@ const translations = {
     "activity-4": "Гидравликалық жару қызметтері (ГРП)",
     "activity-5": "API стандарттарына сай мұнай өндірісі жабдықтарын шығару",
     "activity-6": "Құрылыс-монтаж жұмыстары",
-    "activity-7": "композициялық материалдармен тығызуды жөндеу және қалпына келтіру",
+    "activity-7": "Композициялық материалдармен тығызуды жөндеу және қалпына келтіру",
     "activity-8": "Көлік-логистикалық қызметтер",
 
     // Partners Section
@@ -60,7 +60,7 @@ const translations = {
       "ALASH OIL GAS SERVICES мұнай-газ саласының көшбасшыларымен ынтымақтастық жасауды мақтан тұтады. Біздің клиенттеріміз - сапаны, сенімділік пен инновацияны бағалайтын компаниялар.",
 
     // Services Section
-    "services-title": "Біздің Қызметтеріміз",
+    "services-title": "Біздің қызметтеріміз",
     "service-1": "Ағып кетуді жою",
     "service-description-1":
       "ALASH OIL GAS SERVICES мұнай-газ жүйелеріндегі ағып кетуді анықтау және жою үшін кешенді шешімдер ұсынады. Біздің озық технологияларымыз зақымданудың алдын алып, экологиялық қауіптерді азайтып, персоналдың қауіпсіздігін қамтамасыз етеді.",
@@ -269,7 +269,7 @@ const translations = {
       "ALASH OIL GAS SERVICES is proud to collaborate with leaders in the oil and gas industry. Our clients are companies that value quality, reliability and innovation.",
 
     // Services Section
-    "services-title": "Our Services",
+    "services-title": "Our services",
     "service-1": "Leak Elimination",
     "service-description-1":
       "ALASH OIL GAS SERVICES provides comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our advanced technologies help prevent damage, reduce environmental risks, and ensure personnel safety.",
@@ -477,7 +477,7 @@ const translations = {
     "activity-5":
       "Производство нефтепромыслового оборудования по АРІ стандартам",
     "activity-6": "Строительно - монтажные работы",
-    "activity-7": "устранение утечек и восстановление с композитными материалами",
+    "activity-7": "Устранение утечек и восстановление с композитными материалами",
     "activity-8": "Транспортно-логистические услуги",
 
     "partners-title": "Партнеры",
@@ -485,7 +485,7 @@ const translations = {
       "ALASH OIL GAZ SERVICES гордится сотрудничеством с лидерами нефтегазовой промышленности. Наши клиенты — это компании, которые ценят качество, надежность и инновации.",
 
     // Services Section
-    "services-title": "Наши Услуги",
+    "services-title": "Наши услуги",
     "service-1": "Ликвидация утечек",
     "service-description-1":
       "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
