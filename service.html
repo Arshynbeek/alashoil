@@ -377,18 +377,25 @@
       <nav>
         <ul>
           <li>
+            <h4 data-i18n="contact-us">Свяжитесь с нами</h4>
+            <form id="whatsapp-form"><textarea type="text" id="whatsapp-message" required></textarea>
+              <button type="submit" data-i18n="send">Отправить</button>
+            </form>
+          </li>
+      
+          <li>
             <h4 data-i18n="office-address">Адрес офиса</h4>
             <p data-i18n="office-address-info">Алматы, Наурызбайский район, ул. Ер Тостык 3, корпус 7, офис 4</p>
           </li>
-    
+      
           <li>
             <h4 data-i18n="email">Электронная почта</h4>
-            <p>info@alashoil.kz</p>
+            <a href="mailto:info@alashoil.kz">info@alashoil.kz</a>
           </li>
-    
+      
           <li>
             <h4 data-i18n="phone">Телефон</h4>
-            <p>+ 7 702 077 79 77</p>
+            <p>+7 702 077 79 77</p>
           </li>
         </ul>
       </nav>
@@ -471,6 +478,16 @@
           }
         });
       }
+    </script>
+
+    <script>
+      document.getElementById('whatsapp-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        var message = encodeURIComponent(document.getElementById('whatsapp-message').value);
+        var phoneNumber = "77020777977";
+        var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + message;
+        window.open(whatsappUrl, '_blank');
+      });
     </script>
   </body>
 </html>

@@ -1192,24 +1192,36 @@ footer img {
 
 footer ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 64px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
 }
 
-@media screen and (max-width: 740px) {
-  footer div {
-    flex-direction: column;
-    margin: 24px 0;
-    gap: 16px;
-  }
+form {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  resize: none;
+}
+
+form button {
+  background-color: var(--secondary);
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
   footer img {
     margin: 16px auto;
     height: 25vh;
   }
-  form {
-    width: 100%;
-  }
   footer ul {
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 }

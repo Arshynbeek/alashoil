@@ -10,28 +10,27 @@ const translations = {
 
     // Hero Section
     "hero-title-1": "Тығызу шешімдері",
-    "hero-description-1":
-      "Alash Oil Gas Services нефте-газ жүйелерінде тығызу және тоқтату шешімдері ұсынады. Біздің технологиялары қауіпсіздікті кеміту, ауру ақысын азайту мен жұмысшылардың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
-    "hero-title-2": "Композит материалдарды қолдану арқылы қалпына келтіру",
-    "hero-description-2":
-      "Нефте-газ саласы үшін зертханалық және сенімді жабдық: насостар, күйік бөлшек құрылғылары, резервуарлар, сепараторлар, болтты қамтамасыз ету элементтері және басқа нефтегаз өндірісі үшін зертханалық.",
-    "hero-title-3": "Соққылы шуар және полимер шешімдері",
-    "hero-description-3":
-      "Біз өндіруді тоқтатпай отырмай, өндірісті тоқтатпай өңдеу үшін жаңа технологиялар ұсынамыз. Біздің шешімдері жылдам арқылы дефектілерді түзету арқылы қауіпсіздік пен экономикалықтықты ыңғайландырады.",
-    "hero-title-4": "Дизайн және инженерлік",
-    "hero-description-4":
-      "Жеке шешімдерді дайындау: дизайн, инженерлік, жасау және қиын проекттерді орындау үшін өнімді өңдеу.",
-    "hero-title-5": "Санайлық жабдық",
-    "hero-description-5":
-      "Тығызу және диагностика Жоғары точнамалықтықтық өндіру элементтері және жаңа диагностикалық әдістер, соңғы деңгейде де жарақаттандырылады.",
-    "learn-more": "Көбірек ақпарат алу",
+    "hero-description-1": 
+      "Alash Oil Gas Services мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады. Біздің технологияларымыз зақымданудың алдын алуға, қоршаған ортаға төнетін қауіп-қатерлерді азайтуға және персоналдың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
+    "hero-title-2": "Композиттік материалдарды пайдаланып қалпына келтіру",
+    "hero-description-2": 
+        "Біз өндірісті тоқтатпай-ақ жабдықтарды жөндеу және қалпына келтіру бойынша заманауи технологияларды ұсынамыз. Біздің шешімдеріміз ақауларды жылдам жоюды қамтамасыз етіп, қауіпсіздік пен үнемділікті арттырады.",
+    "hero-title-3": "Суық дәнекерлеу және полимерлік шешімдер",
+    "hero-description-3": 
+        "Металлдарды қыздырмай қосу олардың қасиеттерін сақтайды. Полимерлік композиттер, мысалы, эпоксидті шайырлар, жабдықты агрессивті орта әсерінен қорғайды.",
+    "hero-title-4": "Жобалау және инжиниринг",
+    "hero-description-4": 
+        "Жеке шешімдерді әзірлеу: жобалау, инжиниринг, жабдықтарды өндіру және өңдеу, күрделі жобаларды іске асыру.",
+    "hero-title-5": "Өнеркәсіптік жабдықтар",
+    "hero-description-5": 
+        "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма сағасына арналған жабдықтар, резервуарлар, сепараторлар, болтты қосылыстар және басқа да мұнай өнеркәсібіне арналған жабдықтар.",
 
     // About Us Section
     "about-us-title": "Біз туралы",
     "about-us": "Alash Oil Gas Services: Uly Dala холдингінің бөлігі",
     "about-text":
       "ULY DALA Holding – мұнай-газ саласы үшін кешенді шешімдерді ұсынатын серпінді дамып келе жатқан компаниялар тобы. 2001 жылдан бастап холдинг ұңғымаларды бұрғылау мен цементтеуден бастап жабдықты жобалау мен жеткізуге дейінгі қызметтердің кең спектрін ұсынатын сегіз мамандандырылған кәсіпорынды біріктіретін сенімді серіктес ретінде өзін танытты. Бүгінгі таңда холдингте 500-ден астам жоғары білікті мамандар жұмыс істейді, бұл кез келген күрделіліктегі жобалардың жоғары деңгейде орындалуын қамтамасыз етеді.",
-    "about-us-subtitile-1": "Мәселе шешушілер",
+    "about-us-subtitile-1": "Нақты шешімдер",
     "about-us-subtitile-2": "Жетілдірушілер",
     "about-us-subtitile-3": "Жасаушылар",
 
@@ -46,7 +45,7 @@ const translations = {
 
     "activity-1": "Мұнай және газ ұңғымаларын бұрғылау",
     "activity-2":
-      "Ұңғымаларды цементтеу, күрделі және жерасты жөндеу, және игеру",
+      "Күрделі, жерасты жөндеу және ұңғыманы игеру",
     "activity-3": "Коилтюбинг, азот және компрессорлық қызметтер",
     "activity-4": "Гидравликалық жару қызметтері (ГРП)",
     "activity-5": "API стандарттарына сай мұнай өндірісі жабдықтарын шығару",
@@ -204,6 +203,9 @@ const translations = {
       "Алматы, Наурызбай ауданы, Ер Төстік 3, 7 корпус, 4 кеңсе",
     email: "Электрондық пошта",
     phone: "Телефон",
+    "contact-us": "Бізбен байланысыңыз",
+    "placeholder": "Хабарлама жазыңыз",
+    "send": "Жіберу"
   },
   en: {
     // Header
@@ -216,28 +218,27 @@ const translations = {
 
     // Hero Section
     "hero-title-1": "Leak Solutions",
-    "hero-description-1":
-      "Alash Oil Gas Services offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
+    "hero-description-1": 
+    "Alash Oil Gas Services offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
     "hero-title-2": "Restoration Using Composite Materials",
-    "hero-description-2":
-      "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolt fasteners, and other equipment for the oil industry.",
+    "hero-description-2": 
+        "We offer modern technologies for equipment repair and restoration without the need to stop production. Our solutions ensure quick fault elimination, enhancing safety and cost efficiency.",
     "hero-title-3": "Cold Welding and Polymer Solutions",
-    "hero-description-3":
-      "We offer advanced technologies for equipment repair and restoration without the need to halt production. Our solutions provide quick fault rectification, enhancing safety and cost-effectiveness.",
+    "hero-description-3": 
+        "Metal joining without heating preserves their properties. Polymer composites, such as epoxy resins, protect equipment from exposure in aggressive environments.",
     "hero-title-4": "Design and Engineering",
-    "hero-description-4":
-      "Development of bespoke solutions: design, engineering, manufacturing, and equipment processing for implementing complex projects.",
+    "hero-description-4": 
+        "Development of customized solutions: design, engineering, manufacturing, and processing of equipment for implementing complex projects.",
     "hero-title-5": "Industrial Equipment",
-    "hero-description-5":
-      "Leak detection and diagnostics Precision equipment and advanced diagnostic methods identify even the smallest damages.",
-    "learn-more": "Learn More",
+    "hero-description-5": 
+        "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolted connections, and other equipment for the oil industry.",
 
     // About Us Section
     "about-us-title": "About Us",
     "about-us": "Alash Oil Gas Services: part of Uly Dala holding",
     "about-text":
       "ULY DALA Holding is a dynamically developing group of companies providing comprehensive solutions for the oil and gas industry. Since 2001, the holding has established itself as a reliable partner, uniting eight specialized enterprises offering a wide range of services: from drilling and cementing wells to designing and supplying equipment. Today, the holding employs more than 500 highly qualified specialists, which ensures a high level of execution of projects of any complexity.",
-    "about-us-subtitile-1": "Problem Solvers",
+    "about-us-subtitile-1": "High-precision solution",
     "about-us-subtitile-2": "Perfectionists",
     "about-us-subtitile-3": "Creators",
 
@@ -254,7 +255,7 @@ const translations = {
 
     "activity-1": "Drilling of oil and gas wells",
     "activity-2":
-      "Cementing of wells, major and underground repair, and well completion",
+      "Overhaul, underground repair, and well development",
     "activity-3": "Coiled tubing, nitrogen, and compressor services",
     "activity-4": "Hydraulic fracturing services (HF)",
     "activity-5":
@@ -411,6 +412,9 @@ const translations = {
       "Almaty, Nauryzbay district, st. Er Tostyk 3, building 7, office 4",
     email: "Email",
     phone: "Phone",
+    "contact-us": "Contact Us",
+    "placeholder": "Enter a message",
+    "send": "Send"
   },
   ru: {
     // Header
@@ -424,19 +428,19 @@ const translations = {
     // Hero Section
     "hero-title-1": "Решения по устранению утечек",
     "hero-description-1":
-      "Alash Ool Gas Services предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
+      "Alash Oil Gas Services предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
     "hero-title-2": "Восстановление с использованием композитных материалов",
     "hero-description-2":
-      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
+      "Мы предлагаем современные технологии для ремонта и восстановления оборудования без необходимости остановки производства. Наши решения обеспечивают быструю ликвидацию неисправностей, повышая безопасность и экономичность.",
     "hero-title-3": "Холодная сварка и Полимерные решения",
     "hero-description-3":
-      "Мы предлагаем современные технологии для ремонта и восстановления оборудования без необходимости остановки производства. Наши решения обеспечивают быструю ликвидацию неисправностей, повышая безопасность и экономичность.",
+      "Соединение металлов без нагрева сохраняет их свойства. Полимерные композиты, например, эпоксидные смолы, защищают оборудование от воздействия в агрессивных условиях.",
     "hero-title-4": "Проектирование и инжиниринг",
     "hero-description-4":
       "Разработка индивидуальных решений: проектирование, инжиниринг, изготовление и обработка оборудования для реализации сложных проектов.",
     "hero-title-5": "Промышленное оборудование",
     "hero-description-5":
-      "Обнаружение и диагностика утечек Высокоточное оборудование и современные методы диагностики выявляют даже минимальные повреждения.",
+      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
     "learn-more": "Узнать больше",
 
     // About Us Section
@@ -444,7 +448,7 @@ const translations = {
     "about-us": "Alash Oil Gas Services: часть холдинга Uly Dala",
     "about-text":
       "Холдинг ULY DALA — динамично развивающаяся группа компаний, предоставляющая комплексные решения для нефтегазовой отрасли. С 2001 года холдинг зарекомендовал себя как надежный партнер, объединяющий восемь специализированных предприятий, предлагающих широкий спектр услуг: от бурения и цементирования скважин до проектирования и поставок оборудования. Сегодня в холдинге работают более 500 высококвалифицированных специалистов, что обеспечивает высокий уровень исполнения проектов любой сложности.",
-    "about-us-subtitile-1": "Решатели проблем",
+    "about-us-subtitile-1": "Высокоточные решение",
     "about-us-subtitile-2": "Перфекционисты",
     "about-us-subtitile-3": "Создатели",
 
@@ -471,7 +475,7 @@ const translations = {
 
     "activity-1": "Бурение нефтяных и газовых скважин",
     "activity-2":
-      "Цементирование скважиКапитальный, подземный ремонт и освоение скважин",
+      "Капитальный, подземный ремонт и освоение скважин",
     "activity-3": "Колтюбинговые, азотно - компресорные услуги",
     "activity-4": "Услуги по гидравлическому разрыву пласта (ГРП)",
     "activity-5":
@@ -631,6 +635,9 @@ const translations = {
       "Алматы, Наурызбайский район, ул. Ер Тостык 3, корпус 7, офис 4",
     email: "Электронная почта",
     phone: "Телефон",
+    "contact-us": "Свяжитесь с нами",
+    "placeholder": "Введите сообщение",
+    send: "Отправить",
   },
 };
 
