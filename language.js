@@ -23,7 +23,7 @@ const translations = {
         "Жеке шешімдерді әзірлеу: жобалау, инжиниринг, жабдықтарды өндіру және өңдеу, күрделі жобаларды іске асыру.",
     "hero-title-5": "Өнеркәсіптік жабдықтар",
     "hero-description-5": 
-        "Мұнай-газ саласына арналған заманауи және сенімді жабдықтар: сорғылар, ұңғыма сағасына арналған жабдықтар, резервуарлар, сепараторлар, болтты қосылыстар және басқа да мұнай өнеркәсібіне арналған жабдықтар.",
+        "Мұнай және газ өнеркәсібіне арналған заманауи және сенімді жабдықтар: сорғылар, болттар, цистерналар, сепараторлар, ұңғымалардың бас жабдықтары және мұнай өнеркәсібіне арналған басқа да жабдықтар.",
 
     // About Us Section
     "about-us-title": "Біз туралы",
@@ -231,7 +231,7 @@ const translations = {
         "Development of customized solutions: design, engineering, manufacturing, and processing of equipment for implementing complex projects.",
     "hero-title-5": "Industrial Equipment",
     "hero-description-5": 
-        "Modern and reliable equipment for the oil and gas industry: pumps, wellhead equipment, tanks, separators, bolted connections, and other equipment for the oil industry.",
+        "Modern and reliable equipment for the oil and gas industry: pumps, bolting, tanks, separators, wellhead equipment and other equipment for the oil industry.",
 
     // About Us Section
     "about-us-title": "About Us",
@@ -440,7 +440,7 @@ const translations = {
       "Разработка индивидуальных решений: проектирование, инжиниринг, изготовление и обработка оборудования для реализации сложных проектов.",
     "hero-title-5": "Промышленное оборудование",
     "hero-description-5":
-      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, оборудование для головки скважины, резервуары, сепараторы, болтовые крепления и другое оборудование для нефтяной промышленности.",
+      "Современное и надежное оборудование для нефтегазовой отрасли: насосы, болтовые крепления, резервуары, сепараторы, оборудование для головки скважины и другое оборудование для нефтяной промышленности.",
     "learn-more": "Узнать больше",
 
     // About Us Section
