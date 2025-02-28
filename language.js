@@ -69,7 +69,7 @@ const translations = {
     "service-3": "Spitze HP: онлайн жөндеу",
     "service-description-3":
       "Жұмыс температурасының диапазоны: -46°C-тан 315°C-қа дейін. Максималды жұмыс қысымы: 200 барға дейін; максималды қолданбалы қысым: 150 бар. Диаметрі 25 мм-ге дейінгі тесіктер мен диаметрі 56 дюймге дейінгі құбырларға жарамды. Су астында қолдануға болады.",
-    "service-4": "Композиттік оңалту",
+    "service-4": "Композиттік материалдармен қалпына келтіру",
     "service-description-4":
       "ALASH OIL GAS SERVICES композиттік материалдарды қолдана отырып, құрылымдарды қалпына келтіру және нығайту бойынша инновациялық қызметтерді ұсынады. Біздің әдістеріміз мұнай-газ инфрақұрылымының ұзақ мерзімділігін және сенімділігін едәуір арттырады.",
     "service-5": "Орау шешімдері",
@@ -280,7 +280,7 @@ const translations = {
     "service-3": "Spitze HP: Online Repair",
     "service-description-3":
       "Operating temperature range: -46°C to 315°C. Maximum working pressure: up to 200 bar; maximum applied pressure: 150 bar. Suitable for holes up to 25mm in diameter and pipelines up to 56 inches. Can be applied underwater.",
-    "service-4": "Composite Rehabilitation",
+    "service-4": "Rehabilitation with composite materials",
     "service-description-4":
       "ALASH OIL GAS SERVICES offers innovative rehabilitation and reinforcement services using composite materials. Our approach significantly extends the durability and reliability of oil and gas infrastructure.",
     "service-5": "Wrapping Solutions",
@@ -493,7 +493,7 @@ const translations = {
     "service-1": "Ликвидация утечек",
     "service-description-1":
       "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
-    "service-4": "Реабилитация с композитами",
+    "service-4": "Реабилитация композитными материалами",
     "service-description-4":
       "ALASH OIL GAZ SERVICES предлагает инновационные услуги по реабилитации и усилению различных конструкций с использованием композитных материалов. Наш подход позволяет значительно повысить долговечность и надежность объектов нефтегазовой инфраструктуры.",
     "service-6": "Холодная сварка и полимеры",
