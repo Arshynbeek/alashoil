@@ -470,12 +470,13 @@
 
     <script>
       document.getElementById('whatsapp-form').addEventListener('submit', function (event) {
-        event.preventDefault();
-        var message = encodeURIComponent(document.getElementById('whatsapp-message').value);
-        var phoneNumber = "77020777977";
-        var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + message;
-        window.open(whatsappUrl, '_blank');
-      });
+          event.preventDefault();
+          var accompanyingWord = "Здравствуйте!\n";
+          var message = encodeURIComponent(document.getElementById('whatsapp-message').value);
+          var phoneNumber = "77020777977";
+          var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + accompanyingWord + " " + message;
+          window.open(whatsappUrl, '_blank');
+        });
     </script>
   </body>
 </html>

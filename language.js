@@ -194,6 +194,7 @@ const translations = {
     "product-description-12":
       "Құбыр желісіне 90° бұрышпен жұмыс істейтін затворы бар жиналған клапан жұмыс ортасының ағынын герметизациялау үшін қолданылады. Бұл клапан жоғары қысымда жұмыс істеуге арналған сенімді жабу механизмі болып табылады. Бұл клапандар түрі ең сенімді және пайдалануға оңай деп танылған.",
 
+    "learn-more": "Толығырақ",
     // Contact Section
     "contacts-title": "Байланыс",
     "contacts-description":
@@ -403,6 +404,7 @@ const translations = {
     "product-description-12":
       "An assembled valve with a closure element operating at a 90° angle to the pipeline is used for sealing the flow of the working medium. This valve is a reliable shut-off mechanism designed to operate under high pressure. This type of valve is recognized as one of the most reliable and easy to operate.",
 
+    "learn-more": "More",
     // Contact Section
     "contacts-title": "Contacts",
     "contacts-description":
