@@ -784,14 +784,9 @@ header ul {
   scrollbar-width: none;
 }
 
-.partners-container::-webkit-scrollbar {
-  display: none;
-}
-
 .partners {
   display: inline-flex;
   gap: 80px;
-  animation: scroll 40s linear infinite;
   width: max-content;
 }
 
@@ -801,40 +796,6 @@ header ul {
   object-fit: contain;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(calc(-50%));
-  }
-}
-
-.partners:hover {
-  animation-play-state: paused;
-}
-
-.partners-container::before,
-.partners-container::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100px;
-  z-index: 2;
-  pointer-events: none;
-}
-
-.partners-container::before {
-  left: 0;
-  background: linear-gradient(to right, white, transparent);
-}
-
-.partners-container::after {
-  right: 0;
-  background: linear-gradient(to left, white, transparent);
-}
 
 /* ==========>> services <<========== */
 
@@ -867,6 +828,7 @@ header ul {
 .services-tab {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-radius: 10px;
   background-color: #FFFFFF;
   overflow-x: auto;
@@ -881,6 +843,8 @@ header ul {
 }
 
 .services-tab span {
+  width: 100%;
+  text-align: center;
   border-radius: 10px;
   padding: 8px 16px;
   white-space: nowrap;

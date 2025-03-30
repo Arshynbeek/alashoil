@@ -365,7 +365,7 @@ class ServicesTab {
       {
         titleKey: "service-6",
         descriptionKey: "service-description-6",
-        image: "/public/service-16.webp",
+        image: "/public/service-18.jpg",
       },
       {
         titleKey: "service-7",
