@@ -340,42 +340,32 @@ class ServicesTab {
       {
         titleKey: "service-1",
         descriptionKey: "service-description-1",
-        image: "/public/service-6.webp",
+        image: "/public/service-1.webp",
       },
       {
         titleKey: "service-2",
         descriptionKey: "service-description-2",
-        image: "/public/service-7.webp",
+        image: "/public/service-3.webp",
       },
       {
         titleKey: "service-3",
         descriptionKey: "service-description-3",
-        image: "/public/service-5.webp",
+        image: "/public/service-4.webp",
       },
       {
         titleKey: "service-4",
         descriptionKey: "service-description-4",
-        image: "/public/service-17.jpg",
+        image: "/public/service-2.jpg",
       },
       {
         titleKey: "service-5",
         descriptionKey: "service-description-5",
-        image: "/public/service-2.webp",
+        image: "/public/service-5.webp",
       },
       {
         titleKey: "service-6",
         descriptionKey: "service-description-6",
-        image: "/public/service-18.jpg",
-      },
-      {
-        titleKey: "service-7",
-        descriptionKey: "service-description-7",
-        image: "/public/service-12.webp",
-      },
-      {
-        titleKey: "service-8",
-        descriptionKey: "service-description-8",
-        image: "/public/service-11.webp",
+        image: "/public/service-6.jpg",
       },
     ];
 

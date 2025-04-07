@@ -11,7 +11,7 @@ const translations = {
     // Hero Section
     "hero-title-1": "Тығызу шешімдері",
     "hero-description-1":
-      "Alash Oil Gas Services мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады. Біздің технологияларымыз зақымданудың алдын алуға, қоршаған ортаға төнетін қауіп-қатерлерді азайтуға және персоналдың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
+      "Temerlan zhN компаниясы мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады. Біздің технологияларымыз зақымданудың алдын алуға, қоршаған ортаға төнетін қауіп-қатерлерді азайтуға және персоналдың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
     "hero-title-2": "Композиттік материалдарды пайдаланып қалпына келтіру",
     "hero-description-2":
       "Біз өндірісті тоқтатпай-ақ жабдықтарды жөндеу және қалпына келтіру бойынша заманауи технологияларды ұсынамыз. Біздің шешімдеріміз ақауларды жылдам жоюды қамтамасыз етіп, қауіпсіздік пен үнемділікті арттырады.",
@@ -27,7 +27,6 @@ const translations = {
 
     // About Us Section
     "about-us-title": "Біз туралы",
-    "about-us": "Alash Oil Gas Services: Uly Dala холдингінің бөлігі",
     "about-text":
       "ULY DALA Holding – мұнай-газ саласы үшін кешенді шешімдерді ұсынатын серпінді дамып келе жатқан компаниялар тобы. 2001 жылдан бастап холдинг ұңғымаларды бұрғылау мен цементтеуден бастап жабдықты жобалау мен жеткізуге дейінгі қызметтердің кең спектрін ұсынатын сегіз мамандандырылған кәсіпорынды біріктіретін сенімді серіктес ретінде өзін танытты. Бүгінгі таңда холдингте 500-ден астам жоғары білікті мамандар жұмыс істейді, бұл кез келген күрделіліктегі жобалардың жоғары деңгейде орындалуын қамтамасыз етеді.",
     "about-us-subtitile-1": "Нақты шешімдер",
@@ -45,13 +44,13 @@ const translations = {
     // Partners Section
     "partners-title": "Серіктестер",
     partners:
-      "ALASH OIL GAS SERVICES мұнай-газ саласының көшбасшыларымен ынтымақтастық жасауды мақтан тұтады. Біздің клиенттеріміз - сапаны, сенімділік пен инновацияны бағалайтын компаниялар.",
+      "Temerlan zhN компаниясы мұнай-газ саласының көшбасшыларымен ынтымақтастық жасауды мақтан тұтады. Біздің клиенттеріміз - сапаны, сенімділік пен инновацияны бағалайтын компаниялар.",
 
     // Services Section
     "services-title": "Біздің қызметтеріміз",
     "service-1": "Ағып кетуді жою",
     "service-description-1":
-      "ALASH OIL GAS SERVICES мұнай-газ жүйелеріндегі ағып кетуді анықтау және жою үшін кешенді шешімдер ұсынады. Біздің озық технологияларымыз зақымданудың алдын алып, экологиялық қауіптерді азайтып, персоналдың қауіпсіздігін қамтамасыз етеді.",
+      "Temerlan zhN компаниясы мұнай-газ жүйелеріндегі ағып кетуді анықтау және жою үшін кешенді шешімдер ұсынады. Біздің озық технологияларымыз зақымданудың алдын алып, экологиялық қауіптерді азайтып, персоналдың қауіпсіздігін қамтамасыз етеді.",
     "service-2": "Ағып кетуді жоюға арналған Quickseal қысқыштары",
     "service-description-2":
       "Өндірісті тоқтатпай, құбырлардағы ағып кетулерді жедел және тиімді түрде жоюға арналған инновациялық қысқыштар.",
@@ -60,7 +59,7 @@ const translations = {
       "Жұмыс температурасының диапазоны: -46°C-тан 315°C-қа дейін. Максималды жұмыс қысымы: 200 барға дейін; максималды қолданбалы қысым: 150 бар. Диаметрі 25 мм-ге дейінгі тесіктер мен диаметрі 56 дюймге дейінгі құбырларға жарамды. Су астында қолдануға болады.",
     "service-4": "Композиттік материалдармен қалпына келтіру",
     "service-description-4":
-      "ALASH OIL GAS SERVICES композиттік материалдарды қолдана отырып, құрылымдарды қалпына келтіру және нығайту бойынша инновациялық қызметтерді ұсынады. Біздің әдістеріміз мұнай-газ инфрақұрылымының ұзақ мерзімділігін және сенімділігін едәуір арттырады.",
+      "Temerlan zhN компаниясы композиттік материалдарды қолдана отырып, құрылымдарды қалпына келтіру және нығайту бойынша инновациялық қызметтерді ұсынады. Біздің әдістеріміз мұнай-газ инфрақұрылымының ұзақ мерзімділігін және сенімділігін едәуір арттырады.",
     "service-5": "Орау шешімдері",
     "service-description-5":
       "Композиттік қаптама коррозияны, жарықтар мен жұқаруды жою арқылы құбырлар мен резервуар қабырғаларының беріктігін қалпына келтіреді. Бұл әдіс тоқтап қалу уақытын азайтады, жабдықтың қызмет ету мерзімін ұзартады және мұнай-газ және энергетика салаларында кеңінен қолданылады.",
@@ -71,7 +70,7 @@ const translations = {
 
     "service-1-title": "Мұнай мен газ жүйелеріндегі ағып кетулерді тоқтату",
     "service-1-text":
-      "ALASH OIL GAZ SERVICES мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады, соның ішінде:",
+      "Temerlan zhN компаниясы мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады, соның ішінде:",
     "service-1-list-1": "Ағып кетуді анықтау және диагностика жасау",
     "service-1-list-2": "Құбырларды жөндеу және нығайту",
     "service-1-list-3": "Алдын ала техникалық қызмет көрсету",
@@ -139,32 +138,23 @@ const translations = {
     "all-products": "Барлық өнімдер",
     "product-title": "Өнеркәсіптік жабдықтар",
     "products-description":
-      "ALASH OIL GAZ SERVICES серіктестігіміз OSS KAZAKHSTAN (NEOILFIELD SERVICES & SUPPLIES) серіктестігімен жоғары сапалы мұнай кәсіпшілік жабдықтарының кең спектрін ұсынады. Біздің өнімдер мұнай-газ саласының қатал жағдайында сенімді жұмысты қамтамасыз ететін ең жоғары сапа және қауіпсіздік стандарттарына сәйкес келеді.",
+      "Temerlan zhN серіктестігіміз OSS KAZAKHSTAN (NEOILFIELD SERVICES & SUPPLIES) серіктестігімен жоғары сапалы мұнай кәсіпшілік жабдықтарының кең спектрін ұсынады. Біздің өнімдер мұнай-газ саласының қатал жағдайында сенімді жұмысты қамтамасыз ететін ең жоғары сапа және қауіпсіздік стандарттарына сәйкес келеді.",
 
-    "product-3": "Фонтанды арматура",
-    "product-description-3":
-      "Фонтанды арматура мұнай және газ ұңғымаларының сағасын герметизациялау, насос-компрессор құбырларын ілу, ұңғымаларды басқару және реттеу, сондай-ақ өндірілген өнімдерді құбыр желісіне бағыттау үшін қолданылады. Сонымен қатар, ол ұңғымадағы технологиялық операцияларды орындауды қамтамасыз етеді.",
-    "product-4": "Ұңғыма сағалық жабдықтар",
-    "product-description-4":
-      "ALASH OIL GAZ SERVICES мұнай-газ өндірісіне арналған жабдықтардың кешенді шешімдерін ұсынады. Біздің ассортиментте сепараторлар, жылу алмастырғыштар, резервуарлар және мұнай мен газды өндіру, дайындау және тасымалдауға арналған басқа да арнайы жабдықтар бар.",
-    "product-7": "Болттық қосылыстар",
-    "product-description-7":
-      "Мұнай және газ өнеркәсібіндегі болттық қосылыстар жоғары қысымға, температураға және агрессивті ортаға төзімділікті, беріктік пен тығыздықты қамтамасыз етеді. Олардың сенімділігі ағып кетулердің алдын алуда және жабдықтың қауіпсіз жұмысын қамтамасыз етуде маңызды рөл атқарады.",
-    "product-8": "Гидравликалық кілттер",
-    "product-description-8":
-      "Өнеркәсіптік қосымшаларда болттарды дәл қатайту және босату үшін арналған құралдар. Құбыр желілерінде, ауыр жабдықтарда немесе құрылымдарды жинау кезінде қажет болатын бақыланатын моментті талап ететін тапсырмалар үшін өте қолайлы.",
-    "product-9": "Ілмекті қосылыстар",
-    "product-description-9":
-      "Ілмекті қосылыстар - бұл құбыр желілерін тез жинау үшін қолданылатын құбыр желілерін қосуға және бағыттауға арналған элементтер.",
-    "product-10": "Коллекторлы құбырлар",
-    "product-description-10":
-      "Коллекторлы құбырлар - бұл түйіндер мен жабдықтарға тез қосылу үшін жылдам қосылыстар (БРС) немесе фланецтер арқылы арналған құбыр жүйелерінің бөлігі.",
-    "product-11": "Шар клапаны",
-    "product-description-11":
-      "Шар клапаны қозғалмалы шар тәріздес затвормен жабдықталған, оның ортасында ағын өтуге арналған тесік бар және оны ашу немесе жабу үшін ось бойымен айналады. Қарапайым құрылымымен, оңай бөлшектеумен, ықшамдығымен және сенімді жұмысымен ерекшеленеді. Легирленген тот баспайтын болаттан жасалған, көлемді қатайту және тозуға төзімді жабынмен өңделген.",
-    "product-12": "Клапан",
-    "product-description-12":
-      "Құбыр желісіне 90° бұрышпен жұмыс істейтін затворы бар жиналған клапан жұмыс ортасының ағынын герметизациялау үшін қолданылады. Бұл клапан жоғары қысымда жұмыс істеуге арналған сенімді жабу механизмі болып табылады. Бұл клапандар түрі ең сенімді және пайдалануға оңай деп танылған.",
+    "product-1": "MEA - Моноэтаноламин",
+    "product-1-info":
+      "Моноэтаноламин (МЭА) – мұнай және газ өнеркәсібінде жиі қолданылатын органикалық химиялық қосылыс. газдарды көмірқышқыл газынан (СО2), күкіртсутектен (H2S) және басқа қоспалардан тазартуға арналған.",
+    "product-2": "DEA - Диэтаноламин 98%",
+    "product-2-info":
+      "Мұнай және газ өнеркәсібінде DEA көмірқышқыл газын (CO₂), күкіртті сутегін (H₂S) және табиғи газдан басқа қышқыл газдарды кетіру үшін амин еріткіш ретінде қолданылады.",
+    "product-3": "DEA - Диэтаноламин 85%",
+    "product-3-info":
+      "DEA 85% таза диетаноламиннің негізгі қасиеттерін сақтайды, бірақ оның концентрациясы төмен, бұл оны жұмсақ шарттарды қажет ететін кейбір қолданбаларға ыңғайлы етеді.",
+    "product-4": "TEA - Триэтаноламин 99%",
+    "product-4-info":
+      "Газды тазарту: ШАЙ мұнай және газ өнеркәсібінде көмірқышқыл газын (CO₂) және күкіртті сутегін (H₂S) амин газын тазарту процестерінде жою үшін қолданылады.",
+    "product-5": "TEA - Триэтаноламин 85%",
+    "product-5-info":
+      "Бұл триэтаноламиннің судағы немесе басқа еріткіштердегі ерітіндісі. Ол TEA негізгі химиялық қасиеттерін сақтайды, бірақ төмен концентрацияға ие, ол оңтайлы дозаны қажет ететін әртүрлі салаларда қолдануға ыңғайлы болуы мүмкін.",
 
     "learn-more": "Толығырақ",
     // Contact Section
@@ -191,7 +181,7 @@ const translations = {
     // Hero Section
     "hero-title-1": "Leak Solutions",
     "hero-description-1":
-      "Alash Oil Gas Services offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
+      "Temerlan zhN company offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
     "hero-title-2": "Restoration Using Composite Materials",
     "hero-description-2":
       "We offer modern technologies for equipment repair and restoration without the need to stop production. Our solutions ensure quick fault elimination, enhancing safety and cost efficiency.",
@@ -207,7 +197,6 @@ const translations = {
 
     // About Us Section
     "about-us-title": "About Us",
-    "about-us": "Alash Oil Gas Services: part of Uly Dala holding",
     "about-text":
       "ULY DALA Holding is a dynamically developing group of companies providing comprehensive solutions for the oil and gas industry. Since 2001, the holding has established itself as a reliable partner, uniting eight specialized enterprises offering a wide range of services: from drilling and cementing wells to designing and supplying equipment. Today, the holding employs more than 500 highly qualified specialists, which ensures a high level of execution of projects of any complexity.",
     "about-us-subtitile-1": "High-precision solution",
@@ -227,13 +216,13 @@ const translations = {
     // Partners Section
     "partners-title": "Partners",
     partners:
-      "ALASH OIL GAS SERVICES is proud to collaborate with leaders in the oil and gas industry. Our clients are companies that value quality, reliability and innovation.",
+      "Temerlan zhN company is proud to collaborate with leaders in the oil and gas industry. Our clients are companies that value quality, reliability and innovation.",
 
     // Services Section
     "services-title": "Our services",
     "service-1": "Leak Elimination",
     "service-description-1":
-      "ALASH OIL GAS SERVICES provides comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our advanced technologies help prevent damage, reduce environmental risks, and ensure personnel safety.",
+      "Temerlan zhN company provides comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our advanced technologies help prevent damage, reduce environmental risks, and ensure personnel safety.",
     "service-2": "Quickseal Clamps for Leak Repair",
     "service-description-2":
       "Innovative clamps designed for quick and efficient leak elimination in pipelines without stopping production.",
@@ -242,7 +231,7 @@ const translations = {
       "Operating temperature range: -46°C to 315°C. Maximum working pressure: up to 200 bar; maximum applied pressure: 150 bar. Suitable for holes up to 25mm in diameter and pipelines up to 56 inches. Can be applied underwater.",
     "service-4": "Rehabilitation with composite materials",
     "service-description-4":
-      "ALASH OIL GAS SERVICES offers innovative rehabilitation and reinforcement services using composite materials. Our approach significantly extends the durability and reliability of oil and gas infrastructure.",
+      "Temerlan zhN company offers innovative rehabilitation and reinforcement services using composite materials. Our approach significantly extends the durability and reliability of oil and gas infrastructure.",
     "service-5": "Wrapping Solutions",
     "service-description-5":
       "Composite wrapping restores the strength of pipe and tank walls, eliminating corrosion, cracks and thinning. The method minimizes downtime, extends the service life of equipment and is widely used in the oil and gas and energy industries.",
@@ -253,7 +242,7 @@ const translations = {
 
     "service-1-title": "Stopping Leaks in Oil and Gas Systems",
     "service-1-text":
-      "ALASH OIL GAZ SERVICES offers comprehensive solutions for detecting and stopping leaks in oil and gas systems, including:",
+      "Temerlan zhN company offers comprehensive solutions for detecting and stopping leaks in oil and gas systems, including:",
     "service-1-list-1": "Leak detection and diagnostics",
     "service-1-list-2": "Pipeline repair and reinforcement",
     "service-1-list-3": "Preventive maintenance",
@@ -319,32 +308,23 @@ const translations = {
     "all-products": "All Products",
     "product-title": "Industrial equipment",
     "products-description":
-      "ALASH OIL GAZ SERVICES, in cooperation with our partner OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), offers a wide range of high-quality oilfield equipment. Our products meet the highest quality and safety standards, ensuring reliable operation in the difficult conditions of the oil and gas industry.",
+      "Temerlan zhN company, in cooperation with our partner OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), offers a wide range of high-quality oilfield equipment. Our products meet the highest quality and safety standards, ensuring reliable operation in the difficult conditions of the oil and gas industry.",
 
-    "product-3": "Fountain fittings",
-    "product-description-3":
-      "The Christmas tree is a component of wellhead equipment used for sealing the wellhead of oil and gas wells, suspending the tubing string, controlling and regulating well operations, and directing produced fluids into pipelines. Additionally, it ensures the performance of technological operations on the well.",
-    "product-4": "Wellhead Equipment",
-    "product-description-4":
-      "ALASH OIL GAZ SERVICES offers comprehensive solutions in the field of oilfield equipment. Our range includes separators, heat exchangers, tanks, and other specialized equipment for oil and gas production, preparation, and transportation.",
-    "product-7": "Bolted Connections",
-    "product-description-7":
-      "Bolted connections in the oil and gas industry ensure strength, tightness, and resistance to high pressures, temperatures, and aggressive environments. Their reliability plays a key role in preventing leaks and ensuring safe equipment operation.",
-    "product-8": "Hydraulic Wrenches",
-    "product-description-8":
-      "Tools designed for precise tightening and loosening of bolts in industrial applications. Ideal for tasks requiring controlled torque, such as on pipelines, heavy equipment, or during the assembly of structures.",
-    "product-9": "Clamp Connections",
-    "product-description-9":
-      "Clamp connections are pipeline components used for connecting and orienting quick-assembly pipelines.",
-    "product-10": "Collector Pipes",
-    "product-description-10":
-      "Collector pipes are parts of pipelines designed for quick connection to nodes and equipment using quick couplings (QCs) or flanges.",
-    "product-11": "Ball Valve",
-    "product-description-11":
-      "A ball valve features a movable closure element in the form of a ball with a hole for flow passage that rotates around its axis to open or close. It is characterized by a simple design, easy disassembly, compactness, and reliable operation. Made of alloyed stainless steel with volumetric hardening and wear-resistant coating.",
-    "product-12": "Valve",
-    "product-description-12":
-      "An assembled valve with a closure element operating at a 90° angle to the pipeline is used for sealing the flow of the working medium. This valve is a reliable shut-off mechanism designed to operate under high pressure. This type of valve is recognized as one of the most reliable and easy to operate.",
+    "product-1": "MEA - Monoethanolamine",
+    "product-1-info":
+      "Monoethanolamine (MEA) is an organic chemical compound that is often used in the oil and gas industry to clean gases of carbon dioxide (CO2), hydrogen sulfide (H2S) and other impurities.",
+    "product-2": "DEA - Diethanolamine 98%",
+    "product-2-info":
+      "In the oil and gas industry, DEA is used as an amine solvent to remove carbon dioxide (CO₂), hydrogen sulfide (H₂S) and other acid gases from natural gas.",
+    "product-3": "DEA - Diethanolamine 85%",
+    "product-3-info":
+      "DEA 85% retains the essential properties of pure diethanolamine, but at a lower concentration, making it more suitable for some applications requiring milder conditions.",
+    "product-4": "TEA - Triethanolamine 99%",
+    "product-4-info":
+      "Gas Cleaning: TEA is used in the oil and gas industry to remove carbon dioxide (CO₂) and hydrogen sulfide (H₂S) in amine gas cleaning processes.",
+    "product-5": "TEA - Triethanolamine 85%",
+    "product-5-info":
+      "It is a solution of triethanolamine in water or other solvents. It retains the basic chemical properties of TEA, but has a lower concentration, which may be more convenient for use in various industries requiring optimal dosage.",
 
     "learn-more": "More",
     // Contact Section
@@ -371,7 +351,7 @@ const translations = {
     // Hero Section
     "hero-title-1": "Решения по устранению утечек",
     "hero-description-1":
-      "Alash Oil Gas Services предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
+      "Компания Temerlan zhN предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
     "hero-title-2": "Восстановление с использованием композитных материалов",
     "hero-description-2":
       "Мы предлагаем современные технологии для ремонта и восстановления оборудования без необходимости остановки производства. Наши решения обеспечивают быструю ликвидацию неисправностей, повышая безопасность и экономичность.",
@@ -388,7 +368,6 @@ const translations = {
 
     // About Us Section
     "about-us-title": "О Нас",
-    "about-us": "Alash Oil Gas Services: часть холдинга Uly Dala",
     "about-text":
       "Холдинг ULY DALA — динамично развивающаяся группа компаний, предоставляющая комплексные решения для нефтегазовой отрасли. С 2001 года холдинг зарекомендовал себя как надежный партнер, объединяющий восемь специализированных предприятий, предлагающих широкий спектр услуг: от бурения и цементирования скважин до проектирования и поставок оборудования. Сегодня в холдинге работают более 500 высококвалифицированных специалистов, что обеспечивает высокий уровень исполнения проектов любой сложности.",
     "about-us-subtitile-1": "Высокоточные решение",
@@ -417,16 +396,16 @@ const translations = {
 
     "partners-title": "Партнеры",
     partners:
-      "ALASH OIL GAZ SERVICES гордится сотрудничеством с лидерами нефтегазовой промышленности. Наши клиенты — это компании, которые ценят качество, надежность и инновации.",
+      "Компания Temerlan zhN гордится сотрудничеством с лидерами нефтегазовой промышленности. Наши клиенты — это компании, которые ценят качество, надежность и инновации.",
 
     // Services Section
     "services-title": "Наши услуги",
     "service-1": "Ликвидация утечек",
     "service-description-1":
-      "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
+      "Компания Temerlan zhN предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
     "service-4": "Реабилитация композитными материалами",
     "service-description-4":
-      "ALASH OIL GAZ SERVICES предлагает инновационные услуги по реабилитации и усилению различных конструкций с использованием композитных материалов. Наш подход позволяет значительно повысить долговечность и надежность объектов нефтегазовой инфраструктуры.",
+      "Компания Temerlan zhN предлагает инновационные услуги по реабилитации и усилению различных конструкций с использованием композитных материалов. Наш подход позволяет значительно повысить долговечность и надежность объектов нефтегазовой инфраструктуры.",
     "service-2": "Зажимы Quickseal для утечек",
     "service-description-2":
       "Инновационные зажимы для оперативного устранения утечек в трубопроводах без остановки производства.",
@@ -442,7 +421,7 @@ const translations = {
 
     "service-1-title": "Прекращение Утечек в Нефтегазовых Системах",
     "service-1-text":
-      "ALASH OIL GAZ SERVICES предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах, включая:",
+      "Компания Temerlan zhN предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах, включая:",
     "service-1-list-1": "Обнаружение и диагностика утечек",
     "service-1-list-2": "Ремонт и укрепление трудопроводов",
     "service-1-list-3": "Профилактическое обслуживание",
@@ -492,32 +471,23 @@ const translations = {
     "all-products": "Все Продукты",
     "product-title": "Промышленные оборудование",
     "products-description":
-      "ALASH OIL GAZ SERVICES, в сотрудничестве с нашим партнером OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), предлагает широкий спектр высококачественного нефтепромыслового оборудования. Наша продукция отвечает самым высоким стандартам качества и безопасности, обеспечивая надежную работу в сложных условиях нефтегазовой отрасли.",
+      "Компания Temerlan zhN, в сотрудничестве с нашим партнером OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), предлагает широкий спектр высококачественного нефтепромыслового оборудования. Наша продукция отвечает самым высоким стандартам качества и безопасности, обеспечивая надежную работу в сложных условиях нефтегазовой отрасли.",
 
-    "product-3": "Фонтанная арматура",
-    "product-description-3":
-      "Фонтанная елка — элемент устьевого оборудования, используемый для герметизации устья нефтяных и газовых скважин, подвешивания насосно- компрессорной колонны, контроля и регулирования работы скважин, а также направления добываемых продуктов в трубопровод. Кроме того, она обеспечивает выполнение технологических операций на скважине.",
-    "product-4": "Оборудование устьевое",
-    "product-description-4":
-      "ALASH OIL GAZ SERVICES предлагает комплексные решения в области нефтепромыслового оборудования. Наш ассортимент включает сепараторы, теплообменники, резервуары и другое специализированное оборудование для добычи, подготовки и транспортировки нефти и газа.",
-    "product-7": "Болтовые соединения",
-    "product-description-7":
-      "Болтовые соединения в нефтегазовой отрасли обеспечивают прочность, герметичность и устойчивость к высоким давлениям, температурам и агрессивным средам. Их надежность играет ключевую роль в предотвращении утечек и обеспечении безопасности эксплуатации оборудования.",
-    "product-8": "Гидравлические ключи",
-    "product-description-8":
-      "Инструменты, предназначенные для точного затягивания и откручивания болтов в промышленных приложениях. Идеальны для задач, требующих контролируемого момента затяжки, например, на трубопроводах, тяжелом оборудовании или при сборке конструкций.",
-    "product-9": "Соединения навесные",
-    "product-description-9":
-      "Соединения навесные - это соединительные элементы трубопроводов которые используются для соединения и ориентации быстро сборных трубопроводов",
-    "product-10": "Коллекторный трубы",
-    "product-description-10":
-      "Коллекторные трубы — это части трубопроводов, предназначенные для быстрого соединения с узлами и оборудованием с помощью БРС или фланцев.",
-    "product-11": "Кран шаровый",
-    "product-description-11":
-      "Шаровой кран имеет подвижную деталь затвора в виде шара с отверстием для пропуска потока, который вращается вокруг своей оси для перекрытия. Он отличается простой конструкцией, легкостью разборки, компактностью и надежностью в работе. Изготовлен из легированной нержавеющей стали с объемным упрочнением и износостойким покрытием.",
-    "product-12": "Клапан",
-    "product-description-12":
-      "Сборный клапан с затвором, работающим внутри корпуса под углом 90° к трубопроводу, используется для герметизации потока рабочего тела. Клапан представляет собой надежный запорный механизм, рассчитанный на работу под высоким давлением. Этот тип клапанов признан одним из самых надежных и простых в эксплуатации.",
+    "product-1": "MEA - Моноэтаноламин",
+    "product-1-info":
+      "Моноэтаноламин (MEA) — это органическое химическое соединение, которое часто используется в нефтегазовой промышленности для очистки газов от углекислого газа (CO2), сероводорода (H2S) и других примесей.",
+    "product-2": "DEA - Диэтаноламин 98%",
+    "product-2-info":
+      "В нефтегазовой промышленности DEA используется в качестве аминового растворителя для удаления углекислого газа (CO₂), сероводорода (H₂S) и других кислотных газов из природного газа.",
+    "product-3": "DEA - Диэтаноламин 85%",
+    "product-3-info":
+      "DEA 85% сохраняет основные свойства чистого диэтаноламина, но при этом имеет меньшую концентрацию, что делает его более удобным для некоторых применений, требующих более мягких условий.",
+    "product-4": "TEA - Триэтаноламин 99%",
+    "product-4-info":
+      "Очищение газов: TEA используется в нефтегазовой промышленности для удаления углекислого газа (CO₂) и сероводорода (H₂S) в процессах аминовой очистки газа.",
+    "product-5": "TEA - Триэтаноламин 85%",
+    "product-5-info":
+      "Это раствор триэтаноламина в воде или других растворителях. Он сохраняет основные химические свойства TEA, но имеет меньшую концентрацию, что может быть более удобным для применения в различных отраслях, требующих оптимальной дозировки.",
 
     // Contact Section
     "contacts-title": "Контакты",
