@@ -38,7 +38,7 @@ const translations = {
     "info-2": "Мамандар",
     "info-3": "Өнімдер",
     quote:
-      "Біз Қазақстан мен ТМД елдерінің мұнай-газ саласында инновациялық шешімдер ұсыну үшін білім мен тәжірибені біріктіреміз. Жас болғанымызға қарамастан, компаниямыз бай білім қорына, озық технологияларға ие және тиімді ынтымақтастыққа ұмтылады.",
+      "Біз Қазақстан мен ТМД елдерінің мұнай-газ саласында инновациялық шешімдер ұсыну үшін білім мен тәжірибені біріктіреміз. Компаниямыз бай білім қорына, озық технологияларға ие және тиімді ынтымақтастыққа ұмтылады.",
     more: "Толығырақ",
 
     // Partners Section
@@ -209,7 +209,7 @@ const translations = {
     "info-3": "Products",
 
     quote:
-      "We combine knowledge and experience to provide innovative solutions in the oil and gas sector of Kazakhstan and CIS countries. Despite our youth, our company has a rich knowledge base, advanced technologies and strives for effective cooperation.",
+      "We combine knowledge and experience to provide innovative solutions in the oil and gas sector of Kazakhstan and CIS countries. Our company has a rich knowledge base, advanced technologies and strives for effective cooperation.",
 
     more: "More",
 
@@ -390,7 +390,7 @@ const translations = {
     "info-3": "Продуктов",
 
     quote:
-      "Мы объединяем знания и опыт для предоставления инновационных решений в нефтегазовой сфере Казахстана и стран СНГ. Несмотря на молодость, наша компания обладает богатой базой знаний, передовыми технологиями и стремится к эффективному сотрудничеству.",
+      "Мы объединяем знания и опыт для предоставления инновационных решений в нефтегазовой сфере Казахстана и стран СНГ. Наша компания обладает богатой базой знаний, передовыми технологиями и стремится к эффективному сотрудничеству.",
 
     more: "Подробнее",
 

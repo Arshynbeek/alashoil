@@ -338,6 +338,11 @@ class ServicesTab {
 
     this.contents = [
       {
+        titleKey: "service-6",
+        descriptionKey: "service-description-6",
+        image: "/public/service-6.jpg",
+      },
+      {
         titleKey: "service-1",
         descriptionKey: "service-description-1",
         image: "/public/service-1.webp",
@@ -355,17 +360,12 @@ class ServicesTab {
       {
         titleKey: "service-4",
         descriptionKey: "service-description-4",
-        image: "/public/service-2.jpg",
+        image: "/public/service-2.png",
       },
       {
         titleKey: "service-5",
         descriptionKey: "service-description-5",
         image: "/public/service-5.webp",
-      },
-      {
-        titleKey: "service-6",
-        descriptionKey: "service-description-6",
-        image: "/public/service-6.jpg",
       },
     ];
 
