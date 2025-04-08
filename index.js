@@ -360,12 +360,12 @@ class ServicesTab {
       {
         titleKey: "service-4",
         descriptionKey: "service-description-4",
-        image: "/public/service-2.png",
+        image: "/public/service-5.jpg",
       },
       {
         titleKey: "service-5",
         descriptionKey: "service-description-5",
-        image: "/public/service-5.webp",
+        image: "/public/service-2.jpg",
       },
     ];
 

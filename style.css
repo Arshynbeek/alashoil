@@ -1094,6 +1094,79 @@ header ul {
   }
 }
 
+#certificates h2 {
+  color: var(--primary);
+}
+
+.certificates-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.certificates {
+  display: flex;
+  gap: 20px;
+  animation: scroll-left 60s linear infinite;
+  width: max-content;
+}
+
+.certificates-wrapper:hover .certificates {
+  animation-play-state: paused;
+}
+
+.certificates img {
+  height: 400px;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+  border: 1px solid rgba(211, 211, 211, 0.514);
+}
+
+.certificates img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  display: block;
+  margin: 5% auto;
+  max-width: 80%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+.close-img {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /* ==========>> footer <<========== */
 
 footer {
@@ -1192,7 +1265,7 @@ form button {
 #service-hero {
   width: 100%;
   height: 100vh;
-  background-image: url("/public/example.jpg");
+  background-image: url("/public/carousel-2.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1231,8 +1304,6 @@ form button {
 .service {
   width: 100%;
   height: 100vh;
-  position: sticky;
-  top: 0;
 }
 
 .service * {
@@ -1255,12 +1326,25 @@ form button {
   aspect-ratio: 1/1;
   border-radius: 16px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.service-3-img img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+.service-4-img img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
 
 .service-content {
@@ -1270,10 +1354,22 @@ form button {
   gap: 16px;
 }
 
+.service-content h4 {
+  font-size: large;
+}
+
+.service-content p {
+  font-size: medium;
+}
+
 .service-content li {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.service-content li span {
+  font-size: medium;
 }
 
 /* .service-hero span:nth-child(1) {

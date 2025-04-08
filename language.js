@@ -12,7 +12,8 @@ const translations = {
     "hero-title-1": "Тығызу шешімдері",
     "hero-description-1":
       "Temerlan zhN компаниясы мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады. Біздің технологияларымыз зақымданудың алдын алуға, қоршаған ортаға төнетін қауіп-қатерлерді азайтуға және персоналдың қауіпсіздігін қамтамасыз етуге мүмкіндік береді.",
-    "hero-title-2": "Композиттік материалдарды пайдаланып қалпына келтіру",
+    "hero-title-2":
+      "Композиттік материалдармен құбырларды жөндеу және қалпына келтіру",
     "hero-description-2":
       "Біз өндірісті тоқтатпай-ақ жабдықтарды жөндеу және қалпына келтіру бойынша заманауи технологияларды ұсынамыз. Біздің шешімдеріміз ақауларды жылдам жоюды қамтамасыз етіп, қауіпсіздік пен үнемділікті арттырады.",
     "hero-title-3": "Суық дәнекерлеу және полимерлік шешімдер",
@@ -68,69 +69,58 @@ const translations = {
     "service-description-6":
       "Күкірт өндіру зауытында диетаноламин (DEA) ерітіндісін тазарту. Ластаушы заттарды жою және ерітіндінің қасиеттерін қалпына келтіру.",
 
-    "service-1-title": "Мұнай мен газ жүйелеріндегі ағып кетулерді тоқтату",
+    "service-1-title": "Мұнай және газ жүйелеріндегі ағып кетуді тоқтату",
     "service-1-text":
-      "Temerlan zhN компаниясы мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату бойынша кешенді шешімдер ұсынады, соның ішінде:",
-    "service-1-list-1": "Ағып кетуді анықтау және диагностика жасау",
+      "Temerlan zhN мұнай-газ жүйелеріндегі ағып кетулерді анықтау және тоқтату үшін кешенді шешімдерді ұсынады, соның ішінде:",
+    "service-1-list-1": "Ағып кетуді анықтау және диагностикалау",
     "service-1-list-2": "Құбырларды жөндеу және нығайту",
-    "service-1-list-3": "Алдын ала техникалық қызмет көрсету",
+    "service-1-list-3": "Профилактикалық қызмет көрсету",
 
     "service-2-title":
-      "Композиттік материалдарды пайдалана отырып қалпына келтіру қызметтері",
+      "Композиттік материалдарды қолдану арқылы құбырларды жөндеу және қалпына келтіру",
     "service-2-text":
-      "Біз мұнай-газ инфрақұрылымындағы конструкцияларды нығайту мен қалпына келтіру бойынша композиттік материалдарды қолданатын инновациялық қызметтер ұсынамыз, олардың беріктігі мен сенімділігін арттырамыз.",
-    "service-2-list-1": "Инфрақұрылымды нығайту және жөндеу",
-    "service-2-list-2": "Композиттік нығайту технологиясы",
-    "service-2-list-3": "Ұзақ мерзімділік және үнемділік",
+      "Біз композиттік қалпына келтірудің инновациялық жүйелерін қолданамыз. Біз қолданатын технология - бұл болаттан берік, коррозияға және сыртқы зақымдануға төзімді көміртекті талшықты арматура.",
+    "service-2-list-1":
+      "Керіктілік параметрлерін жобалау үшін құбырларды қалпына келтіріңіз.",
+    "қызмет-2-тізім-2":
+      "Рұқсат етілген ең жоғары жұмыс қысымында жұмыс істеуді қамтамасыз ету.",
+    "service-2-list-3": "Өндірісті тоқтатпай жөндеу жұмыстарын жүргізіңіз.",
 
-    "service-3-title": "Суық дәнекерлеу және полимерлік шешімдер",
+    "service-3-title":
+      "Quicksseal клиптер: ағып кетуді тоқтатудың инновациялық шешімі",
     "service-3-text":
-      "Біз мұнай-газ саласындағы жабдықтарды жөндеу мен қалпына келтіру үшін заманауи суық дәнекерлеу және полимерлік шешімдерді ұсынамыз. Біздің шешімдер объектілерді тоқтатпай-ақ ақауларды тез жоюға мүмкіндік береді.",
-    "service-3-list-1": "Суық дәнекерлеу",
-    "service-3-list-2": "Полимерлік шешімдер",
-    "service-3-list-3": "Қауіпсіздік және үнемділік",
+      "Түрлі құбыр диаметрлеріне сәйкес келетін модульдік дизайн. Әртүрлі жұмыс жағдайлары үшін бірегей айнымалы бүрку жүйесі. Жинақта инъекциялық порттар, шпилькалар, құрама және орнату нұсқаулары бар.",
+    "service-3-list-1": "Ағып кетуді жөндеу уақытын қысқарту.",
+    "service-3-list-2": "Өндірісті тоқтату қажеттілігін жою.",
+    "service-3-list-3": "Қатаң сапа мен қауіпсіздік талаптарына сай.",
 
-    "service-4-title": "Жобалау және инженерлік қызметтер",
+    "service-4-title":
+      "Spitze HP қысқышы: желідегі төтенше жағдайда ағып кетуді жөндеу жүйесі",
     "service-4-text":
-      "Біз мұнай-газ саласы үшін кешенді жобалау және инженерлік қызметтерді ұсынамыз. Біздің мамандар тобы күрделі техникалық міндеттерге инновациялық шешімдер әзірлейді.",
-    "service-4-list-1": "Өнімдерді әзірлеу және жобалау",
-    "service-4-list-2": "Инженерлік жобалау және модельдеу",
-    "service-4-list-3": "Жүйелерді оңтайландыру және жетілдіру",
+      "Жұмыс температурасының диапазоны: -46°C-тан 315°C-қа дейін. Максималды жұмыс қысымы: 200 барға дейін; максималды қолданылған қысым: 150 бар. Диаметрі 25 мм-ге дейінгі тесіктерге және диаметрі 56 дюймге дейінгі құбырларға жарамды. Су астында пайдалану мүмкіндігі.",
+    "service-4-list-1":
+      "Ыстық жұмысты қажет етпейтін жылдам, инвазивті емес жөндеу.",
+    "service-4-list-2":
+      "Жоспарланбаған тоқтаусыз жөндеу жұмыстарын жүргізу мүмкіндігі.",
+    "service-4-list-3": "Күрделі құбыр геометриясын өңдеу мүмкіндігі.",
 
-    "service-5-title":
-      "Өнеркәсіпке арналған дәлме-дәл өндіріс және механикалық өңдеу",
+    "service-5-title": "Орау шешімдері",
     "service-5-text":
-      "Біздің компания термиялық өңдеу және қысым жабдықтарына арналған дәлме-дәл өндіріс және механикалық өңдеу қызметтерін ұсынады, ASME және SANS стандарттарына толық сәйкес келеді. Біз экстремалды жұмыс жағдайларына төтеп бере алатын жоғары сапалы компоненттерді жасауға маманданамыз.",
-    "service-5-list-1": "Ағып кетуді жоюға арналған қысқыштар мен қабықтар",
-    "service-5-list-2": "Арнайы суасты шешімдері",
-    "service-5-list-3": "Жылдам прототип жасау",
+      "Тот басқан, әлсіреген және тесілген құбырлар мен резервуар қабырғаларының беріктігін қалпына келтіру. Мұнай-газ және электр энергиясын өндіру сияқты салаларға жарамды.",
+    "service-5-list-1": "Сыртқы және химиялық коррозиядан қорғайды.",
+    "қызмет-5-тізім-2":
+      "Құбыр қабырғаларының қалыңдығын арттырады және ақаулы металл аймақтарын ауыстырады.",
+    "service-5-list-3": "Төзімділікті арттыру үшін химиялық заттардан қорғау.",
 
-    "service-6-title":
-      "Quickseal қысқыштары: Ағып кетулерді жоюға арналған инновациялық шешім",
+    "қызмет-6-title":
+      "Күкірт өндіру зауытында диэтаноламин (DEA) ерітіндісін тазарту қызметтері",
     "service-6-text":
-      "Әртүрлі құбыр диаметрлеріне арналған модульдік дизайн. Әртүрлі жұмыс жағдайлары үшін айнымалы инъекция жүйесі. Жинаққа инъекциялық порттар, шпилькалар, қосылыс және орнату нұсқаулары кіреді.",
-    "service-6-list-1": "Ағып кетулерді жөндеу уақытын қысқарту.",
-    "service-6-list-2": "Өндірісті тоқтату қажеттілігін болдырмау.",
-    "service-6-list-3": "Сапа мен қауіпсіздіктің қатаң талаптарына сәйкестік.",
-
-    "service-7-title":
-      "Spitze HP қысқышы: Төтенше жағдайларда ағып кетулерді онлайн жөндеу жүйесі",
-    "service-7-text":
-      "Жұмыс температурасының диапазоны: -46°C-тан 315°C-қа дейін. Максималды жұмыс қысымы: 200 бар-ға дейін; максималды қолданылатын қысым: 150 бар. Диаметрі 25 мм дейінгі тесіктер мен 56 дюймге дейінгі құбырларға жарамды. Суға батыру мүмкіндігі бар.",
-    "service-7-list-1":
-      "Ыстық жұмыстарды қажет етпейтін жылдам, инвазивті емес жөндеу.",
-    "service-7-list-2": "Жоспарланбаған тоқтап қалуларсыз жөндеу мүмкіндігі.",
-    "service-7-list-3":
-      "Құбырлардың күрделі геометриялық пішіндерімен жұмыс істей алу.",
-
-    "service-8-title": "Орау шешімдері",
-    "service-8-text":
-      "Коррозияға ұшыраған, әлсіреген және перфорацияланған құбырлар мен резервуарлардың қабырғаларының беріктігін қалпына келтіру. Мұнай-газ және энергетика сияқты салаларға жарамды.",
-    "service-8-list-1": "Сыртқы және химиялық коррозиядан қорғайды.",
-    "service-8-list-2":
-      "Құбыр қабырғасының қалыңдығын арттырады және ақаулы металл учаскелерін ауыстырады.",
-    "service-8-list-3":
-      "Химиялық әсерлерден қорғайды, бұл ұзақ мерзімділікті арттырады.",
+      "Диэтаноламин (DEA) ерітіндісін тазарту күкіртті алу қондырғысының тиімді жұмысын қамтамасыз ететін негізгі процесс болып табылады. Жұмыс кезінде DEA күкіртсутек (H₂S) және басқа қышқыл газдарды сіңіреді, бұл оның ластануына және тиімділігінің төмендеуіне әкеледі.",
+    "service-6-list-1":
+      "DEA қызмет ету мерзімін ұлғайту және шешімді ауыстыру құнын азайту.",
+    "service-6-list-2": "Күкіртсутекті сіңіру тиімділігін арттыру.",
+    "service-6-list-3": "Орнатудың операциялық шығындарын азайту.",
+    "service-6-list-4": "Технологиялық жабдықта коррозия мен ластануды азайту.",
 
     // Products Section
     "products-title": "Өнімдер",
@@ -140,19 +130,19 @@ const translations = {
     "products-description":
       "Temerlan zhN серіктестігіміз OSS KAZAKHSTAN (NEOILFIELD SERVICES & SUPPLIES) серіктестігімен жоғары сапалы мұнай кәсіпшілік жабдықтарының кең спектрін ұсынады. Біздің өнімдер мұнай-газ саласының қатал жағдайында сенімді жұмысты қамтамасыз ететін ең жоғары сапа және қауіпсіздік стандарттарына сәйкес келеді.",
 
-    "product-1": "MEA - Моноэтаноламин",
+    "product-1": "Моноэтаноламин",
     "product-1-info":
       "Моноэтаноламин (МЭА) – мұнай және газ өнеркәсібінде жиі қолданылатын органикалық химиялық қосылыс. газдарды көмірқышқыл газынан (СО2), күкіртсутектен (H2S) және басқа қоспалардан тазартуға арналған.",
-    "product-2": "DEA - Диэтаноламин 98%",
+    "product-2": "Диэтаноламин 98%",
     "product-2-info":
       "Мұнай және газ өнеркәсібінде DEA көмірқышқыл газын (CO₂), күкіртті сутегін (H₂S) және табиғи газдан басқа қышқыл газдарды кетіру үшін амин еріткіш ретінде қолданылады.",
-    "product-3": "DEA - Диэтаноламин 85%",
+    "product-3": "Диэтаноламин 85%",
     "product-3-info":
       "DEA 85% таза диетаноламиннің негізгі қасиеттерін сақтайды, бірақ оның концентрациясы төмен, бұл оны жұмсақ шарттарды қажет ететін кейбір қолданбаларға ыңғайлы етеді.",
-    "product-4": "TEA - Триэтаноламин 99%",
+    "product-4": "Триэтаноламин 99%",
     "product-4-info":
       "Газды тазарту: ШАЙ мұнай және газ өнеркәсібінде көмірқышқыл газын (CO₂) және күкіртті сутегін (H₂S) амин газын тазарту процестерінде жою үшін қолданылады.",
-    "product-5": "TEA - Триэтаноламин 85%",
+    "product-5": "Триэтаноламин 85%",
     "product-5-info":
       "Бұл триэтаноламиннің судағы немесе басқа еріткіштердегі ерітіндісі. Ол TEA негізгі химиялық қасиеттерін сақтайды, бірақ төмен концентрацияға ие, ол оңтайлы дозаны қажет ететін әртүрлі салаларда қолдануға ыңғайлы болуы мүмкін.",
 
@@ -182,9 +172,10 @@ const translations = {
     "hero-title-1": "Leak Solutions",
     "hero-description-1":
       "Temerlan zhN company offers comprehensive solutions for detecting and stopping leaks in oil and gas systems. Our technologies effectively prevent damage, minimize environmental risks, and ensure personnel safety.",
-    "hero-title-2": "Restoration Using Composite Materials",
+    "hero-title-2":
+      "Repair and restoration of pipelines with composite materials",
     "hero-description-2":
-      "We offer modern technologies for equipment repair and restoration without the need to stop production. Our solutions ensure quick fault elimination, enhancing safety and cost efficiency.",
+      "Біздің қолданатын технология — көмір қол жүйесінен жасалған арматурлау таспасы, күштікті, ашуға және сырқытуға қарсы тұра алатын, темірден қатты тиетін.",
     "hero-title-3": "Cold Welding and Polymer Solutions",
     "hero-description-3":
       "Metal joining without heating preserves their properties. Polymer composites, such as epoxy resins, protect equipment from exposure in aggressive environments.",
@@ -240,67 +231,60 @@ const translations = {
     "service-description-6":
       "Diethanolamine (DEA) solution cleaning at a sulfur production plant. Removal of contaminants and restoration of solution properties.",
 
-    "service-1-title": "Stopping Leaks in Oil and Gas Systems",
+    "service-1-title": "Oil and Gas Leak Stopping",
     "service-1-text":
-      "Temerlan zhN company offers comprehensive solutions for detecting and stopping leaks in oil and gas systems, including:",
-    "service-1-list-1": "Leak detection and diagnostics",
-    "service-1-list-2": "Pipeline repair and reinforcement",
-    "service-1-list-3": "Preventive maintenance",
+      "Temerlan zhN offers comprehensive solutions for leak detection and stopping in oil and gas systems, including:",
+    "service-1-list-1": "Leak Detection and Diagnostics",
+    "service-1-list-2": "Pipeline Repair and Strengthening",
+    "service-1-list-3": "Preventive Maintenance",
 
-    "service-2-title": "Rehabilitation Services Using Composite Materials",
+    "service-2-title":
+      "Repair and restoration of pipelines using composite materials",
     "service-2-text":
-      "We offer innovative services for rehabilitation and strengthening of structures using composite materials, enhancing their durability and reliability in oil and gas infrastructure.",
-    "service-2-list-1": "Infrastructure Strengthening and Repair",
-    "service-2-list-2": "Composite Reinforcement Technology",
-    "service-2-list-3": "Durability and Cost Efficiency",
+      "We use innovative Composite Rehabilitation Systems. The technology we use is a reinforcing winding made of carbon fiber, stronger than steel, resistant to corrosion and external damage.",
+    "service-2-list-1": "Restore pipelines to design strength parameters.",
+    "service-2-list-2":
+      "Ensure operation at the maximum permissible working pressure.",
+    "service-2-list-3": "Carry out repairs without stopping production.",
 
-    "service-3-title": "Cold Welding and Polymer Solutions",
+    "service-3-title":
+      "Quickseal Clamps: An Innovative Solution for Leak Repair",
     "service-3-text":
-      "We provide advanced cold welding and polymer solutions for equipment repair and restoration in the oil and gas industry. Our solutions enable quick fixes without halting operations.",
-    "service-3-list-1": "Cold Welding",
-    "service-3-list-2": "Polymer Solutions",
-    "service-3-list-3": "Safety and Cost Efficiency",
+      "Modular design to accommodate a variety of pipe diameters. Unique variable injection system for a variety of operating conditions. Kit includes injection ports, studs, compound and installation instructions.",
+    "service-3-list-1": "Reduce leak repair time.",
+    "service-3-list-2": "Eliminate production downtime.",
+    "service-3-list-3": "Meet stringent quality and safety requirements.",
 
-    "service-4-title": "Design and Engineering Services",
+    "service-4-title":
+      "Spitze HP Clamp: An Emergency Online Leak Repair System",
     "service-4-text":
-      "We provide comprehensive design and engineering services for the oil and gas industry. Our team of experts develops innovative solutions for complex technical challenges.",
-    "service-4-list-1": "Product Development and Design",
-    "service-4-list-2": "Engineering Design and Modeling",
-    "service-4-list-3": "System Optimization and Improvement",
+      "Operating temperature range: -46°C to 315°C. Maximum working pressure: up to 200 bar; Maximum applied pressure: 150 bar. Suitable for bores up to 25 mm and pipes up to 56 inches. Suitable for underwater use.",
+    "service-4-list-1":
+      "Fast, non-invasive repairs without the need for hot work.",
+    "service-4-list-2":
+      "Ability to carry out repairs without unplanned downtime.",
+    "service-4-list-3": "Ability to cope with complex pipe geometries.",
 
-    "service-5-title":
-      "Precision Manufacturing and Mechanical Processing for Industry",
+    "service-5-title": "Wrapping solutions",
     "service-5-text":
-      "Our company offers advanced manufacturing and mechanical processing services for thermal treatment and pressure equipment, fully compliant with ASME and SANS standards. We specialize in creating high-quality components capable of withstanding extreme operating conditions.",
-    "service-5-list-1": "Clamps and Shells for Leak Elimination",
-    "service-5-list-2": "Specialized Subsea Solutions",
-    "service-5-list-3": "Rapid Prototyping",
+      "Restoring the strength of corroded, weakened and perforated pipe and tank walls. Suitable for industries such as oil and gas and power generation.",
+    "service-5-list-1": "Protects against external and chemical corrosion.",
+    "service-5-list-2":
+      "Increases pipe wall thickness and replaces defective metal sections.",
+    "service-5-list-3":
+      "Protects against chemical attack, increasing durability.",
 
     "service-6-title":
-      "Quickseal Clamps: An Innovative Leak Elimination Solution",
+      "Diethanolamine (DEA) Solution Cleaning Services for Sulfur Recovery Units",
     "service-6-text":
-      "Modular design suitable for various pipe diameters. Unique variable injection system for different operating conditions. The kit includes injection ports, studs, compound, and installation instructions.",
-    "service-6-list-1": "Reducing leak repair time.",
-    "service-6-list-2": "Eliminating the need for production downtime.",
-    "service-6-list-3": "Meeting strict quality and safety standards.",
-
-    "service-7-title": "Spitze HP Clamp: Emergency Online Leak Repair System",
-    "service-7-text":
-      "Operating temperature range: -46°C to 315°C. Maximum working pressure: up to 200 bar; maximum applied pressure: 150 bar. Suitable for holes up to 25 mm and pipelines up to 56 inches in diameter. Usable underwater.",
-    "service-7-list-1":
-      "Fast, non-invasive repair without the need for hot work.",
-    "service-7-list-2":
-      "Ability to perform repairs without unscheduled downtime.",
-    "service-7-list-3": "Capable of handling complex pipeline geometries.",
-
-    "service-8-title": "Wrapping Solutions",
-    "service-8-text":
-      "Restoring the strength of corroded, weakened, and perforated pipe and tank walls. Suitable for industries such as oil and gas and energy.",
-    "service-8-list-1": "Protects against external and chemical corrosion.",
-    "service-8-list-2":
-      "Increases pipe wall thickness and replaces defective metal sections.",
-    "service-8-list-3":
-      "Protection from chemical exposure, increasing durability.",
+      "Diethanolamine (DEA) solution cleaning is a key process to ensure efficient operation of a sulfur recovery unit. During operation, DEA absorbs hydrogen sulfide (H₂S) and other acid gases, which leads to its contamination and reduced efficiency.",
+    "service-6-list-1":
+      "Increasing the service life of DEA and reducing the cost of replacing the solution.",
+    "service-6-list-2":
+      "Increasing the efficiency of hydrogen sulfide absorption.",
+    "service-6-list-3": "Reducing the operating costs of the unit.",
+    "service-6-list-4":
+      "Minimizing corrosion and contamination in process equipment.",
 
     // Products Section
     "products-title": "Products",
@@ -310,19 +294,19 @@ const translations = {
     "products-description":
       "Temerlan zhN company, in cooperation with our partner OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), offers a wide range of high-quality oilfield equipment. Our products meet the highest quality and safety standards, ensuring reliable operation in the difficult conditions of the oil and gas industry.",
 
-    "product-1": "MEA - Monoethanolamine",
+    "product-1": "Monoethanolamine",
     "product-1-info":
       "Monoethanolamine (MEA) is an organic chemical compound that is often used in the oil and gas industry to clean gases of carbon dioxide (CO2), hydrogen sulfide (H2S) and other impurities.",
-    "product-2": "DEA - Diethanolamine 98%",
+    "product-2": "Diethanolamine 98%",
     "product-2-info":
       "In the oil and gas industry, DEA is used as an amine solvent to remove carbon dioxide (CO₂), hydrogen sulfide (H₂S) and other acid gases from natural gas.",
-    "product-3": "DEA - Diethanolamine 85%",
+    "product-3": "Diethanolamine 85%",
     "product-3-info":
       "DEA 85% retains the essential properties of pure diethanolamine, but at a lower concentration, making it more suitable for some applications requiring milder conditions.",
-    "product-4": "TEA - Triethanolamine 99%",
+    "product-4": "Triethanolamine 99%",
     "product-4-info":
       "Gas Cleaning: TEA is used in the oil and gas industry to remove carbon dioxide (CO₂) and hydrogen sulfide (H₂S) in amine gas cleaning processes.",
-    "product-5": "TEA - Triethanolamine 85%",
+    "product-5": "Triethanolamine 85%",
     "product-5-info":
       "It is a solution of triethanolamine in water or other solvents. It retains the basic chemical properties of TEA, but has a lower concentration, which may be more convenient for use in various industries requiring optimal dosage.",
 
@@ -352,9 +336,10 @@ const translations = {
     "hero-title-1": "Решения по устранению утечек",
     "hero-description-1":
       "Компания Temerlan zhN предлагает комплексные решения по обнаружению и прекращению утечек в нефтегазовых системах. Наши технологии позволяют эффективно предотвращать повреждения, минимизировать риски для окружающей среды и обеспечивать безопасность персонала.",
-    "hero-title-2": "Восстановление с использованием композитных материалов",
+    "hero-title-2":
+      "Ремонт и восстановление трубопроводов композитными материалами",
     "hero-description-2":
-      "Мы предлагаем современные технологии для ремонта и восстановления оборудования без необходимости остановки производства. Наши решения обеспечивают быструю ликвидацию неисправностей, повышая безопасность и экономичность.",
+      "Применяемая нами технология — это армирующая обмотка из углеродного волокна, прочнее стали, устойчивая к коррозии и внешним повреждениям.",
     "hero-title-3": "Холодная сварка и Полимерные решения",
     "hero-description-3":
       "Соединение металлов без нагрева сохраняет их свойства. Полимерные композиты, например, эпоксидные смолы, защищают оборудование от воздействия в агрессивных условиях.",
@@ -427,42 +412,53 @@ const translations = {
     "service-1-list-3": "Профилактическое обслуживание",
 
     "service-2-title":
-      "Услуги по Реабилитации с Использованием Композитных материалов",
+      "Ремонт и восстановление трубопроводов с помощью композитных материалов",
     "service-2-text":
-      "Мы предлагаем инновационные услуги по реабилитации и усилению конструкций с композитными материалами, повышая их долговечность и надежность в нефтегазовой инфраструктуре.",
-    "service-2-list-1": "Усиление и Ремонт Инфраструктуры",
-    "service-2-list-2": "Технология Композитного Усиления",
-    "service-2-list-3": "Долговечность и Экономия",
+      "Мы используем инновационные системы Composite Rehabilitation Systems. Применяемая нами технология — это армирующая обмотка из углеродного волокна, прочнее стали, устойчивая к коррозии и внешним повреждениям.",
+    "service-2-list-1":
+      "Восстановить трубопроводы до проектных параметров прочности.",
+    "service-2-list-2":
+      "Обеспечить эксплуатацию на максимально допустимом рабочем давлении.",
+    "service-2-list-3": "Проводить ремонт без остановки производства.",
 
-    "service-6-title":
+    "service-3-title":
       "Зажимы Quickseal: Инновационное решение для устранения утечек",
-    "service-6-text":
+    "service-3-text":
       "Модульная конструкция, подходящая для различных диаметров труб. Уникальная система переменной инъекции для различных условий эксплуатации. Комплект включает инъекционные порты, шпильки, компаунд и инструкции по установке.",
-    "service-6-list-1": "Сокращение времени ремонта утечек.",
-    "service-6-list-2": "Исключение необходимости остановки производства.",
-    "service-6-list-3":
+    "service-3-list-1": "Сокращение времени ремонта утечек.",
+    "service-3-list-2": "Исключение необходимости остановки производства.",
+    "service-3-list-3":
       "Соответствие строгим требованиям к качеству и безопасности.",
 
-    "service-7-title":
+    "service-4-title":
       "Зажим Spitze HP: Система аварийного онлайн-ремонта утечек",
-    "service-7-text":
+    "service-4-text":
       "Диапазон рабочих температур: от -46°C до 315°C. Максимальное рабочее давление: до 200 бар; максимальное прикладное давление: 150 бар. Подходит для отверстий диаметром до 25 мм и трубопроводов диаметром до 56 дюймов. Возможность применения под водой.",
-    "service-7-list-1":
+    "service-4-list-1":
       "Быстрый, неинвазивный ремонт без необходимости горячих работ.",
-    "service-7-list-2":
+    "service-4-list-2":
       "Возможность проведения ремонта без незапланированных простоев.",
-    "service-7-list-3":
+    "service-4-list-3":
       "Способность справляться со сложными геометрическими формами трубопроводов.",
 
-    "service-8-title":
+    "service-5-title": "Решения для обертывания",
+    "service-5-text":
+      "Восстановление прочности корродированных, ослабленных и перфорированных стенок труб и резервуаров. Подходит для отраслей, таких как нефтегазовая промышленность и энергетика.",
+    "service-5-list-1": "Защищает от внешней и химической коррозии.",
+    "service-5-list-2":
+      "Увеличивает толщину стенок труб и заменяет дефектные металлические участки.",
+    "service-5-list-3":
+      "Защита от воздействия химических веществ, что увеличивает долговечность.",
+
+    "service-6-title":
       "Услуги по очистке раствора диэтаноламина (ДЭА) на установке производства серы",
-    "service-8-text":
+    "service-6-text":
       "Очистка раствора диэтаноламина (ДЭА) – это ключевой процесс, обеспечивающий эффективную работу установки производства серы. В ходе эксплуатации ДЭА поглощает сероводород (H₂S) и другие кислые газы, что приводит к его загрязнению и снижению эффективности.",
-    "service-8-list-1":
+    "service-6-list-1":
       "Увеличение срока службы ДЭА и снижение затрат на замену раствора.",
-    "service-8-list-2": "Повышение эффективности абсорбции сероводорода.",
-    "service-8-list-3": "Снижение эксплуатационных расходов установки.",
-    "service-8-list-4":
+    "service-6-list-2": "Повышение эффективности абсорбции сероводорода.",
+    "service-6-list-3": "Снижение эксплуатационных расходов установки.",
+    "service-6-list-4":
       "Минимизация коррозии и загрязнений в технологическом оборудовании.",
 
     // Products Section
@@ -473,21 +469,23 @@ const translations = {
     "products-description":
       "Компания Temerlan zhN, в сотрудничестве с нашим партнером OSS KAZAKHSTAN (OILFIELD SERVICES & SUPPLIES), предлагает широкий спектр высококачественного нефтепромыслового оборудования. Наша продукция отвечает самым высоким стандартам качества и безопасности, обеспечивая надежную работу в сложных условиях нефтегазовой отрасли.",
 
-    "product-1": "MEA - Моноэтаноламин",
+    "product-1": "Моноэтаноламин",
     "product-1-info":
       "Моноэтаноламин (MEA) — это органическое химическое соединение, которое часто используется в нефтегазовой промышленности для очистки газов от углекислого газа (CO2), сероводорода (H2S) и других примесей.",
-    "product-2": "DEA - Диэтаноламин 98%",
+    "product-2": "Диэтаноламин 98%",
     "product-2-info":
       "В нефтегазовой промышленности DEA используется в качестве аминового растворителя для удаления углекислого газа (CO₂), сероводорода (H₂S) и других кислотных газов из природного газа.",
-    "product-3": "DEA - Диэтаноламин 85%",
+    "product-3": "Диэтаноламин 85%",
     "product-3-info":
       "DEA 85% сохраняет основные свойства чистого диэтаноламина, но при этом имеет меньшую концентрацию, что делает его более удобным для некоторых применений, требующих более мягких условий.",
-    "product-4": "TEA - Триэтаноламин 99%",
+    "product-4": "Триэтаноламин 99%",
     "product-4-info":
       "Очищение газов: TEA используется в нефтегазовой промышленности для удаления углекислого газа (CO₂) и сероводорода (H₂S) в процессах аминовой очистки газа.",
-    "product-5": "TEA - Триэтаноламин 85%",
+    "product-5": "Триэтаноламин 85%",
     "product-5-info":
       "Это раствор триэтаноламина в воде или других растворителях. Он сохраняет основные химические свойства TEA, но имеет меньшую концентрацию, что может быть более удобным для применения в различных отраслях, требующих оптимальной дозировки.",
+
+    "certificate-title": "Сертификаты",
 
     // Contact Section
     "contacts-title": "Контакты",
