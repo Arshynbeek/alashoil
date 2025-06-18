@@ -340,7 +340,7 @@ class ServicesTab {
       {
         titleKey: "service-6",
         descriptionKey: "service-description-6",
-        image: "/public/service-6.jpg",
+        image: "/public/service-5.jpg",
       },
       {
         titleKey: "service-1",
@@ -360,12 +360,33 @@ class ServicesTab {
       {
         titleKey: "service-4",
         descriptionKey: "service-description-4",
-        image: "/public/service-5.jpg",
+        image: "/public/service-6.jpg",
       },
       {
         titleKey: "service-5",
         descriptionKey: "service-description-5",
         image: "/public/service-2.jpg",
+      },
+      {
+        titleKey: "service-7",
+        descriptionKey: "service-description-7",
+        descriptionKey1: "service-description-77",
+        image: "/public/service-7.jpg",
+      },
+      {
+        titleKey: "service-8",
+        descriptionKey: "service-description-8",
+        image: "/public/service-8.jpg",
+      },
+      {
+        titleKey: "service-9",
+        descriptionKey: "service-description-9",
+        image: "/public/service-9.jpg",
+      },
+      {
+        titleKey: "service-10",
+        descriptionKey: "service-description-10",
+        image: "/public/service-10.jpg",
       },
     ];
 
@@ -414,6 +435,11 @@ class ServicesTab {
           <div>
             <h3 data-i18n="${content.titleKey}"></h3>
             <p data-i18n="${content.descriptionKey}"></p>
+            ${
+              content.descriptionKey1 === "service-description-77"
+                ? `<p data-i18n="${content.descriptionKey1}"></p>`
+                : ""
+            }
           </div>
           <a href="/service.html">
             <button class='learn-more'>

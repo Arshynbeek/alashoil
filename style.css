@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --primary: #003366;
-  --secondary: #0099CC;
-  --primary-dark: #004C80;
+  --secondary: #0099cc;
+  --primary-dark: #004c80;
   --primary-regular: #006699;
-  --primary-light: #0080B3;
-  --main: #CCCCCC;
+  --primary-light: #0080b3;
+  --main: #cccccc;
 
-  --primary-1: #004D40;
-  --secondary-1: #FFD700;
+  --primary-1: #004d40;
+  --secondary-1: #ffd700;
   --main-1: #333333;
 
-  --primary-2: #001F3F;
-  --secondary-2: #FF851B;
-  --main-2: #DDDDDD;
+  --primary-2: #001f3f;
+  --secondary-2: #ff851b;
+  --main-2: #dddddd;
   --submain-2: #111111;
 
-  --primary-3: #8B0000;
-  --secondary-3: #2F4F4F;
-  --main-3: #C0C0C0;
+  --primary-3: #8b0000;
+  --secondary-3: #2f4f4f;
+  --main-3: #c0c0c0;
 
   --primary-4: #008080;
-  --secondary-4: #FFBF00;
+  --secondary-4: #ffbf00;
   --main-4: #708090;
 
-  --description: #696A6E;
+  --description: #696a6e;
 }
 
 *,
@@ -65,15 +65,29 @@ section {
   padding: 80px 24px;
 }
 
-h1, h2, h3, h4, h5, h6, p, a,
-small, strong, span, li, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+small,
+strong,
+span,
+li,
+button {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
   color: #000000;
 }
 
-p, a, span, strong {
+p,
+a,
+span,
+strong {
   font-size: 18px;
 }
 
@@ -82,7 +96,8 @@ h1 {
   font-weight: 600;
 }
 
-h2, h5 {
+h2,
+h5 {
   font-size: 56px;
   font-weight: 700;
   margin: 0 0 24px 0;
@@ -123,7 +138,8 @@ a:hover {
   text-decoration: underline;
 }
 
-#logo, #logo-mobile {
+#logo,
+#logo-mobile {
   width: 180px;
   height: 72px;
   overflow: hidden;
@@ -131,7 +147,8 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-#logo img, #logo-mobile img {
+#logo img,
+#logo-mobile img {
   width: 130%;
   height: 130%;
   object-fit: cover;
@@ -142,13 +159,18 @@ a:hover {
 }
 
 @media screen and (max-width: 1240px) {
-  p, a, span, strong {
+  p,
+  a,
+  span,
+  strong {
     font-size: 16px;
   }
-  h1, h4 {
+  h1,
+  h4 {
     font-size: 22px;
   }
-  h2, h5 {
+  h2,
+  h5 {
     font-size: 48px;
     margin: 0 0 22px 0;
   }
@@ -167,13 +189,18 @@ a:hover {
   section {
     padding: 60px 16px;
   }
-  p, a, span, strong {
+  p,
+  a,
+  span,
+  strong {
     font-size: 16px;
   }
-  h1, h4 {
+  h1,
+  h4 {
     font-size: 20px;
   }
-  h2, h5 {
+  h2,
+  h5 {
     font-size: 42px;
     margin: 0 0 22px 0;
   }
@@ -204,7 +231,7 @@ a:hover {
 /* ==========>> header <<========== */
 
 header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   padding: 24px;
   display: flex;
@@ -227,7 +254,7 @@ header ul {
 }
 
 .header button {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
 }
 
 .header a:hover {
@@ -288,7 +315,8 @@ header ul {
   padding: 0;
 }
 
-.menu-header, .menu li {
+.menu-header,
+.menu li {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -379,7 +407,7 @@ header ul {
 }
 
 .hero * {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero p {
@@ -430,7 +458,7 @@ header ul {
 
 .control {
   width: 100%;
-  position: absolute; 
+  position: absolute;
   left: 0;
   bottom: 15px;
   display: flex;
@@ -444,7 +472,7 @@ header ul {
   width: 32px;
   height: 10px;
   border-radius: 8px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   overflow: hidden;
   background: transparent;
   transition: background 0.1s linear;
@@ -455,10 +483,11 @@ header ul {
 }
 
 #control-button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 2px;
   border: none;
-  border-radius: 100%;cursor: pointer;
+  border-radius: 100%;
+  cursor: pointer;
 }
 
 #play {
@@ -487,12 +516,12 @@ header ul {
 
 #about-us h2 {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
 }
 #about-us h3 {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 18px;
   font-weight: 600;
 }
@@ -501,7 +530,7 @@ header ul {
   margin: 0 auto;
   text-align: center;
   max-width: 1000px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .about-us-content {
@@ -635,8 +664,9 @@ header ul {
   text-align: center;
 }
 
-.info span, .info p {
-  color: #FFFFFF;
+.info span,
+.info p {
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -673,7 +703,7 @@ header ul {
 }
 
 .quote h3 span.read {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .doing {
@@ -683,10 +713,11 @@ header ul {
 }
 
 .doing button {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
 }
-.doing *, .activity * {
-  color: #FFFFFF;
+.doing *,
+.activity * {
+  color: #ffffff;
 }
 
 .doing:hover {
@@ -725,7 +756,8 @@ header ul {
   .quote h3 span {
     font-size: 36px;
   }
-  .info span, .info p {
+  .info span,
+  .info p {
     font-size: 32px;
   }
   .info {
@@ -755,7 +787,7 @@ header ul {
     gap: 0;
     margin-left: 10vw;
   }
-  
+
   #position {
     display: none;
   }
@@ -797,7 +829,6 @@ header ul {
   object-fit: contain;
 }
 
-
 /* ==========>> services <<========== */
 
 #services {
@@ -831,7 +862,7 @@ header ul {
   align-items: center;
   justify-content: space-between;
   border-radius: 10px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 4px;
@@ -860,7 +891,7 @@ header ul {
   background-color: var(--primary-2);
   background-color: var(--primary-3);
   background-color: var(--primary-4); */
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .services-container {
@@ -903,7 +934,7 @@ header ul {
 }
 
 .services-content p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .services-content a:hover {
   text-decoration: none;
@@ -911,11 +942,11 @@ header ul {
 
 .services-content button {
   margin-top: 16px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
 }
 
 .service-content * {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .services-img {
@@ -1034,7 +1065,7 @@ header ul {
 }
 
 .product-info p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .product-img:hover img {
@@ -1094,7 +1125,7 @@ header ul {
   }
 }
 
-#certificates h2 {
+/* #certificates h2 {
   color: var(--primary);
 }
 
@@ -1135,6 +1166,30 @@ header ul {
   100% {
     transform: translateX(-50%);
   }
+} */
+
+#certificatess {
+  overflow: hidden;
+}
+
+#certificatess h2 {
+  color: var(--primary);
+}
+
+.swiper-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.05);
 }
 
 .modal {
@@ -1195,9 +1250,10 @@ footer h4 {
   color: var(--secondary-4); */
 }
 
-footer p, footer a {
+footer p,
+footer a {
   max-width: 600px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 footer img {
@@ -1216,7 +1272,7 @@ footer ul {
 form {
   padding: 16px;
   border-radius: 16px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 textarea {
@@ -1229,7 +1285,7 @@ textarea {
 
 form button {
   background-color: var(--secondary);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 800px) {
@@ -1279,7 +1335,7 @@ form button {
   position: absolute;
   width: 100%;
   height: 30vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1307,7 +1363,7 @@ form button {
 }
 
 .service * {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .service-info {
@@ -1422,7 +1478,8 @@ form button {
   background-color: var(--secondary-2);
 }
 
-.service-8 *, .service-6 * {
+.service-8 *,
+.service-6 * {
   color: #000000;
 }
 
